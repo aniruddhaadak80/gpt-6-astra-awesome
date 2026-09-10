@@ -120,6 +120,8 @@ For strictly found material, use the builds table plus `SOURCES.md`. For a worki
 - [Scope note, read first](#scope-note-read-first)
 - [Carousel, jump anything to anything](#carousel-jump-anything-to-anything)
 - [Highlights](#highlights)
+- [Visual tour](#visual-tour)
+- [By the numbers](#by-the-numbers)
 - [What is GPT-6 Astra](#what-is-gpt-6-astra)
 - [Benchmarks at a glance](#benchmarks-at-a-glance)
 - [Quickstart](#quickstart)
@@ -127,15 +129,19 @@ For strictly found material, use the builds table plus `SOURCES.md`. For a worki
 - [Prompt anatomy, worked example](#prompt-anatomy-worked-example)
 - [Category carousel](#category-carousel)
 - [How to copy](#how-to-copy)
+- [Starter packs](#starter-packs)
+- [Use-case matrix](#use-case-matrix)
 - [Advanced 3D with Astra](#advanced-3d-with-astra)
 - [Advanced operations](#advanced-operations)
 - [Architecture and data flow](#architecture-and-data-flow)
 - [What people are building](#what-people-are-building)
 - [Official resources](#official-resources)
 - [Community guides](#community-guides)
+- [Related projects](#related-projects)
 - [Safety](#safety)
 - [Repo map](#repo-map)
 - [Web app manual](#web-app-manual)
+- [Glossary](#glossary)
 - [FAQ](#faq)
 - [Changelog](#changelog)
 - [Contributing](#contributing)
@@ -157,6 +163,57 @@ For strictly found material, use the builds table plus `SOURCES.md`. For a worki
 | Command-grade navigation | Navbar search, section jumper, GitHub shortcut, full keyboard map with guide overlay |
 | Advanced 3D pipeline | Nine-gate playbook plus budgets, export matrix, QA gate in `docs/3d-advanced-guide.md` |
 | Honest sourcing | Vendor claims labeled as claims, builds carry attribution plus confidence |
+
+---
+
+## Visual tour
+
+A screen-by-screen walk of the [live showcase](https://gpt-6-astra-showcase.vercel.app). Open each stop in order for the full first-visit arc.
+
+| Stop | Screen | What to do there |
+|---|---|---|
+| 1 | Loader plus hero (`#top`) | Watch the boot ring, particle canvas, and counters land on 3360, then read the three-line promise |
+| 2 | Marquee ticker | Let the category strip loop once to feel the full 28-lane scope |
+| 3 | Category grid (`#prompts`) | Hover the cards for lift and glow, tap one to filter the vault below |
+| 4 | Explorer (`#explorer`) | Search, set the category dropdown, filter by difficulty or effort, sort, expand a card, copy it |
+| 5 | Pipeline (`#pipeline`) | Scroll the nine glowing gates of the 3D workflow end to end |
+| 6 | Builds (`#builds`) | Skim the twelve proof cards with animated art, note the evidence tags |
+| 7 | Framework (`#framework`) | Read the five behaviors, copy the task shell from the code window |
+| 8 | Quickstart (`#quickstart`) | Copy the Responses API snippet, check the effort routing tags |
+| 9 | Safety plus sources | Review the guardrails, then follow the primary links outward |
+
+Press `?` anywhere for the keyboard map. Press `/` to jump back into search from any stop.
+
+---
+
+## By the numbers
+
+| Slice | Count | Share |
+|---|---|---|
+| Total prompts | 3360 | 100 percent |
+| Low-level starters | 864 | 25.7 percent |
+| Medium-level builds | 1584 | 47.1 percent |
+| High-level deep work | 912 | 27.1 percent |
+| Categories | 28 | 120 prompts each |
+| Verified community builds indexed | 25 | with attribution |
+| Machine formats per prompt | 3 | markdown, JSONL, CSV |
+
+| Number | Category | Prompts | Number | Category | Prompts |
+|---|---|---|---|---|---|
+| 01 | Agentic Coding | 120 | 15 | Creative Writing | 120 |
+| 02 | Computer Use | 120 | 16 | Business Ops | 120 |
+| 03 | Browser Research | 120 | 17 | Education | 120 |
+| 04 | Professional Docs | 120 | 18 | Math | 120 |
+| 05 | Spreadsheets | 120 | 19 | Data and Viz | 120 |
+| 06 | Science | 120 | 20 | DevOps | 120 |
+| 07 | Defensive Security | 120 | 21 | Testing and QA | 120 |
+| 08 | 3D, Blender, Unreal | 120 | 22 | Multi-Agent | 120 |
+| 09 | Game Dev | 120 | 23 | Long Context | 120 |
+| 10 | Web Dev | 120 | 24 | Structured Outputs | 120 |
+| 11 | Video | 120 | 25 | Effort Tuning | 120 |
+| 12 | Audio | 120 | 26 | Migration | 120 |
+| 13 | Design, Figma | 120 | 27 | Prompt Debugging | 120 |
+| 14 | Technical Writing | 120 | 28 | Productivity | 120 |
 
 ---
 
@@ -379,6 +436,39 @@ Each category file header links Index, Prev, Next, Search, and Carousel, so navi
 
 ---
 
+## Starter packs
+
+Six curated on-ramps. Each lists where to click first and which filters to set in the showcase.
+
+**First-night newcomer:** categories 28 Productivity plus 17 Education, level low-level, sort curated order. Copy three life-admin prompts, run them verbatim, then branch out.
+
+**3D artist:** categories 08 3D plus 11 Video, any level, plus the [advanced 3D guide](docs/3d-advanced-guide.md). Start with blockout prompts, then detail, then the export matrix.
+
+**Indie game builder:** categories 09 Game Dev plus 10 Web Dev, level medium-level. Prototype one loop, add the tutorial shell, then run the playtest-fix prompts.
+
+**Startup operator:** categories 16 Business Ops plus 04 Professional Docs plus 05 Spreadsheets, level low-level. Triage the inbox pack first, then the SOP pack.
+
+**Researcher:** categories 03 Browser Research plus 06 Science plus 23 Long Context, level high-level. Set confidence labels on, require evidence spans.
+
+**Student:** categories 17 Education plus 18 Math plus 28 Productivity, level low-level. Scaffold answers only, keep the checks for understanding.
+
+---
+
+## Use-case matrix
+
+| Persona | Start here | Level path | Companion reading |
+|---|---|---|---|
+| Developer, agentic coding | 01, 21, 22 | medium to high | Migration pack 26, effort pack 25 |
+| Designer, frontend | 13, 10, 11 | medium | 3D pack 08 for spatial thinking |
+| 3D and video creator | 08, 11, 12 | medium to high | Advanced 3D guide, shot-planning pattern |
+| Game developer | 09, 10, 21 | medium | Playtest-fix loop, tutorial shell |
+| Data analyst | 05, 19, 23 | low to medium | Metrics dictionary, honest-chart rules |
+| Security-minded builder | 07, 20, 21 | high | Safety section, stop-gate patterns |
+| Founder, operator | 16, 04, 05 | low | SOP pack, escalation matrix |
+| Student, educator | 17, 18, 28 | low to medium | Tutoring checks, spaced-repetition plans |
+
+---
+
 ## Advanced 3D with Astra
 
 This hub treats 3D as a first-class pipeline, not a novelty, because the strongest early Astra demos cluster here: Blender blockout to inhabited detail, listing photos to 3D to promo video, palace and streetscape reconstruction, wolf character to Unreal, museum shot planning, bottle-ship Three.js scenes.
@@ -556,6 +646,21 @@ All URLs plus access dates live in [`SOURCES.md`](SOURCES.md).
 
 ---
 
+## Related projects
+
+Independent builds worth cross-checking against this hub. Listed for orientation, with the same attribution-first rule as the builds index.
+
+- `Anil-matcha/awesome-gpt-6-astra` - curated index of Astra use cases, prompts, integrations, evaluations, safety notes: https://github.com/Anil-matcha/awesome-gpt-6-astra
+- `MiaAI-Lab/GPT-6-Astra-100-HTML-Files` - collection of generated HTML artifacts: https://github.com/MiaAI-Lab/GPT-6-Astra-100-HTML-Files
+- `coreprocess/openai-relay-for-cursor` - practical relay for Cursor-style workflows: https://github.com/coreprocess/openai-relay-for-cursor
+- `DannyMac180/astra-advisor` - advisor and orchestration-style project: https://github.com/DannyMac180/astra-advisor
+- `LunarXuan/task-model-router` - model-routing experiment for choosing when to use Astra: https://github.com/LunarXuan/task-model-router
+- `Firnschnee/dual-model-mcp` - side-by-side model query harness over MCP: https://github.com/Firnschnee/dual-model-mcp
+- MagicCreator Astra gallery - visual demo gallery with live links: https://magiccreator.ai/astra
+- Vuink awesome demos - community demo collection with write-ups: https://vuink.com/post/tvguho-d-dpbz/magiccreator-ai/awesome-gpt-6-astra
+
+---
+
 ## Safety
 
 - Astra is the first Critical-cybersecurity-capability model under the OpenAI framework. This repo is defensive-only: no exploit development, no safeguard bypasses, no jailbreaks. Category 07 covers triage, hardening, detection, and recovery.
@@ -636,6 +741,28 @@ npm run build
 
 ---
 
+## Glossary
+
+- **Reasoning effort:** the `low` to `max` dial controlling how hard Astra thinks per task. Gateway default is `low`.
+- **Responses API:** the required API surface for Astra tool calling. Chat Completions works without tools.
+- **Computer use:** Astra operating files, apps, forms, and browsers with approvals at consequential steps.
+- **Subagent delegation:** splitting independent chunks across agents with defined handoffs.
+- **Instruction priority:** the rule deciding which source wins when briefs and skill files conflict.
+- **Structured outputs:** schema-enforced shapes with prompts guiding the judgments inside them.
+- **Cache reads and writes:** discounted repeat-input pricing plus a surcharge line for writing cache entries.
+- **Long-context tier:** adjusted rates applying above 272K input tokens for the full request.
+- **Fast mode:** higher-speed processing at twice the Standard rate.
+- **Batch and Flex:** slower lanes at half the Standard rate.
+- **Compaction:** summarizing earlier context so long projects survive filled windows.
+- **Misalignment monitoring:** classifier checks over tool-using inference that can pause suspicious work.
+- **Critical threshold:** the Preparedness Framework cyber-capability rating Astra first reached.
+- **Stop gate:** a pre-declared point where work halts for human approval.
+- **Done table:** the complete, partial, blocked report closing every operational prompt.
+- **Slop words:** stock AI phrasings the style guide blocks for cleaner prose.
+- **Temperature and top_p:** legacy sampling knobs to remove for Astra tool-calling setups.
+
+---
+
 ## FAQ
 
 **Is GPT-6 Astra publicly available.**
@@ -662,10 +789,23 @@ Add real builds with creator, link, date, and evidence. Add prompts to the match
 **What stays out of this repo.**
 Scraped dumps without provenance, offensive-security content, jailbreaks, bypasses, live secrets, and copyrighted pastes. Defensive security content with authorization boundaries is welcome.
 
+**What do the difficulty tags mean.**
+Low-level prompts are starters with narrow scope. Medium-level prompts are full builds with realistic constraints. High-level prompts are deep, long-horizon, or frontier-adjacent work. Tags derive from effort hints with per-category defaults and stay filterable in the showcase.
+
+**Are prompt numbers stable.**
+Yes. Numbers 1 to 3360 follow dataset order and persist across search, filters, and sorts. Cite a number plus its id when reporting issues.
+
+**What keyboard shortcuts exist.**
+Slash focuses search, question mark opens the guide, Escape closes, J and K walk cards, Enter toggles, C copies, digits jump sections. Shortcuts pause while typing.
+
+**Where do newcomers start.**
+Pick a starter pack above, set the suggested filters, copy three prompts verbatim, then remix one slot at a time using the anatomy pattern.
+
 ---
 
 ## Changelog
 
+- **v1.4.0, 2026-09-10:** Visual tour, by-the-numbers ledger, six starter packs, use-case matrix, glossary, related projects, expanded FAQ. Showcase gains persona packs, level mix bars, live session replay, copy-all-visible, per-session copy counter.
 - **v1.3.0, 2026-09-10:** Library expanded to 3360 prompts with 120 per category. Showcase gains navbar search, section jumper, GitHub shortcut, keyboard map with guide overlay, numbered cards with summaries and previews, difficulty tags plus filter, refined fonts, richer motion.
 - **v1.2.0, 2026-09-10:** Next.js 14 cinematic showcase with all prompts bundled, advanced search and filters, dropdowns, one-click copy, loader plus particles plus reveals plus counters, static export, live Vercel preview, advanced README pass with badges, benchmarks, anatomy, architecture, FAQ.
 - **v1.1.0, 2026-09-10:** Collapsible vertical prompt blocks with circular navigation, advanced 3D guide, expanded operations, machine-readable twins, interactive carousel page, CI verification.

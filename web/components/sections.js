@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useMemo, useState } from "react";
 import { Reveal } from "./fx";
 
 export function CategoryGrid({ categories, active, onSelect }) {
@@ -338,5 +339,131 @@ export function SiteFooter() {
         </div>
       </div>
     </footer>
+  );
+}
+
+const PACKS = [
+  { slug: "28-productivity", level: "low-level", title: "First-night newcomer", desc: "Three life-admin wins tonight, zero learning curve, then branch outward." },
+  { slug: "08-3d-blender-unreal", level: "", title: "3D artist", desc: "Blockout to detail to export matrix, with budgets and QA gates attached." },
+  { slug: "09-game-dev", level: "medium-level", title: "Indie game builder", desc: "One playable loop plus tutorial shell plus the playtest-fix circuit." },
+  { slug: "16-business-ops", level: "low-level", title: "Startup operator", desc: "Inbox triage first, then SOPs that read like checklists, not essays." },
+  { slug: "03-browser-research", level: "high-level", title: "Researcher", desc: "Cited briefings with confidence labels and evidence spans throughout." },
+  { slug: "17-education", level: "low-level", title: "Student", desc: "Scaffolded tutoring with checks for understanding, never answer dumps." }
+];
+
+export function StarterPacks({ categories, onApply }) {
+  const bySlug = {};
+  for (const c of categories) bySlug[c.slug] = c;
+  return (
+    <div className="grid-3">
+      {PACKS.map((p, i) => {
+        const c = bySlug[p.slug];
+        return (
+          <Reveal key={p.title} delay={(i % 3) * 70}>
+            <button className="info-card pack-card" onClick={() => onApply(p)}>
+              <span className="pack-emoji">{c ? c.emoji : "◆"}</span>
+              <h3>{p.title}</h3>
+              <p>{p.desc}</p>
+              <div className="tag-row">
+                <span className="tag">{c ? c.title : p.slug}</span>
+                <span className="tag">{p.level === "" ? "any level" : p.level}</span>
+                <span className="tag tag-go">Apply pack</span>
+              </div>
+            </button>
+          </Reveal>
+        );
+      })}
+    </div>
+  );
+}
+
+const LEVELS = [
+  { key: "low-level", label: "Low-level starters", cls: "fill-low" },
+  { key: "medium-level", label: "Medium-level builds", cls: "fill-med" },
+  { key: "high-level", label: "High-level deep work", cls: "fill-high" }
+];
+
+export function LevelBars({ prompts }) {
+  const [on, setOn] = useState(false);
+  useEffect(() => {
+    const t = setTimeout(() => setOn(true), 250);
+    return () => clearTimeout(t);
+  }, []);
+  const counts = useMemo(() => {
+    const m = { "low-level": 0, "medium-level": 0, "high-level": 0 };
+    for (const p of prompts) m[p.level] = (m[p.level] || 0) + 1;
+    return m;
+  }, [prompts]);
+  const total = prompts.length === 0 ? 1 : prompts.length;
+  return (
+    <div className="bars">
+      {LEVELS.map((l) => {
+        const n = counts[l.key] || 0;
+        const pct = Math.round((n / total) * 1000) / 10;
+        return (
+          <div className="bar-row" key={l.key}>
+            <div className="bar-label">
+              <b>{l.label}</b>
+              <span>{n.toLocaleString("en-US")} · {pct}%</span>
+            </div>
+            <div className="bar-track">
+              <div
+                className={"bar-fill " + l.cls}
+                style={{ width: on === true ? pct + "%" : "0%" }}
+              />
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+const SCRIPT = [
+  { who: "you", text: "QA this booking page across three viewports and report tested, failed, unverified." },
+  { who: "astra", text: "Spinning up the staging pass at medium effort, starting with navigation and forms." },
+  { who: "astra", text: "Checked 14 flows: 12 passed, 2 failed, 0 unverified. Evidence links attached per flow." },
+  { who: "astra", text: "Fixed the mobile date picker, re-ran the two failures, both green on the second pass." },
+  { who: "astra", text: "Done table written: complete 13, partial 1, blocked 0, with assumptions listed." }
+];
+
+export function SessionReplay() {
+  const [chars, setChars] = useState(0);
+  const full = useMemo(() => SCRIPT.map((l) => l.who + "  " + l.text).join("\n"), []);
+  useEffect(() => {
+    let timer = 0;
+    const step = () => {
+      setChars((c) => {
+        if (c >= full.length + 90) return 0;
+        return c + 2;
+      });
+      timer = setTimeout(step, 26);
+    };
+    timer = setTimeout(step, 26);
+    return () => clearTimeout(timer);
+  }, [full]);
+  const shown = full.slice(0, Math.min(chars, full.length));
+  const lines = shown.split("\n");
+  return (
+    <Reveal>
+      <div className="codewin">
+        <div className="codewin-bar">
+          <span className="dot" style={{ background: "#f5a524" }} />
+          <span className="dot" style={{ background: "#2dd4bf" }} />
+          <span className="dot" style={{ background: "#38bdf8" }} />
+          <span style={{ marginLeft: 8, color: "var(--faint)", fontSize: 12.5 }}>live-session-replay</span>
+          <span className="replay-live">replaying</span>
+        </div>
+        <pre className="replay">{lines.map((l, i) => {
+          const you = l.startsWith("you");
+          const last = i === lines.length - 1 && chars < full.length;
+          return (
+            <span key={i} className={you ? "rp-you" : "rp-astra"}>
+              {l}{last ? <span className="caret">▍</span> : null}{"\n"}
+            </span>
+          );
+        })}</pre>
+      </div>
+    </Reveal>
   );
 }

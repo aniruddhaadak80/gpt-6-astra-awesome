@@ -9,11 +9,14 @@ import {
   BuildsShowcase,
   CategoryGrid,
   Framework,
+  LevelBars,
   Pipeline3D,
   Quickstart,
   ResourcesSection,
   SafetySection,
-  SiteFooter
+  SessionReplay,
+  SiteFooter,
+  StarterPacks
 } from "../components/sections";
 
 const TICKER = [
@@ -63,6 +66,7 @@ export default function Home() {
   const [ready, setReady] = useState(false);
   const [cat, setCat] = useState("");
   const [query, setQuery] = useState("");
+  const [level, setLevel] = useState("");
   const [showKeys, setShowKeys] = useState(false);
   const [showTop, setShowTop] = useState(false);
   const navSearch = useRef(null);
@@ -116,6 +120,14 @@ export default function Home() {
 
   function pickCategory(slug) {
     setCat(slug);
+    const el = document.getElementById("explorer");
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function applyPack(pack) {
+    setCat(pack.slug);
+    setLevel(pack.level);
+    setQuery("");
     const el = document.getElementById("explorer");
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   }
@@ -285,6 +297,14 @@ export default function Home() {
           </Reveal>
           <CategoryGrid categories={categories} active={cat} onSelect={pickCategory} />
           <Reveal>
+            <h3 className="mini-head">Collection mix, live from the bundle</h3>
+            <LevelBars prompts={prompts} />
+          </Reveal>
+          <Reveal>
+            <h3 className="mini-head">Starter packs, one tap to a filtered vault</h3>
+          </Reveal>
+          <StarterPacks categories={categories} onApply={applyPack} />
+          <Reveal>
             <PromptExplorer
               prompts={prompts}
               categories={categories}
@@ -292,6 +312,8 @@ export default function Home() {
               onCatChange={setCat}
               query={query}
               onQueryChange={setQuery}
+              level={level}
+              onLevelChange={setLevel}
             />
           </Reveal>
         </section>
@@ -351,6 +373,10 @@ export default function Home() {
             </p>
           </Reveal>
           <Quickstart />
+          <Reveal>
+            <h3 className="mini-head">Watch one run end to end</h3>
+          </Reveal>
+          <SessionReplay />
         </section>
 
         <section className="section" id="safety">

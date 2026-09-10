@@ -56,13 +56,13 @@ export function PromptCard({ item, open, onToggle, copied, onCopy, domId }) {
   );
 }
 
-export function PromptExplorer({ prompts, categories, activeCat, onCatChange, query, onQueryChange }) {
+export function PromptExplorer({ prompts, categories, activeCat, onCatChange, query, onQueryChange, level, onLevelChange }) {
   const [effort, setEffort] = useState("");
-  const [level, setLevel] = useState("");
   const [sort, setSort] = useState("relevance");
   const [limit, setLimit] = useState(PAGE);
   const [openId, setOpenId] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
+  const [copiedTotal, setCopiedTotal] = useState(0);
   const [shuffled, setShuffled] = useState(null);
   const [hl, setHl] = useState(0);
   const timer = useRef(0);
@@ -95,6 +95,7 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange, qu
   function doCopy(text, id) {
     const done = () => {
       setCopiedId(id);
+      setCopiedTotal((t) => t + 1);
       clearTimeout(timer.current);
       timer.current = setTimeout(() => setCopiedId(null), 1600);
     };
@@ -146,10 +147,18 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange, qu
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
+  function copyAllVisible() {
+    if (visible.length === 0) return;
+    const bundle = visible
+      .map((p) => "[" + p.n + " | " + p.id + " | " + p.level + "]\n" + p.task + "\n\n" + p.prompt)
+      .join("\n\n====================\n\n");
+    doCopy(bundle, "__all");
+  }
+
   function clearAll() {
     onQueryChange("");
     setEffort("");
-    setLevel("");
+    onLevelChange("");
     setSort("relevance");
     setShuffled(null);
     setLimit(PAGE);
@@ -210,7 +219,7 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange, qu
               id="lvl"
               className="select"
               value={level}
-              onChange={(e) => { setLimit(PAGE); setHl(0); setLevel(e.target.value); }}
+              onChange={(e) => { setLimit(PAGE); setHl(0); onLevelChange(e.target.value); }}
             >
               <option value="">Any level</option>
               <option value="low-level">Low-level starters</option>
@@ -266,6 +275,10 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange, qu
           Showing <b>{visible.length}</b> of <b>{filtered.length}</b> matches
         </span>
         <span>from 3360 hard-coded prompts</span>
+        <button className="mini-btn" onClick={copyAllVisible}>
+          {copiedId === "__all" ? "Bundle copied" : "Copy all visible"}
+        </button>
+        <span className="cat-link">Copied {copiedTotal} this session</span>
         <span style={{ marginLeft: "auto" }} className="cat-link">
           Numbered 1 to {prompts.length} · keys j and k move · Enter opens · c copies
         </span>
