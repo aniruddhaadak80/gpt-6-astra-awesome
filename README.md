@@ -7,17 +7,6 @@
 
 **Status line:** Prompts 2520 | Categories 28 | Unique verified SHA-256 | License MIT | Updated 2026-09-10
 
-**GitHub About description, ready to paste into Settings:**
-
-```text
-GPT-6 Astra Awesome Hub - 2,520 copy-paste prompts, carousel navigator, real community builds index, API quickstarts and safety notes, Sept 2026 launch.
-```
-
-**GitHub Topics, ready to paste into Settings:**
-
-```text
-gpt-6-astra, openai, prompt-engineering, ai-agents, computer-use, llm-prompts, awesome-list, github-copilot, codex, chatgpt, artificial-intelligence, coding-assistant, browser-automation, multi-agent, reasoning, awesome
-```
 
 ---
 
