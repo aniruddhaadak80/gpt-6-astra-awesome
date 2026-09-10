@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://temporary-snappy-cyclone-l28c2zh.vercel.app"><img src="https://img.shields.io/badge/open_live_showcase-orange" alt="Open live showcase"></a>
+  <a href="https://gpt-6-astra-showcase.vercel.app"><img src="https://img.shields.io/badge/open_live_showcase-orange" alt="Open live showcase"></a>
   <a href="https://github.com/aniruddhaadak80/gpt-6-astra-awesome/tree/main/prompts"><img src="https://img.shields.io/badge/browse-2520_prompts-yellow" alt="Browse 2520 prompts"></a>
   <a href="https://github.com/aniruddhaadak80/gpt-6-astra-awesome/blob/main/docs/3d-advanced-guide.md"><img src="https://img.shields.io/badge/advanced-3D_guide-blue" alt="Advanced 3D guide"></a>
   <a href="https://vercel.com/new/clone?repository-url=https://github.com/aniruddhaadak80/gpt-6-astra-awesome&amp;root-directory=web"><img src="https://vercel.com/button" alt="Deploy with Vercel"></a>
@@ -34,8 +34,8 @@
 
 The full library now runs as a cinematic web app: all 2520 prompts hard-coded in the bundle, one-click copy, dropdown filters, advanced search, animated hero with particle canvas, scroll reveals, stat counters, marquee ticker, 3D pipeline timeline, builds gallery, framework, quickstart, safety, and sources.
 
-- **Preview URL:** https://temporary-snappy-cyclone-l28c2zh.vercel.app
-- **Keep it:** anonymous previews expire about an hour after creation. Claim this one at https://vercel.com/claim-deployment?code=f793b7fa-6bb3-4ad6-9025-2b9a1055377a or deploy a permanent copy with the Deploy button above (root directory `web`).
+- **Production URL:** https://gpt-6-astra-showcase.vercel.app
+- **Project:** `gpt-6-astra-showcase` under the account workspace, root directory `web`, auto-deploys every push to `main` once the Git integration is connected. Fresh deploys from an authenticated shell use `npx vercel deploy --prod` inside `web/`.
 - **Run locally:** `cd web`, `npm install`, `npm run dev`, open the printed localhost address.
 - **Regenerate data:** `cd web`, `py data/build-data.py`, then rebuild. The bundle reads `web/data/prompts.json` plus `web/data/categories.json`, both generated from `prompts/prompts.jsonl`.
 - **Palette:** obsidian black, amber, signal orange, teal, sky. No purple, no pink anywhere in the interface.
@@ -313,7 +313,7 @@ Swap one slot at a time: new role, new task, new audience, tighter constraints, 
 > **2,520 prompts, 28 categories, 90 each, all unique with SHA-256 verification.**
 > Each file uses collapsible sections. Click a title to expand it top to bottom, then use the copy icon on the inner code block. Text wraps vertically. There is no left to right scrolling.
 > Interactive version with search plus prev, next, random, and keyboard support: [`docs/carousel.html`](docs/carousel.html).
-> Cinematic version with filters and animations: [live showcase](https://temporary-snappy-cyclone-l28c2zh.vercel.app).
+> Cinematic version with filters and animations: [live showcase](https://gpt-6-astra-showcase.vercel.app).
 > Machine-readable: [`prompts/prompts.jsonl`](prompts/prompts.jsonl), [`prompts/prompts.csv`](prompts/prompts.csv), [`prompts/prompts_index.json`](prompts/prompts_index.json).
 
 | Number | Card | Coverage | Open |
@@ -362,7 +362,7 @@ Each category file header links Index, Prev, Next, Search, and Carousel, so navi
 
 **Showcase path:**
 
-1. Open the [live showcase](https://temporary-snappy-cyclone-l28c2zh.vercel.app).
+1. Open the [live showcase](https://gpt-6-astra-showcase.vercel.app).
 2. Type in advanced search, pick the category dropdown, optionally filter by effort, sort, or hit Surprise me.
 3. Expand any card downward and press Copy prompt. Clipboard feedback confirms the copy.
 
@@ -382,7 +382,7 @@ This hub treats 3D as a first-class pipeline, not a novelty, because the stronge
 
 **Full advanced playbook:** [`docs/3d-advanced-guide.md`](docs/3d-advanced-guide.md)
 **Prompt pack:** [`prompts/08-3d-blender-unreal.md`](prompts/08-3d-blender-unreal.md)
-**Visual run-through:** [live showcase 3D pipeline](https://temporary-snappy-cyclone-l28c2zh.vercel.app#pipeline)
+**Visual run-through:** [live showcase 3D pipeline](https://gpt-6-astra-showcase.vercel.app#pipeline)
 
 **Stage-gate pipeline used across the 3D prompts:**
 
@@ -625,7 +625,7 @@ npm run build
 1. One-click: use the Deploy button at the top with root directory `web`.
 2. Dashboard: import `aniruddhaadak80/gpt-6-astra-awesome` in Vercel, set root directory to `web`, deploy.
 3. CLI from an authenticated shell: `cd web`, then `vercel deploy --prod`.
-4. Claim the anonymous preview linked at the top to keep that exact URL.
+4. Git integration: connect the repo in the Vercel dashboard so every push to `main` ships automatically.
 
 **Design tokens:** obsidian `#070b0e`, card `#111b20`, amber `#f5a524`, signal orange `#f97316`, teal `#2dd4bf`, sky `#38bdf8`, green `#4ade80` for success, red `#f87171` for stop gates. Motion: boot loader with progress, particle canvas, drifting gradient orbs, staggered hero entrance, marquee ticker, scroll reveals, animated counters, accordion cards, hover lifts, back-to-top control. Reduced-motion preferences are respected.
 
@@ -681,7 +681,7 @@ MIT, see [`LICENSE`](LICENSE). Builds and demos belong to their creators, linked
 
 <p align="center">
 <a href="#carousel-jump-anything-to-anything">Back to carousel</a> -
-<a href="https://temporary-snappy-cyclone-l28c2zh.vercel.app">Live showcase</a> -
+<a href="https://gpt-6-astra-showcase.vercel.app">Live showcase</a> -
 <a href="docs/carousel.html">Interactive carousel</a> -
 <a href="prompts/01-agentic-coding.md">Start copying</a> -
 <a href="docs/3d-advanced-guide.md">Advanced 3D guide</a>
