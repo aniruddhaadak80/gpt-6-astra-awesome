@@ -1,12 +1,45 @@
-# GPT-6 Astra Awesome Hub
+<p align="center">
+  <img src="https://img.shields.io/badge/prompts-2520-orange" alt="2520 prompts">
+  <img src="https://img.shields.io/badge/categories-28-yellow" alt="28 categories">
+  <img src="https://img.shields.io/badge/unique-100_percent-brightgreen" alt="100 percent unique">
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license">
+  <img src="https://img.shields.io/badge/showcase-live-brightgreen" alt="showcase live">
+  <img src="https://img.shields.io/badge/updated-2026--09--10-informational" alt="updated Sept 10 2026">
+</p>
 
-> **2,520 copy-paste GPT-6 Astra prompts, carousel navigator, real community builds index, API quickstarts, safety notes**
-> Launch-aware: GPT-6 Astra shipped **Sept 3 to 4, 2026**. The public ecosystem is days old. This repo stays factual about that.
+<h1 align="center">GPT-6 Astra Awesome Hub</h1>
 
-[Awesome](https://awesome.re) - [Prompts](prompts/) - [Categories](#category-carousel) - [License](LICENSE) - [Sources](SOURCES.md)
+<p align="center">
+  <b>2,520 copy-paste GPT-6 Astra prompts, carousel navigator, real community builds index, API quickstarts, safety notes</b>
+  <br>
+  Launch-aware: GPT-6 Astra shipped <b>Sept 3 to 4, 2026</b>. The public ecosystem is days old. This repo stays factual about that.
+</p>
 
-**Status line:** Prompts 2520 | Categories 28 | Unique verified SHA-256 | License MIT | Updated 2026-09-10
+<p align="center">
+  <a href="https://temporary-snappy-cyclone-l28c2zh.vercel.app"><img src="https://img.shields.io/badge/open_live_showcase-orange" alt="Open live showcase"></a>
+  <a href="https://github.com/aniruddhaadak80/gpt-6-astra-awesome/tree/main/prompts"><img src="https://img.shields.io/badge/browse-2520_prompts-yellow" alt="Browse 2520 prompts"></a>
+  <a href="https://github.com/aniruddhaadak80/gpt-6-astra-awesome/blob/main/docs/3d-advanced-guide.md"><img src="https://img.shields.io/badge/advanced-3D_guide-blue" alt="Advanced 3D guide"></a>
+  <a href="https://vercel.com/new/clone?repository-url=https://github.com/aniruddhaadak80/gpt-6-astra-awesome&amp;root-directory=web"><img src="https://vercel.com/button" alt="Deploy with Vercel"></a>
+</p>
 
+<p align="center">
+  <a href="https://awesome.re">Awesome</a> - <a href="prompts/">Prompts</a> - <a href="#category-carousel">Categories</a> - <a href="#live-web-showcase">Live showcase</a> - <a href="LICENSE">License</a> - <a href="SOURCES.md">Sources</a>
+</p>
+
+**Status line:** Prompts 2520 | Categories 28 | Unique verified SHA-256 | License MIT | Updated 2026-09-10 | Web showcase Next.js 14, static export, live preview linked above
+
+---
+
+## Live web showcase
+
+The full library now runs as a cinematic web app: all 2520 prompts hard-coded in the bundle, one-click copy, dropdown filters, advanced search, animated hero with particle canvas, scroll reveals, stat counters, marquee ticker, 3D pipeline timeline, builds gallery, framework, quickstart, safety, and sources.
+
+- **Preview URL:** https://temporary-snappy-cyclone-l28c2zh.vercel.app
+- **Keep it:** anonymous previews expire about an hour after creation. Claim this one at https://vercel.com/claim-deployment?code=f793b7fa-6bb3-4ad6-9025-2b9a1055377a or deploy a permanent copy with the Deploy button above (root directory `web`).
+- **Run locally:** `cd web`, `npm install`, `npm run dev`, open the printed localhost address.
+- **Regenerate data:** `cd web`, `py data/build-data.py`, then rebuild. The bundle reads `web/data/prompts.json` plus `web/data/categories.json`, both generated from `prompts/prompts.jsonl`.
+- **Palette:** obsidian black, amber, signal orange, teal, sky. No purple, no pink anywhere in the interface.
+- **Full manual:** [`#web-app-manual`](#web-app-manual)
 
 ---
 
@@ -17,7 +50,7 @@ Public search across GitHub, X, LinkedIn, Reddit mirrors, DEV, Substack, and ven
 1. `prompts/` - **2,520 original, unique, Astra-tuned prompts** (28 times 90), built from official Astra guidance patterns. Labeled as curation, not scraped content.
 2. **Real builds index** - significant public builds with creator attribution and links. Inclusion does not mean reproduction. Confidence labels reflect evidence quality.
 
-For strictly found material, use the builds table plus `SOURCES.md`. For a working library, use `prompts/` plus `examples/` plus `docs/`.
+For strictly found material, use the builds table plus `SOURCES.md`. For a working library, use `prompts/` plus `examples/` plus `docs/`, or the live showcase above.
 
 ---
 
@@ -30,9 +63,12 @@ For strictly found material, use the builds table plus `SOURCES.md`. For a worki
 <a href="#category-carousel">Categories</a> -
 <a href="#how-to-copy">Copy</a> -
 <a href="#advanced-3d-with-astra">3D guide</a> -
+<a href="#advanced-operations">Ops</a> -
+<a href="#architecture-and-data-flow">Architecture</a> -
 <a href="#what-people-are-building">Builds</a> -
 <a href="#official-resources">Official</a> -
 <a href="#community-guides">Guides</a> -
+<a href="#faq">FAQ</a> -
 <a href="#safety">Safety</a> -
 <a href="#repo-map">Map</a> -
 <a href="docs/carousel.html">Interactive carousel</a>
@@ -79,20 +115,45 @@ For strictly found material, use the builds table plus `SOURCES.md`. For a worki
 
 ## Contents
 
+- [Live web showcase](#live-web-showcase)
+- [Scope note, read first](#scope-note-read-first)
+- [Carousel, jump anything to anything](#carousel-jump-anything-to-anything)
+- [Highlights](#highlights)
 - [What is GPT-6 Astra](#what-is-gpt-6-astra)
+- [Benchmarks at a glance](#benchmarks-at-a-glance)
 - [Quickstart](#quickstart)
 - [Astra prompt framework](#astra-prompt-framework)
+- [Prompt anatomy, worked example](#prompt-anatomy-worked-example)
 - [Category carousel](#category-carousel)
 - [How to copy](#how-to-copy)
 - [Advanced 3D with Astra](#advanced-3d-with-astra)
 - [Advanced operations](#advanced-operations)
+- [Architecture and data flow](#architecture-and-data-flow)
 - [What people are building](#what-people-are-building)
 - [Official resources](#official-resources)
 - [Community guides](#community-guides)
 - [Safety](#safety)
 - [Repo map](#repo-map)
+- [Web app manual](#web-app-manual)
+- [FAQ](#faq)
+- [Changelog](#changelog)
 - [Contributing](#contributing)
 - [License and citations](#license-and-citations)
+
+---
+
+## Highlights
+
+| Highlight | Detail |
+|---|---|
+| 2520 prompts, zero duplicates | SHA-256 verified on every push by `scripts/verify_prompts.py` plus CI |
+| Collapsible vertical blocks | Click any title to expand top to bottom, copy icon on the inner fence, no sideways scrolling |
+| Circular category chain | Every file links Index, Prev, Next, Search, Carousel, so navigation never dead-ends |
+| Machine-readable twins | `prompts.jsonl`, `prompts.csv`, `prompts_index.json` ship beside the markdown |
+| Interactive carousel | `docs/carousel.html` with search, prev, next, random, keyboard control |
+| Cinematic web showcase | Next.js 14 static export with loader, particle hero, counters, marquee, reveals, filters |
+| Advanced 3D pipeline | Nine-gate playbook plus budgets, export matrix, QA gate in `docs/3d-advanced-guide.md` |
+| Honest sourcing | Vendor claims labeled as claims, builds carry attribution plus confidence |
 
 ---
 
@@ -114,7 +175,25 @@ For strictly found material, use the builds table plus `SOURCES.md`. For a worki
 | Positioned for | Computer use, browsing, long-horizon agentic coding, professional work, science, defensive security work |
 | Safety label | First model at Critical cybersecurity capability under the Preparedness Framework. Tightened misuse controls plus misalignment monitoring. Enterprise access off by default |
 
-Self-reported vendor scores, not independently verified here: FrontierMath Tier 4 98 percent, ARC-AGI-3 99.9 percent, ExploitBench 100 percent, Terminal-Bench 4.0 about 57.7 to 57.9 percent, DeepSWE 74.1, Terminal-Bench Science 64.6, GPQA Diamond 96.0, BrowseComp 91.5, OSWorld 2.0 72.6 offline partial. Treat vendor numbers as claims. Links in `SOURCES.md`.
+---
+
+## Benchmarks at a glance
+
+> Vendor-reported numbers, not independently verified here. Useful for orientation, never as proof. Full context links in `SOURCES.md`.
+
+| Eval | Reported Astra figure | Note |
+|---|---|---|
+| FrontierMath Tier 4 | 98 percent | Vendor claim, math reasoning |
+| ARC-AGI-3 | 99.9 percent | Vendor claim, near ceiling |
+| ExploitBench | 100 percent | Vendor claim, cyber capability signal behind the Critical rating |
+| Terminal-Bench 4.0 | About 57.7 to 57.9 percent | Agentic terminal work, self-reported |
+| DeepSWE | 74.1 | Software engineering, self-reported |
+| Terminal-Bench Science | 64.6 | Science workflows, self-reported |
+| GPQA Diamond | 96.0 | Graduate science QA, self-reported |
+| BrowseComp | 91.5 | Browsing tasks, self-reported |
+| OSWorld 2.0 | 72.6 offline partial | Computer-use eval, partial protocol |
+
+Rule of thumb: benchmark deltas matter less than cost per completed task on local workload. Pin `reasoning.effort` per task type after local evals, then re-price with cache math.
 
 ---
 
@@ -150,6 +229,13 @@ console.log(r.output_text);
 # Copilot CLI and Codex path
 # Select gpt-6-astra in the model picker, then run the migration helper
 # openai-docs migrate this project to GPT-6 Astra
+```
+
+```bash
+# Showcase site, local run
+cd web
+npm install
+npm run dev
 ```
 
 Migration checklist: move to Responses API, drop legacy sampling params, set effort explicitly, update cache config, audit `AGENTS.md` and `SKILL.md` priority blocks, re-baseline evals, pin per-task effort, keep a rollback branch. Full pack in [`prompts/26-migration.md`](prompts/26-migration.md).
@@ -197,11 +283,37 @@ Worked production modules live in [`examples/`](examples/): initiative, priority
 
 ---
 
+## Prompt anatomy, worked example
+
+Every library prompt decomposes the same way. Learn the shape once, then remix freely.
+
+```text
+Act as a senior staff engineer.                                    <- role, sets skill level
+Build a REST endpoint with validation, error handling,            <- task, concrete verb first
+and OpenAPI docs for a SaaS startup.                              <- audience, tunes scope
+The intended result is a working implementation plus              <- output, the artifact
+a short test report.                                              <- acceptance shape
+Requirements: reuse existing project patterns;                   <- constraint 1, kills overbuild
+keep the diff minimal and reversible.                             <- constraint 2, keeps risk low
+Be concrete and end-to-end: produce the artifact,                 <- angle, artifact over plan
+not a plan to produce it.
+Suggested reasoning effort: low.                                  <- effort, explicit not default
+If a minor detail is unspecified, make the best                   <- autonomy, assume-vs-ask rule
+professional decision and continue.
+Verification: test every important interaction, list what         <- verification, scaled to risk
+passed, failed, and unverified, then re-test.
+```
+
+Swap one slot at a time: new role, new task, new audience, tighter constraints, higher effort. One-variable edits keep evals honest and make regressions traceable.
+
+---
+
 ## Category carousel
 
 > **2,520 prompts, 28 categories, 90 each, all unique with SHA-256 verification.**
 > Each file uses collapsible sections. Click a title to expand it top to bottom, then use the copy icon on the inner code block. Text wraps vertically. There is no left to right scrolling.
 > Interactive version with search plus prev, next, random, and keyboard support: [`docs/carousel.html`](docs/carousel.html).
+> Cinematic version with filters and animations: [live showcase](https://temporary-snappy-cyclone-l28c2zh.vercel.app).
 > Machine-readable: [`prompts/prompts.jsonl`](prompts/prompts.jsonl), [`prompts/prompts.csv`](prompts/prompts.csv), [`prompts/prompts_index.json`](prompts/prompts_index.json).
 
 | Number | Card | Coverage | Open |
@@ -241,13 +353,26 @@ Each category file header links Index, Prev, Next, Search, and Carousel, so navi
 
 ## How to copy
 
+**Markdown path:**
+
 1. Open any file under `prompts/`, for example [`prompts/08-3d-blender-unreal.md`](prompts/08-3d-blender-unreal.md).
 2. Click a prompt title such as `3d-blender-unreal-004`. The section expands downward.
 3. Read the full prompt top to bottom. Lines wrap vertically.
 4. Click the copy icon at the top right of the inner code block. Paste into ChatGPT Work, Codex, or the API.
-5. Prefer the interactive path: open [`docs/carousel.html`](docs/carousel.html), filter by category or text, move with Prev and Next, then Copy.
-6. Prefer the programmatic path: read [`prompts/prompts.jsonl`](prompts/prompts.jsonl) with fields `id`, `category`, `prompt`.
-7. Regenerate or verify locally with `py scripts/generate_prompts.py` followed by `py scripts/verify_prompts.py`. CI runs the same check on every push.
+
+**Showcase path:**
+
+1. Open the [live showcase](https://temporary-snappy-cyclone-l28c2zh.vercel.app).
+2. Type in advanced search, pick the category dropdown, optionally filter by effort, sort, or hit Surprise me.
+3. Expand any card downward and press Copy prompt. Clipboard feedback confirms the copy.
+
+**Programmatic path:**
+
+1. Read [`prompts/prompts.jsonl`](prompts/prompts.jsonl) with fields `id`, `category`, `prompt`.
+2. Or load [`prompts/prompts.csv`](prompts/prompts.csv) into sheets and filter by category prefix.
+3. Or query [`prompts/prompts_index.json`](prompts/prompts_index.json) for id, category, title, task rows.
+
+**Regenerate or verify locally** with `py scripts/generate_prompts.py` followed by `py scripts/verify_prompts.py`. CI runs the same check on every push. Web data rebuilds with `py web/data/build-data.py`.
 
 ---
 
@@ -257,6 +382,7 @@ This hub treats 3D as a first-class pipeline, not a novelty, because the stronge
 
 **Full advanced playbook:** [`docs/3d-advanced-guide.md`](docs/3d-advanced-guide.md)
 **Prompt pack:** [`prompts/08-3d-blender-unreal.md`](prompts/08-3d-blender-unreal.md)
+**Visual run-through:** [live showcase 3D pipeline](https://temporary-snappy-cyclone-l28c2zh.vercel.app#pipeline)
 
 **Stage-gate pipeline used across the 3D prompts:**
 
@@ -334,6 +460,28 @@ Measure full-task cost with retries, not list price. Pin effort per task type af
 
 ---
 
+## Architecture and data flow
+
+How the 2520 prompts flow from generator to every surface:
+
+```text
+scripts/generate_prompts.py  (28 categories x 90, deterministic, SHA-256 checked)
+  -> prompts/NN-name.md      (collapsible details blocks, circular Prev and Next)
+  -> prompts/prompts.jsonl   (id, category, prompt, one row per line)
+  -> prompts/prompts.csv     (same rows, spreadsheet friendly)
+  -> prompts/prompts_index.json plus prompts_index.json (search indexes)
+  -> categories.json         (28-entry manifest with counts)
+  -> web/data/build-data.py  (adds effort tags parsed from prompt text)
+    -> web/data/prompts.json plus web/data/categories.json (bundled with the app)
+      -> Next.js static export (web/out) -> Vercel preview and production
+  -> docs/carousel.html      (dependency-free interactive carousel)
+scripts/verify_prompts.py plus .github/workflows/verify.yml guard every change
+```
+
+Single source of truth is the generator plus `prompts.jsonl`. Everything else derives from it, so counts can never drift between the repo, the carousel, and the showcase.
+
+---
+
 ## What people are building
 
 > Verified Sept 3 to 10, 2026. Attribution-first. Inclusion does not mean reproduction. Confidence reflects evidence quality: High means repo or demo plus steps, Medium means social demo without a runnable artifact. Full URLs in `SOURCES.md`.
@@ -368,7 +516,7 @@ Measure full-task cost with retries, not list price. Pin effort per task type af
 
 Social texture from the SignalMelo tracker, about 70 posts on Sept 3 to 4: about 89 percent general shares, 6 percent help questions, 4 percent comparisons, 1 percent complaints, tone about 97 percent neutral. Demos travel farthest. Settled reviews have not landed yet, which is expected on day six.
 
-Related indexes to cross-check: `Anil-matcha/awesome-gpt-6-astra`, `MiaAI-Lab/GPT-6-Astra-100-HTML-Files`, `martindelophy/awesome-gpt-6-astra` plus gallery, MagicCreator Astra gallery, Valyu DEV 25, Vuink demos.
+Related indexes to cross-check: `Anil-matcha/awesome-gpt-6-astra`, `MiaAI-Lab/GPT-6-Astra-100-HTML-Files`, `martindelophy/awesome-gpt-6-astra` plus gallery, MagicCreator Astra gallery, Valyu DEV-25, Vuink demos.
 
 ---
 
@@ -419,8 +567,8 @@ All URLs plus access dates live in [`SOURCES.md`](SOURCES.md).
 
 ```text
 gpt-6-astra-awesome/
-- README.md, you are here, hub plus carousel
-- REPO_META.md, GitHub description, topics, homepage copy-paste
+- README.md, hub plus carousel plus showcase links
+- REPO_META.md, description, topics, homepage notes (kept out of this README by request)
 - topics.txt, one topic per line
 - SOURCES.md, every URL plus accessed date
 - LICENSE, CONTRIBUTING.md, SECURITY.md
@@ -434,6 +582,11 @@ gpt-6-astra-awesome/
   - carousel.html, interactive carousel with search, copy, prev, next, keyboard
   - 3d-advanced-guide.md, advanced 3D pipeline, budgets, checklists, handoffs
 - examples/, six production-grade official-pattern prompts
+- web/, Next.js 14 showcase app (static export, deploys from web/ as root)
+  - app/, layout, page, global styles
+  - components/, loader, canvas, reveals, explorer, showcase sections
+  - data/, build-data.py plus generated prompts.json and categories.json
+  - out/, static export output after npm run build
 - scripts/
   - generate_prompts.py, deterministic 28 times 90 generator
   - verify_prompts.py, SHA-256 uniqueness plus count check
@@ -442,9 +595,81 @@ gpt-6-astra-awesome/
 
 ---
 
+## Web app manual
+
+**Local development:**
+
+```bash
+cd web
+npm install
+npm run dev
+```
+
+**Production check:**
+
+```bash
+cd web
+npm run build
+```
+
+**Data regeneration after prompt edits:**
+
+```bash
+cd web
+py data/build-data.py
+npm run build
+```
+
+**Deploy paths:**
+
+1. One-click: use the Deploy button at the top with root directory `web`.
+2. Dashboard: import `aniruddhaadak80/gpt-6-astra-awesome` in Vercel, set root directory to `web`, deploy.
+3. CLI from an authenticated shell: `cd web`, then `vercel deploy --prod`.
+4. Claim the anonymous preview linked at the top to keep that exact URL.
+
+**Design tokens:** obsidian `#070b0e`, card `#111b20`, amber `#f5a524`, signal orange `#f97316`, teal `#2dd4bf`, sky `#38bdf8`, green `#4ade80` for success, red `#f87171` for stop gates. Motion: boot loader with progress, particle canvas, drifting gradient orbs, staggered hero entrance, marquee ticker, scroll reveals, animated counters, accordion cards, hover lifts, back-to-top control. Reduced-motion preferences are respected.
+
+---
+
+## FAQ
+
+**Is GPT-6 Astra publicly available.**
+Yes, with rollout gates. API as `gpt-6-astra` since Sept 4, 2026, plus ChatGPT Work, Codex, Copilot, Azure, and Bedrock surfaces. Enterprise access is off by default and paid plans propagate over days.
+
+**Are the 2520 prompts scraped from the community.**
+No. They are original curation written to official Astra patterns. Community builds are indexed separately with attribution. The distinction is stated wherever both appear.
+
+**How is uniqueness enforced.**
+`scripts/verify_prompts.py` hashes every prompt with SHA-256 and fails below 2520 rows or on any duplicate. CI runs the same gate on push and pull requests.
+
+**Which effort level belongs on a new task.**
+Start low for triage and edits, medium with planning for features, high for deep bugs, xhigh for frontier work, max only behind an eval harness with cost sign-off. Details in category 25.
+
+**Why do prompts ask me to stop before sending or deleting.**
+Astra can operate tools and files, so every operational prompt carries approval gates for consequential actions. That is deliberate and matches enterprise guidance.
+
+**Can the showcase run offline after build.**
+Yes. `npm run build` produces `web/out` with all prompts bundled. Serve that folder statically and search, filters, and copy keep working without network calls.
+
+**How do additions work.**
+Add real builds with creator, link, date, and evidence. Add prompts to the matching category file plus `prompts.jsonl`, rebuild web data, run verification, open a pull request.
+
+**What stays out of this repo.**
+Scraped dumps without provenance, offensive-security content, jailbreaks, bypasses, live secrets, and copyrighted pastes. Defensive security content with authorization boundaries is welcome.
+
+---
+
+## Changelog
+
+- **v1.2.0, 2026-09-10:** Next.js 14 cinematic showcase with all prompts bundled, advanced search and filters, dropdowns, one-click copy, loader plus particles plus reveals plus counters, static export, live Vercel preview, advanced README pass with badges, benchmarks, anatomy, architecture, FAQ.
+- **v1.1.0, 2026-09-10:** Collapsible vertical prompt blocks with circular navigation, advanced 3D guide, expanded operations, machine-readable twins, interactive carousel page, CI verification.
+- **v1.0.0, 2026-09-10:** Initial hub with 2520 unique prompts across 28 categories, real builds index, official and community sources, API quickstarts, safety notes.
+
+---
+
 ## Contributing
 
-New real build: open a PR adding a row to the builds table plus a line in `SOURCES.md` with creator, link, date, what Astra did, and what the harness did. New prompt: add to the right `prompts/` file plus `prompts.jsonl`, then run `py scripts/verify_prompts.py`. No scraped dumps without provenance. No offensive-security prompts. Details in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+New real build: open a PR adding a row to the builds table plus a line in `SOURCES.md` with creator, link, date, what Astra did, and what the harness did. New prompt: add to the right `prompts/` file plus `prompts.jsonl`, rebuild web data with `py web/data/build-data.py`, then run `py scripts/verify_prompts.py`. No scraped dumps without provenance. No offensive-security prompts. Details in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ---
 
@@ -456,6 +681,7 @@ MIT, see [`LICENSE`](LICENSE). Builds and demos belong to their creators, linked
 
 <p align="center">
 <a href="#carousel-jump-anything-to-anything">Back to carousel</a> -
+<a href="https://temporary-snappy-cyclone-l28c2zh.vercel.app">Live showcase</a> -
 <a href="docs/carousel.html">Interactive carousel</a> -
 <a href="prompts/01-agentic-coding.md">Start copying</a> -
 <a href="docs/3d-advanced-guide.md">Advanced 3D guide</a>

@@ -1,0 +1,20 @@
+{
+  "name": "gpt-6-astra-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive showcase for the GPT-6 Astra Awesome Hub, 2520 copy-ready prompts with search, filters, and animated sections.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "data": "py data/build-data.py"
+  },
+  "dependencies": {
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

@@ -1,0 +1,198 @@
+[
+ {
+  "slug": "01-agentic-coding",
+  "emoji": "💻",
+  "title": "Agentic Coding",
+  "desc": "Long-horizon coding tasks, refactors, Codex/Copilot workflows with verification proportional to risk.",
+  "count": 90
+ },
+ {
+  "slug": "02-computer-use",
+  "emoji": "🖥️",
+  "title": "Computer Use & Desktop Automation",
+  "desc": "Astra operating files, apps, forms, calendars, QA flows, with explicit stop points and approvals.",
+  "count": 90
+ },
+ {
+  "slug": "03-browser-research",
+  "emoji": "🌐",
+  "title": "Browser Research & Deep Dives",
+  "desc": "Multi-site research, comparisons, citations, and monitoring with source hygiene.",
+  "count": 90
+ },
+ {
+  "slug": "04-professional-docs",
+  "emoji": "📄",
+  "title": "Professional Docs & Decks",
+  "desc": "Polished documents, spreadsheets, and presentations Astra can draft end-to-end.",
+  "count": 90
+ },
+ {
+  "slug": "05-spreadsheets-data",
+  "emoji": "📊",
+  "title": "Spreadsheets & Data Wrangling",
+  "desc": "Excel/Sheets models, cleaning recipes, and reconciliation flows.",
+  "count": 90
+ },
+ {
+  "slug": "06-science-research",
+  "emoji": "🔬",
+  "title": "Science & Lab Workflows",
+  "desc": "Literature synthesis, protocols, analysis plans, and figure specs.",
+  "count": 90
+ },
+ {
+  "slug": "07-defensive-security",
+  "emoji": "🛡️",
+  "title": "Defensive Security (Blue Team Only)",
+  "desc": "Defensive posture only: hardening, detection, triage, recovery. No exploits, no bypasses.",
+  "count": 90
+ },
+ {
+  "slug": "08-3d-blender-unreal",
+  "emoji": "🧊",
+  "title": "3D: Blender / Unreal / Three.js",
+  "desc": "Inspired by real Astra demos: blockout to inhabited detail, editable geometry, shot planning.",
+  "count": 90
+ },
+ {
+  "slug": "09-game-dev",
+  "emoji": "🎮",
+  "title": "Game Dev & Playable Prototypes",
+  "desc": "Browser games, Godot/Unity prototypes, playtest-fix loops like the viral Astra builds.",
+  "count": 90
+ },
+ {
+  "slug": "10-web-dev",
+  "emoji": "🧑‍💻",
+  "title": "Web Dev & Sites in ChatGPT",
+  "desc": "Premium sites, booking flows, SEO copy, frontend QA Astra can self-check.",
+  "count": 90
+ },
+ {
+  "slug": "11-video-creation",
+  "emoji": "🎬",
+  "title": "Video & Cinematic AI",
+  "desc": "Remotion/Final Cut workflows, shot lists, 5-minute explainers like the T-cell demo.",
+  "count": 90
+ },
+ {
+  "slug": "12-music-audio",
+  "emoji": "🎧",
+  "title": "Music & Audio (Ableton-style)",
+  "desc": "Arrangement, sound design, and mix notes for DAW-assisted builds.",
+  "count": 90
+ },
+ {
+  "slug": "13-design-figma",
+  "emoji": "🎨",
+  "title": "Design, Figma & Flora",
+  "desc": "Interface direction with explicit visual references, no generic dashboards.",
+  "count": 90
+ },
+ {
+  "slug": "14-writing-technical",
+  "emoji": "📝",
+  "title": "Technical Writing (No Slop)",
+  "desc": "Concise paragraphs, plain verbs, explicit structure per Astra style guidance.",
+  "count": 90
+ },
+ {
+  "slug": "15-writing-creative",
+  "emoji": "✍️",
+  "title": "Creative & Story Writing",
+  "desc": "Voice control, constraints, and revision passes without purple slop.",
+  "count": 90
+ },
+ {
+  "slug": "16-business-ops",
+  "emoji": "🏢",
+  "title": "Business Ops, CRM & Support",
+  "desc": "Inbox triage, CRM hygiene, SOPs with stop-before-send guardrails.",
+  "count": 90
+ },
+ {
+  "slug": "17-education",
+  "emoji": "🎓",
+  "title": "Education & Tutoring",
+  "desc": "Mr-Ranedeer-style tutoring, lesson plans, and worked examples.",
+  "count": 90
+ },
+ {
+  "slug": "18-math-frontier",
+  "emoji": "🧮",
+  "title": "Math (Frontier-Style Rigor)",
+  "desc": "Proof sketches, counterexamples, and verification discipline.",
+  "count": 90
+ },
+ {
+  "slug": "19-data-viz",
+  "emoji": "📈",
+  "title": "Data Analysis & Visualization",
+  "desc": "From question to chart spec to decision, with honest scales.",
+  "count": 90
+ },
+ {
+  "slug": "20-devops-terminal",
+  "emoji": "🧰",
+  "title": "DevOps & Terminal-Bench Style",
+  "desc": "Reproducible shell workflows, containers, CI, and incident drills.",
+  "count": 90
+ },
+ {
+  "slug": "21-testing-qa",
+  "emoji": "🧪",
+  "title": "Testing, QA & Verification",
+  "desc": "Calibrate Astra's thoroughness: targeted checks for small diffs, full suites for risky ones.",
+  "count": 90
+ },
+ {
+  "slug": "22-multi-agent",
+  "emoji": "🤖",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "desc": "Explicit delegation: when, how much, and how agents report back.",
+  "count": 90
+ },
+ {
+  "slug": "23-long-context",
+  "emoji": "📚",
+  "title": "Long Context (1M Tokens)",
+  "desc": "Authoritative vs reference sources, conflict rules, staleness handling.",
+  "count": 90
+ },
+ {
+  "slug": "24-structured-outputs",
+  "emoji": "🧩",
+  "title": "Structured Outputs & Schemas",
+  "desc": "Schemas for structure; prompts for semantics. No temperature/top_p with Astra tool-calling.",
+  "count": 90
+ },
+ {
+  "slug": "25-reasoning-effort",
+  "emoji": "🎚️",
+  "title": "Reasoning Effort Tuning",
+  "desc": "low→max calibration: start low/medium, escalate only with evidence.",
+  "count": 90
+ },
+ {
+  "slug": "26-migration",
+  "emoji": "🔀",
+  "title": "Migration: GPT-5.x → Astra",
+  "desc": "Checklist migration: Responses API, removed params, cache, subagents, verification.",
+  "count": 90
+ },
+ {
+  "slug": "27-prompt-debugging",
+  "emoji": "🔍",
+  "title": "Prompt Debugging & Audits",
+  "desc": "Trace stalls to the exact file/line: authority, conflicts, staleness.",
+  "count": 90
+ },
+ {
+  "slug": "28-productivity",
+  "emoji": "⚡",
+  "title": "Everyday Productivity",
+  "desc": "Inbox, calendar, travel, job search, food ordering, plus Astra tedious-task wins.",
+  "count": 90
+ }
+]
