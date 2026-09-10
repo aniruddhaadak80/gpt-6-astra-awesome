@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import prompts from "../data/prompts.json";
 import categories from "../data/categories.json";
-import { CountUp, Loader, Reveal, ScrollProgress, Starfield } from "../components/fx";
+import { CountUp, ErrorBoundary, Loader, Reveal, ScrollProgress, Starfield } from "../components/fx";
 import { PromptExplorer } from "../components/explorer";
 import {
   BuildsShowcase,
@@ -295,6 +295,7 @@ export default function Home() {
               and a difficulty tag before anything gets opened.
             </p>
           </Reveal>
+          <ErrorBoundary>
           <CategoryGrid categories={categories} active={cat} onSelect={pickCategory} />
           <Reveal>
             <h3 className="mini-head">Collection mix, live from the bundle</h3>
@@ -316,8 +317,10 @@ export default function Home() {
               onLevelChange={setLevel}
             />
           </Reveal>
+          </ErrorBoundary>
         </section>
 
+        <ErrorBoundary>
         <section className="section" id="pipeline">
           <Reveal>
             <div className="kicker">Advanced 3D operations</div>
@@ -402,6 +405,7 @@ export default function Home() {
           </Reveal>
           <ResourcesSection />
         </section>
+        </ErrorBoundary>
       </main>
 
       <SiteFooter />

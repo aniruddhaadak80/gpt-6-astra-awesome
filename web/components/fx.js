@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Component, useEffect, useRef, useState } from "react";
 
 export function Loader({ ready }) {
   return (
@@ -85,23 +85,33 @@ export function Reveal({ children, delay }) {
   useEffect(() => {
     const el = ref.current;
     if (el === null) return;
+    const show = () => el.classList.add("in");
     if (typeof IntersectionObserver === "undefined") {
-      el.classList.add("in");
+      show();
       return;
     }
+    let fallback = 0;
     const obs = new IntersectionObserver(
       (entries) => {
         for (const e of entries) {
           if (e.isIntersecting === true) {
-            e.target.classList.add("in");
+            show();
+            if (fallback) clearTimeout(fallback);
             obs.unobserve(e.target);
           }
         }
       },
-      { threshold: 0.12 }
+      { threshold: 0.08, rootMargin: "0px 0px 260px 0px" }
     );
     obs.observe(el);
-    return () => obs.disconnect();
+    fallback = setTimeout(() => {
+      show();
+      obs.disconnect();
+    }, 4000);
+    return () => {
+      if (fallback) clearTimeout(fallback);
+      obs.disconnect();
+    };
   }, []);
   return (
     <div ref={ref} className="reveal" style={delay ? { transitionDelay: delay + "ms" } : undefined}>
@@ -152,6 +162,31 @@ export function CountUp({ to, duration }) {
     };
   }, [to, duration]);
   return <span ref={ref}>{val.toLocaleString("en-US")}</span>;
+}
+
+export class ErrorBoundary extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { failed: false };
+  }
+  static getDerivedStateFromError() {
+    return { failed: true };
+  }
+  componentDidCatch() {}
+  render() {
+    if (this.state.failed === true) {
+      return (
+        <div className="error-fallback" role="alert">
+          <h3>This block failed to render</h3>
+          <p>Reload the page for a fresh copy. If it persists, note the section name and open an issue on the repo.</p>
+          <button className="mini-btn" onClick={() => window.location.reload()}>
+            Reload page
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
 }
 
 export function ScrollProgress() {

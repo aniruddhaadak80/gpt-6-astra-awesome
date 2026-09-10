@@ -801,10 +801,14 @@ Slash focuses search, question mark opens the guide, Escape closes, J and K walk
 **Where do newcomers start.**
 Pick a starter pack above, set the suggested filters, copy three prompts verbatim, then remix one slot at a time using the anatomy pattern.
 
+**A section looks blank or a card stays shut.**
+Hard-refresh for a fresh copy (Ctrl plus Shift plus R on desktop). Every animated block now reveals on a timer even if scroll tracking misses, failed blocks show a reload card, and anchor jumps offset below the navbar. If trouble persists after a refresh, note the section name and browser version when reporting it.
+
 ---
 
 ## Changelog
 
+- **v1.4.1, 2026-09-10:** Reliability pass. Scroll reveals preload early with a safety timer, render boundaries show a reload card instead of a blank block, anchor jumps clear the sticky navbar, prompt cards keep their animation, navbar links become a scrollable strip on small screens with full-width search.
 - **v1.4.0, 2026-09-10:** Visual tour, by-the-numbers ledger, six starter packs, use-case matrix, glossary, related projects, expanded FAQ. Showcase gains persona packs, level mix bars, live session replay, copy-all-visible, per-session copy counter.
 - **v1.3.0, 2026-09-10:** Library expanded to 3360 prompts with 120 per category. Showcase gains navbar search, section jumper, GitHub shortcut, keyboard map with guide overlay, numbered cards with summaries and previews, difficulty tags plus filter, refined fonts, richer motion.
 - **v1.2.0, 2026-09-10:** Next.js 14 cinematic showcase with all prompts bundled, advanced search and filters, dropdowns, one-click copy, loader plus particles plus reveals plus counters, static export, live Vercel preview, advanced README pass with badges, benchmarks, anatomy, architecture, FAQ.
