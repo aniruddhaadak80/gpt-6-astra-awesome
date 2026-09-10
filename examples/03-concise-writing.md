@@ -1,4 +1,4 @@
-# 03 — Concise writing, no slop
+# 03 - Concise writing, no slop
 
 Astra defaults to detailed, list-heavy Markdown. Use this for prose-first output.
 

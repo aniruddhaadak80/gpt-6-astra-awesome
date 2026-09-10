@@ -1,4 +1,4 @@
-# 05 — Testing & verification calibration
+# 05 - Testing & verification calibration
 
 Astra over-verifies small diffs. Scale checks to risk.
 

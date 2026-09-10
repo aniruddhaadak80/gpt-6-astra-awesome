@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GPT-6 Astra Prompt Carousel — 2,520 prompts</title>
+<title>GPT-6 Astra Prompt Carousel - 2,520 prompts</title>
 <style>
 :root{color-scheme:dark light;--bg:#0b0e14;--card:#141a26;--ink:#e8edf5;--mut:#9aa6bd;--acc:#8b5cf6}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,Segoe UI,Roboto,Arial}
@@ -11,38 +11,43 @@ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,Seg
 .pills{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .pills a,.pills button{border:1px solid #2b3550;background:#111828;color:var(--ink);border-radius:999px;padding:6px 12px;text-decoration:none;font-size:13px;cursor:pointer}
 .card{background:var(--card);border:1px solid #263049;border-radius:16px;padding:20px;margin:16px 0}
-pre{white-space:pre-wrap;background:#0d1320;border:1px solid #263049;border-radius:12px;padding:14px}
+pre{white-space:pre-wrap;word-break:break-word;overflow-wrap:anywhere;overflow-x:hidden;background:#0d1320;border:1px solid #263049;border-radius:12px;padding:14px;max-width:100%}
 .row{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
 button.big{background:var(--acc);border:0;color:#fff;border-radius:10px;padding:10px 16px;font-weight:700;cursor:pointer}
 input,select{background:#0d1320;border:1px solid #2b3550;color:var(--ink);border-radius:10px;padding:10px;width:100%;box-sizing:border-box}
 .mut{color:var(--mut);font-size:13px}
 .kbd{border:1px solid #33405f;border-radius:6px;padding:0 6px;font-size:12px}
+details{background:#0d1320;border:1px solid #263049;border-radius:12px;padding:12px;margin:10px 0}
+summary{cursor:pointer;font-weight:600}
 </style>
 </head>
 <body>
 <div class="wrap">
-<h1>🖱️ GPT-6 Astra Prompt Carousel</h1>
-<p class="mut">2,520 curated prompts · 28 categories · <span class="kbd">←</span><span class="kbd">→</span> navigate · <span class="kbd">R</span> random · <span class="kbd">C</span> copy · Live file: <code>../prompts/prompts.jsonl</code></p>
+<h1>GPT-6 Astra Prompt Carousel</h1>
+<p class="mut">2,520 curated prompts and 28 categories. Use Left and Right arrows to move, R for random, C for copy. Data file: <code>../prompts/prompts.jsonl</code></p>
 <div class="row">
-<input id="q" placeholder="Search prompts, categories, ids… (e.g. blender, booking QA, agentic-coding-004)">
+<input id="q" placeholder="Search prompts, categories, ids (for example: blender, booking QA, agentic-coding-004)">
 </div>
 <div class="row">
 <select id="cat"><option value="">All categories (28)</option></select>
 </div>
 <div class="pills" id="quick"></div>
 <div class="card">
-<div class="mut" id="pos">loading…</div>
+<div class="mut" id="pos">loading</div>
 <h2 id="title" style="margin:6px 0"></h2>
+<details open>
+<summary>View prompt top to bottom (click to collapse or expand)</summary>
 <pre id="body"></pre>
+</details>
 <div class="row">
-<button class="big" id="prev">◀ Prev</button>
-<button class="big" id="copy">📋 Copy</button>
-<button class="big" id="next">Next ▶</button>
-<button class="big" id="rand" style="background:#1f6feb">🎲 Random</button>
+<button class="big" id="prev">Prev</button>
+<button class="big" id="copy">Copy</button>
+<button class="big" id="next">Next</button>
+<button class="big" id="rand" style="background:#1f6feb">Random</button>
 </div>
 <div class="mut" id="meta"></div>
 </div>
-<p class="mut"><a href="../README.md" style="color:#b7a6ff">⬆️ Back to README hub</a> · Prompts are original curation (Sept 2026), defensive/authorized-scope only. No exploits or bypasses.</p>
+<p class="mut"><a href="../README.md" style="color:#b7a6ff">Back to README hub</a> - Prompts are original curation dated Sept 2026, defensive and authorized-scope only.</p>
 </div>
 <script>
 let all=[],view=[],i=0;
@@ -53,7 +58,7 @@ async function load(){
   const t=await r.text();
   all=t.trim().split('\n').map(l=>JSON.parse(l));
  }catch(e){
-  all=[{id:'demo-001',category:'01-agentic-coding',prompt:'Act as a senior staff engineer. Build a REST endpoint… (open via local server or GitHub Pages for full 2,520)'}];
+  all=[{id:'demo-001',category:'01-agentic-coding',prompt:'Act as a senior staff engineer. Build a REST endpoint. Open this page through a local server or GitHub Pages for the full set of 2,520 prompts.'}];
  }
  const cats=[...new Set(all.map(x=>x.category))].sort();
  cats.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;cat.appendChild(o);});
@@ -63,22 +68,28 @@ async function load(){
 }
 function apply(){
  const q=$('q').value.toLowerCase(),c=$('cat').value;
- view=all.filter(x=>(!c||x.category===c)&&(!q||(x.prompt+' '+x.id+' '+x.category).toLowerCase().includes(q)));
+ const hasCat = (c === '') === false;
+ const hasQuery = (q === '') === false;
+ view=all.filter(x=>{
+   const catOk = (hasCat === false) || (x.category === c);
+   const qOk = (hasQuery === false) || ((x.prompt+' '+x.id+' '+x.category).toLowerCase().includes(q));
+   return catOk && qOk;
+ });
  i=0;render();
 }
 function render(){
- if(!view.length){pos.textContent='0 results';title.textContent='No matches';body.textContent='Clear search or pick another category.';meta.textContent='';return;}
+ if(view.length === 0){pos.textContent='0 results';title.textContent='No matches';body.textContent='Clear search or pick another category.';meta.textContent='';return;}
  i=(i+view.length)%view.length;
  const p=view[i];
  pos.textContent=`${i+1} / ${view.length} (of ${all.length} total)`;
- title.textContent=`${p.id} · ${p.category}`;
+ title.textContent=`${p.id} - ${p.category}`;
  body.textContent=p.prompt;
- meta.textContent=`Jump: anything→anything via search + category + prev/next. Paste into ChatGPT Work / Codex / Responses API (model gpt-6-astra).`;
+ meta.textContent=`Move with search plus category plus prev and next. Paste into ChatGPT Work, Codex, or the Responses API with model gpt-6-astra.`;
 }
-async function copy(){try{await navigator.clipboard.writeText(view[i].prompt);copy.textContent='✅ Copied';setTimeout(()=>copy.textContent='📋 Copy',1200);}catch(e){const r=document.createRange();r.selectNode(body);getSelection().removeAllRanges();getSelection().addRange(r);document.execCommand('copy');}}
-prev.onclick=()=>{i--;render();};next.onclick=()=>{i++;render();};rand.onclick=()=>{i=Math.floor(Math.random()*view.length);render();};copy.onclick=copy;
+async function copyText(){try{await navigator.clipboard.writeText(view[i].prompt);copy.textContent='Copied';setTimeout(()=>copy.textContent='Copy',1200);}catch(e){const r=document.createRange();r.selectNode(body);getSelection().removeAllRanges();getSelection().addRange(r);document.execCommand('copy');}}
+prev.onclick=()=>{i--;render();};next.onclick=()=>{i++;render();};rand.onclick=()=>{i=Math.floor(Math.random()*view.length);render();};copy.onclick=copyText;
 q.oninput=apply;cat.onchange=apply;
-document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='SELECT')return;if(e.key==='ArrowLeft'){i--;render();}if(e.key==='ArrowRight'){i++;render();}if(e.key==='r'||e.key==='R'){i=Math.floor(Math.random()*view.length);render();}if(e.key==='c'||e.key==='C'){copy();}});
+document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='SELECT')return;if(e.key==='ArrowLeft'){i--;render();}if(e.key==='ArrowRight'){i++;render();}if(e.key==='r'||e.key==='R'){i=Math.floor(Math.random()*view.length);render();}if(e.key==='c'||e.key==='C'){copyText();}});
 load();
 </script>
 </body>

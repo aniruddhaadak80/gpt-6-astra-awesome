@@ -1,4 +1,4 @@
-# 02 — Instruction priority & transparency
+# 02 - Instruction priority & transparency
 
 Astra follows long instructions well but is sensitive to `SKILL.md` / `AGENTS.md` conflicts.
 

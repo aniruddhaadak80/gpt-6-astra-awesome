@@ -1,9 +1,9 @@
-# REPO_META — copy-paste GitHub settings
+# REPO_META - copy-paste GitHub settings
 
 ## Settings → About → Description (160 chars shown, full allowed)
 
 ```text
-🌌 GPT-6 Astra Awesome Hub — 2,520+ copy-paste prompts, carousel navigator, real community builds index, API quickstarts & safety notes (Sept 2026 launch).
+🌌 GPT-6 Astra Awesome Hub - 2,520+ copy-paste prompts, carousel navigator, real community builds index, API quickstarts & safety notes (Sept 2026 launch).
 ```
 
 ## Settings → About → Website
@@ -24,13 +24,13 @@ CLI:
 
 ```bash
 gh repo edit aniruddhaadak80/gpt-6-astra-awesome \
-  --description "🌌 GPT-6 Astra Awesome Hub — 2,520+ copy-paste prompts, carousel navigator, real community builds index, API quickstarts & safety notes (Sept 2026 launch)." \
-  --add-topic gpt-6-astra --add-topic openai --add-topic prompt-engineering \
-  --add-topic ai-agents --add-topic computer-use --add-topic llm-prompts \
-  --add-topic awesome-list --add-topic github-copilot --add-topic codex \
-  --add-topic chatgpt --add-topic artificial-intelligence --add-topic coding-assistant \
-  --add-topic browser-automation --add-topic multi-agent --add-topic reasoning \
-  --add-topic awesome
+ --description "🌌 GPT-6 Astra Awesome Hub - 2,520+ copy-paste prompts, carousel navigator, real community builds index, API quickstarts & safety notes (Sept 2026 launch)." \
+ --add-topic gpt-6-astra --add-topic openai --add-topic prompt-engineering \
+ --add-topic ai-agents --add-topic computer-use --add-topic llm-prompts \
+ --add-topic awesome-list --add-topic github-copilot --add-topic codex \
+ --add-topic chatgpt --add-topic artificial-intelligence --add-topic coding-assistant \
+ --add-topic browser-automation --add-topic multi-agent --add-topic reasoning \
+ --add-topic awesome
 ```
 
 ## Social preview text

@@ -3,7 +3,7 @@ Each prompt follows Astra best practices: goal, inputs, constraints,
 output format, definition of done, autonomy + verification scope.
 Run: py scripts/generate_prompts.py
 """
-import json, csv, hashlib
+import json, csv, hashlib, textwrap
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -34,7 +34,7 @@ CATEGORIES = [
          constraints=["reuse existing project patterns; no new dependencies without justification", "keep the diff minimal and reversible; explain every new abstraction", "follow the repo's linter, formatter, and type-checker strictly", "preserve backward compatibility for existing API consumers", "optimize for readability over cleverness; add docstrings for public APIs", "ensure all I/O has timeouts, retries with backoff, and clear error messages"],
          outputs=["a working implementation plus a short test report", "a unified diff with a file-by-file change summary", "production-ready code with README usage section", "code plus a review checklist of risks and mitigations", "implementation with before/after benchmarks in a table", "code plus rollback instructions"]),
     dict(slug="02-computer-use", emoji="🖥️", title="Computer Use & Desktop Automation",
-         desc="Astra operating files, apps, forms, calendars, QA flows — with explicit stop points and approvals.",
+         desc="Astra operating files, apps, forms, calendars, QA flows, with explicit stop points and approvals.",
          roles=["senior desktop-automation specialist", "expert QA operator", "senior IT support engineer", "operations automation lead", "senior systems analyst", "expert accessibility tester"],
          tasks=["fill a multi-page web form from a spreadsheet and confirm submission", "reconcile calendar events across two accounts and resolve conflicts", "organize a downloads folder into a dated archive with a manifest", "install a dev tool, verify the install, and capture screenshots of each step", "run frontend QA on a staging site across three viewports and log defects", "update CRM records from an inbox export without duplicating contacts", "prepare a slide deck from a folder of screenshots and notes", "audit file permissions in a project folder and produce a fix plan", "transcribe meeting notes from audio into structured action items", "build a weekly report PDF from three source documents", "test a checkout flow with valid, empty, and invalid inputs", "migrate bookmarks and settings to a new browser profile safely", "verify backup integrity by restoring one sample file and checksumming", "document a reproduceable bug with steps, video timestamps, and logs", "clean up duplicate photos while preserving originals in an archive"],
          audiences=["on Windows 11", "on macOS", "inside a corporate VM", "in a shared team workspace", "for a non-technical stakeholder", "under strict least-privilege access"],
@@ -216,7 +216,7 @@ CATEGORIES = [
          constraints=["quote the exact file and line that caused behavior", "distinguish explicit user intent from inferred context", "repro with seed/version/effort recorded", "one variable per A/B", "keep failing transcripts verbatim for review", "propose the smallest fix that resolves the class"],
          outputs=["a diagnosis with quoted evidence", "a minimal repro", "an A/B plan with metrics", "a cleaned instruction set", "a regression pack", "a version log"]),
     dict(slug="28-productivity", emoji="⚡", title="Everyday Productivity",
-         desc="Inbox, calendar, travel, job search, food ordering — Astra's tedious-task wins.",
+         desc="Inbox, calendar, travel, job search, food ordering, plus Astra tedious-task wins.",
          roles=["expert executive assistant", "senior life-admin coach", "travel planner", "senior career coach", "meal-planning aide", "senior home-ops organizer"],
          tasks=["plan a week of meals from fridge contents and a budget", "triage 200 unread emails into act/file/archive with drafts", "plan a 3-day trip with transit, stays, and backups", "draft job-search outreach with tailored bullets", "build a moving checklist with vendors and dates", "create a tax-return document checklist (no filing advice beyond organizing)", "plan a study week around work shifts", "organize a family calendar with conflicts resolved", "build a gift list with budget and links", "draft a landlord email with photos inventory", "create a home-maintenance schedule", "build a workout plan around injury constraints", "plan a conference visit: sessions, meetings, transit", "draft a meeting follow-up sequence", "build a weekly review template that takes 15 minutes"],
          audiences=["for a busy parent", "for a student", "for a freelancer", "for a new grad", "for a traveler", "for a remote worker"],
@@ -285,22 +285,30 @@ def main():
     texts = [r["text"] for r in all_rows]
     assert len(texts) == len(set(texts)), f"Duplicate prompts detected: {len(texts) - len(set(texts))}"
     print(f"Total prompts: {len(all_rows)} unique OK")
-    # write per-category markdown
+    # write per-category markdown with collapsible vertical blocks (no horizontal scroll)
+    def to_vertical(text):
+        sentences = [s.strip() for s in text.split(". ") if s.strip()]
+        fixed = []
+        for s in sentences:
+            if not s.endswith("."):
+                s = s + "."
+            fixed.append(textwrap.fill(s, width=100))
+        return "\n".join(fixed)
+
     for cat in CATEGORIES:
         rows = [r for r in all_rows if r["category"] == cat["slug"]]
         md = []
-        md.append(f"# {cat['emoji']} {cat['title']} — 90 copyable GPT-6 Astra prompts\n")
+        md.append(f"# {cat['emoji']} {cat['title']} - 90 copyable GPT-6 Astra prompts\n")
         md.append(f"> {cat['desc']}\n")
         md.append("> Safety: defensive / authorized-scope use only. Stop before destructive, irreversible, sending, purchasing, deleting, or permission-changing steps without approval.\n")
-        md.append(f"**Jump:** [⬆️ Index](../README.md#-category-carousel) · [◀ Prev](#) · [Next ▶](#) · [🔍 Search all](../prompts_index.json) · [🖱️ Interactive carousel](../docs/carousel.html)\n")
-        md.append(f"Copy any prompt: click the copy icon on its code block.\n")
+        md.append(f"**Jump:** [Index](../README.md#category-carousel) · [Prev](#) · [Next](#) · [Search all](prompts_index.json) · [Interactive carousel](../docs/carousel.html)\n")
+        md.append(f"How to use: click any prompt title to expand it top to bottom, then use the copy icon on the code block. Each block wraps vertically, so there is no left to right scrolling.\n")
         for r in rows:
-            md.append(f"### `{r['id']}` — {r['task'][:72]}")
-            md.append("")
+            short_task = r['task'][:72]
+            md.append(f"<details>\n<summary><code>{r['id']}</code> - {short_task} (click to expand)</summary>\n")
             md.append("```text")
-            md.append(r["text"])
-            md.append("```")
-            md.append("")
+            md.append(to_vertical(r["text"]))
+            md.append("```\n</details>\n")
         (PROMPTS_DIR / f"{cat['slug']}.md").write_text("\n".join(md), encoding="utf-8")
     # jsonl + csv + index
     with open(PROMPTS_DIR / "prompts.jsonl", "w", encoding="utf-8") as f:

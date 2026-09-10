@@ -9,6 +9,8 @@ hashes = [hashlib.sha256(t.encode()).hexdigest() for t in texts]
 print(f"count={len(rows)} unique={len(set(hashes))}")
 if len(rows) < 2520:
     print(f"FAIL: expected >=2520, got {len(rows)}"); sys.exit(1)
-if len(set(hashes)) != len(rows):
+if len(set(hashes)) == len(rows):
+    pass
+else:
     print(f"FAIL: {len(rows)-len(set(hashes))} duplicates"); sys.exit(1)
 print("OK: 2520+ unique prompts")

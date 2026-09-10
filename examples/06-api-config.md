@@ -1,4 +1,4 @@
-# 06 — Responses API config for Astra
+# 06 - Responses API config for Astra
 
 Tool calling requires the Responses API. Legacy params break or degrade.
 

@@ -10,7 +10,7 @@
   "slug": "02-computer-use",
   "emoji": "🖥️",
   "title": "Computer Use & Desktop Automation",
-  "desc": "Astra operating files, apps, forms, calendars, QA flows — with explicit stop points and approvals.",
+  "desc": "Astra operating files, apps, forms, calendars, QA flows, with explicit stop points and approvals.",
   "count": 90
  },
  {
@@ -192,7 +192,7 @@
   "slug": "28-productivity",
   "emoji": "⚡",
   "title": "Everyday Productivity",
-  "desc": "Inbox, calendar, travel, job search, food ordering — Astra's tedious-task wins.",
+  "desc": "Inbox, calendar, travel, job search, food ordering, plus Astra tedious-task wins.",
   "count": 90
  }
 ]

@@ -1,4 +1,4 @@
-# 01 — Initiative & follow-through
+# 01 - Initiative & follow-through
 
 Astra asks more clarifying questions than 5.6 Sol. Use this when you want action, not questions.
 

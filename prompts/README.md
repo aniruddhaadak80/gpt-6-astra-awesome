@@ -1,4 +1,4 @@
-# Prompts — 2,520 copyable GPT-6 Astra prompts
+# Prompts - 2,520 copyable GPT-6 Astra prompts
 
 > 28 categories × 90 prompts. All unique (SHA-256 verified). Original curation for Astra (Sept 2026), not scraped.
 > Interactive carousel: [`../docs/carousel.html`](../docs/carousel.html) · Machine index: [`prompts_index.json`](prompts_index.json)
@@ -17,12 +17,12 @@
 
 `Role → Task → Audience → Output → 2 Constraints → Angle → Effort (where relevant) → Autonomy → Verification`
 
-Copy the ` ```text ` block only. The `### id` heading is a reference, not part of the prompt.
+Copy the inner `text` block only. Click the summary title to expand top to bottom, then use the copy icon. The summary line is a reference, not part of the prompt.
 
 ## Files for machines
 
-- `prompts.jsonl` — one JSON per line: `{id, category, prompt}`
-- `prompts.csv` — same as CSV
-- `prompts_index.json` — `{id, category, title, task}` search index
-- `../categories.json` — category manifest
-- `../scripts/generate_prompts.py` — deterministic generator · `../scripts/verify_prompts.py` — uniqueness check
+- `prompts.jsonl` - one JSON per line: `{id, category, prompt}`
+- `prompts.csv` - same as CSV
+- `prompts_index.json` - `{id, category, title, task}` search index
+- `../categories.json` - category manifest
+- `../scripts/generate_prompts.py` - deterministic generator · `../scripts/verify_prompts.py` - uniqueness check
