@@ -2,7 +2,7 @@
   "name": "gpt-6-astra-showcase",
   "version": "1.0.0",
   "private": true,
-  "description": "Interactive showcase for the GPT-6 Astra Awesome Hub, 2520 copy-ready prompts with search, filters, and animated sections.",
+  "description": "Interactive showcase for the GPT-6 Astra Awesome Hub, 3360 copy-ready prompts with search, filters, and animated sections.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

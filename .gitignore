@@ -1,2 +1,3 @@
-# local helper, retired, not part of the published hub
+# local helpers, retired, not part of the published hub
 scripts/cleanup_chars.py
+scripts/bump_v13.py

@@ -127,7 +127,7 @@ Report: tested, failed, and unverified lists plus assumptions plus re-test resul
 
 ## 12. Copy-paste 3D starter shells
 
-Use these shells, then pull a full 90-prompt set from the category file.
+Use these shells, then pull a full 120-prompt set from the category file.
 
 ```text
 Goal: block out a seaside house for a portfolio piece.

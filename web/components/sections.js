@@ -318,7 +318,7 @@ export function SiteFooter() {
         <div>
           <b style={{ color: "var(--ink)" }}>GPT-6 Astra Awesome Hub</b>
           <p>
-            2520 original Astra-tuned prompts across 28 categories, bundled with the showcase.
+            3360 original Astra-tuned prompts across 28 categories, bundled with the showcase.
             Builds belong to their creators. Model facts and scores are vendor claims with links.
           </p>
         </div>

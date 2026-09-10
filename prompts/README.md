@@ -1,6 +1,6 @@
-# Prompts - 2,520 copyable GPT-6 Astra prompts
+# Prompts - 3,360 copyable GPT-6 Astra prompts
 
-> 28 categories × 90 prompts. All unique (SHA-256 verified). Original curation for Astra (Sept 2026), not scraped.
+> 28 categories × 120 prompts. All unique (SHA-256 verified). Original curation for Astra (Sept 2026), not scraped.
 > Interactive carousel: [`../docs/carousel.html`](../docs/carousel.html) · Machine index: [`prompts_index.json`](prompts_index.json)
 
 ## Jump

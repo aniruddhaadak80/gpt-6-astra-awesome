@@ -3,7 +3,7 @@
 ## Settings → About → Description (160 chars shown, full allowed)
 
 ```text
-🌌 GPT-6 Astra Awesome Hub - 2,520+ copy-paste prompts, carousel navigator, real community builds index, API quickstarts & safety notes (Sept 2026 launch).
+🌌 GPT-6 Astra Awesome Hub - 3,360+ copy-paste prompts, carousel navigator, real community builds index, API quickstarts & safety notes (Sept 2026 launch).
 ```
 
 ## Settings → About → Website
@@ -24,7 +24,7 @@ CLI:
 
 ```bash
 gh repo edit aniruddhaadak80/gpt-6-astra-awesome \
- --description "🌌 GPT-6 Astra Awesome Hub - 2,520+ copy-paste prompts, carousel navigator, real community builds index, API quickstarts & safety notes (Sept 2026 launch)." \
+ --description "🌌 GPT-6 Astra Awesome Hub - 3,360+ copy-paste prompts, carousel navigator, real community builds index, API quickstarts & safety notes (Sept 2026 launch)." \
  --add-topic gpt-6-astra --add-topic openai --add-topic prompt-engineering \
  --add-topic ai-agents --add-topic computer-use --add-topic llm-prompts \
  --add-topic awesome-list --add-topic github-copilot --add-topic codex \
@@ -35,4 +35,4 @@ gh repo edit aniruddhaadak80/gpt-6-astra-awesome \
 
 ## Social preview text
 
-`2,520 Astra-tuned prompts. Anything→anything carousel. Real Sept 2026 builds, honestly sourced. Defensive-only. MIT.`
+`3,360 Astra-tuned prompts. Anything→anything carousel. Real Sept 2026 builds, honestly sourced. Defensive-only. MIT.`

@@ -1,4 +1,4 @@
-# 🌐 Browser Research & Deep Dives - 90 copyable GPT-6 Astra prompts
+# 🌐 Browser Research & Deep Dives - 120 copyable GPT-6 Astra prompts
 
 > Multi-site research, comparisons, citations, and monitoring with source hygiene.
 
@@ -1676,5 +1676,572 @@ conflicting file if you must pause.
 Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
 assumptions and what you did not verify.
 Variant focus 90.
+```
+</details>
+
+<details>
+<summary><code>browser-research-091</code> - compare five tools on pricing, limits, and API quality with sources (click to expand)</summary>
+
+```text
+Act as a senior research analyst.
+Compare five tools on pricing, limits, and API quality with sources for a CTO decision.
+The intended result is a cited briefing with a confidence column.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 91.
+```
+</details>
+
+<details>
+<summary><code>browser-research-092</code> - build a reading list with difficulty tiers and prerequisites (click to expand)</summary>
+
+```text
+Act as an expert OSINT researcher.
+Build a reading list with difficulty tiers and prerequisites for an investor memo.
+The intended result is a CSV of sources with title, URL, date, and quote.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 92.
+```
+</details>
+
+<details>
+<summary><code>browser-research-093</code> - create a timeline of incidents with root causes and fixes (click to expand)</summary>
+
+```text
+Act as a principal market analyst.
+Create a timeline of incidents with root causes and fixes for a classroom.
+The intended result is a decision memo ending in a clear recommendation.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Use tools where they help; state what evidence you checked before acting.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 93.
+```
+</details>
+
+<details>
+<summary><code>browser-research-094</code> - verify a viral claim against primary evidence and rate confidence (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Verify a viral claim against primary evidence and rate confidence for a startup pitch.
+The intended result is an annotated link list with one-line verdicts.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 94.
+```
+</details>
+
+<details>
+<summary><code>browser-research-095</code> - summarize academic papers into decision-ready memos (click to expand)</summary>
+
+```text
+Act as an expert fact-checker.
+Summarize academic papers into decision-ready memos for a legal review.
+The intended result is a timeline with sources per event.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Keep a searchable working note so the task survives context compaction.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 95.
+```
+</details>
+
+<details>
+<summary><code>browser-research-096</code> - collect real user complaints about a product from forums with quotes (click to expand)</summary>
+
+```text
+Act as a senior competitive-intelligence analyst.
+Collect real user complaints about a product from forums with quotes for a product team.
+The intended result is a comparison table with winner per criterion.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Compare against the provided reference and fix the largest gaps first.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 96.
+```
+</details>
+
+<details>
+<summary><code>browser-research-097</code> - build a glossary from authoritative definitions with sources (click to expand)</summary>
+
+```text
+Act as a senior research analyst.
+Build a glossary from authoritative definitions with sources for a CTO decision.
+The intended result is a cited briefing with a confidence column.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 97.
+```
+</details>
+
+<details>
+<summary><code>browser-research-098</code> - map regulatory requirements across three regions with official links (click to expand)</summary>
+
+```text
+Act as an expert OSINT researcher.
+Map regulatory requirements across three regions with official links for an investor memo.
+The intended result is a CSV of sources with title, URL, date, and quote.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 98.
+```
+</details>
+
+<details>
+<summary><code>browser-research-099</code> - find three independent confirmations for each key fact (click to expand)</summary>
+
+```text
+Act as a principal market analyst.
+Find three independent confirmations for each key fact for a classroom.
+The intended result is a decision memo ending in a clear recommendation.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Use tools where they help; state what evidence you checked before acting.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 99.
+```
+</details>
+
+<details>
+<summary><code>browser-research-100</code> - summarize ten long articles into a cited briefing with disagreements fla (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Summarize ten long articles into a cited briefing with disagreements flagged for a startup pitch.
+The intended result is an annotated link list with one-line verdicts.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 100.
+```
+</details>
+
+<details>
+<summary><code>browser-research-101</code> - benchmark framework docs for a migration decision (click to expand)</summary>
+
+```text
+Act as an expert fact-checker.
+Benchmark framework docs for a migration decision for a legal review.
+The intended result is a timeline with sources per event.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Keep a searchable working note so the task survives context compaction.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 101.
+```
+</details>
+
+<details>
+<summary><code>browser-research-102</code> - build a vendor shortlist with scored criteria and disqualifiers (click to expand)</summary>
+
+```text
+Act as a senior competitive-intelligence analyst.
+Build a vendor shortlist with scored criteria and disqualifiers for a product team.
+The intended result is a comparison table with winner per criterion.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Compare against the provided reference and fix the largest gaps first.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 102.
+```
+</details>
+
+<details>
+<summary><code>browser-research-103</code> - extract dataset licenses and use-limits into a compliance table (click to expand)</summary>
+
+```text
+Act as a senior research analyst.
+Extract dataset licenses and use-limits into a compliance table for a CTO decision.
+The intended result is a cited briefing with a confidence column.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 103.
+```
+</details>
+
+<details>
+<summary><code>browser-research-104</code> - trace the launch timeline of a model from primary sources only (click to expand)</summary>
+
+```text
+Act as an expert OSINT researcher.
+Trace the launch timeline of a model from primary sources only for an investor memo.
+The intended result is a CSV of sources with title, URL, date, and quote.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 104.
+```
+</details>
+
+<details>
+<summary><code>browser-research-105</code> - monitor three competitor changelogs and summarize deltas weekly (click to expand)</summary>
+
+```text
+Act as a principal market analyst.
+Monitor three competitor changelogs and summarize deltas weekly for a classroom.
+The intended result is a decision memo ending in a clear recommendation.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Use tools where they help; state what evidence you checked before acting.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 105.
+```
+</details>
+
+<details>
+<summary><code>browser-research-106</code> - compare five tools on pricing, limits, and API quality with sources (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Compare five tools on pricing, limits, and API quality with sources for a startup pitch.
+The intended result is an annotated link list with one-line verdicts.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 106.
+```
+</details>
+
+<details>
+<summary><code>browser-research-107</code> - build a reading list with difficulty tiers and prerequisites (click to expand)</summary>
+
+```text
+Act as an expert fact-checker.
+Build a reading list with difficulty tiers and prerequisites for a legal review.
+The intended result is a timeline with sources per event.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Keep a searchable working note so the task survives context compaction.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 107.
+```
+</details>
+
+<details>
+<summary><code>browser-research-108</code> - create a timeline of incidents with root causes and fixes (click to expand)</summary>
+
+```text
+Act as a senior competitive-intelligence analyst.
+Create a timeline of incidents with root causes and fixes for a product team.
+The intended result is a comparison table with winner per criterion.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Compare against the provided reference and fix the largest gaps first.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 108.
+```
+</details>
+
+<details>
+<summary><code>browser-research-109</code> - verify a viral claim against primary evidence and rate confidence (click to expand)</summary>
+
+```text
+Act as a senior research analyst.
+Verify a viral claim against primary evidence and rate confidence for a CTO decision.
+The intended result is a cited briefing with a confidence column.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 109.
+```
+</details>
+
+<details>
+<summary><code>browser-research-110</code> - summarize academic papers into decision-ready memos (click to expand)</summary>
+
+```text
+Act as an expert OSINT researcher.
+Summarize academic papers into decision-ready memos for an investor memo.
+The intended result is a CSV of sources with title, URL, date, and quote.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 110.
+```
+</details>
+
+<details>
+<summary><code>browser-research-111</code> - collect real user complaints about a product from forums with quotes (click to expand)</summary>
+
+```text
+Act as a principal market analyst.
+Collect real user complaints about a product from forums with quotes for a classroom.
+The intended result is a decision memo ending in a clear recommendation.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Use tools where they help; state what evidence you checked before acting.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 111.
+```
+</details>
+
+<details>
+<summary><code>browser-research-112</code> - build a glossary from authoritative definitions with sources (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Build a glossary from authoritative definitions with sources for a startup pitch.
+The intended result is an annotated link list with one-line verdicts.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 112.
+```
+</details>
+
+<details>
+<summary><code>browser-research-113</code> - map regulatory requirements across three regions with official links (click to expand)</summary>
+
+```text
+Act as an expert fact-checker.
+Map regulatory requirements across three regions with official links for a legal review.
+The intended result is a timeline with sources per event.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Keep a searchable working note so the task survives context compaction.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 113.
+```
+</details>
+
+<details>
+<summary><code>browser-research-114</code> - find three independent confirmations for each key fact (click to expand)</summary>
+
+```text
+Act as a senior competitive-intelligence analyst.
+Find three independent confirmations for each key fact for a product team.
+The intended result is a comparison table with winner per criterion.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Compare against the provided reference and fix the largest gaps first.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 114.
+```
+</details>
+
+<details>
+<summary><code>browser-research-115</code> - summarize ten long articles into a cited briefing with disagreements fla (click to expand)</summary>
+
+```text
+Act as a senior research analyst.
+Summarize ten long articles into a cited briefing with disagreements flagged for a CTO decision.
+The intended result is a cited briefing with a confidence column.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 115.
+```
+</details>
+
+<details>
+<summary><code>browser-research-116</code> - benchmark framework docs for a migration decision (click to expand)</summary>
+
+```text
+Act as an expert OSINT researcher.
+Benchmark framework docs for a migration decision for an investor memo.
+The intended result is a CSV of sources with title, URL, date, and quote.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 116.
+```
+</details>
+
+<details>
+<summary><code>browser-research-117</code> - build a vendor shortlist with scored criteria and disqualifiers (click to expand)</summary>
+
+```text
+Act as a principal market analyst.
+Build a vendor shortlist with scored criteria and disqualifiers for a classroom.
+The intended result is a decision memo ending in a clear recommendation.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Use tools where they help; state what evidence you checked before acting.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 117.
+```
+</details>
+
+<details>
+<summary><code>browser-research-118</code> - extract dataset licenses and use-limits into a compliance table (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Extract dataset licenses and use-limits into a compliance table for a startup pitch.
+The intended result is an annotated link list with one-line verdicts.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 118.
+```
+</details>
+
+<details>
+<summary><code>browser-research-119</code> - trace the launch timeline of a model from primary sources only (click to expand)</summary>
+
+```text
+Act as an expert fact-checker.
+Trace the launch timeline of a model from primary sources only for a legal review.
+The intended result is a timeline with sources per event.
+Requirements: cite every non-obvious claim with a link; mark confidence high/medium/low; prefer
+primary sources; label secondary inference explicitly.
+Keep a searchable working note so the task survives context compaction.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 119.
+```
+</details>
+
+<details>
+<summary><code>browser-research-120</code> - monitor three competitor changelogs and summarize deltas weekly (click to expand)</summary>
+
+```text
+Act as a senior competitive-intelligence analyst.
+Monitor three competitor changelogs and summarize deltas weekly for a product team.
+The intended result is a comparison table with winner per criterion.
+Requirements: exclude paywalled speculation unless corroborated; record access dates for volatile
+pages.
+Compare against the provided reference and fix the largest gaps first.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 120.
 ```
 </details>

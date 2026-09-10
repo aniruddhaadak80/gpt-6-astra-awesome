@@ -1,4 +1,4 @@
-# 🎮 Game Dev & Playable Prototypes - 90 copyable GPT-6 Astra prompts
+# 🎮 Game Dev & Playable Prototypes - 120 copyable GPT-6 Astra prompts
 
 > Browser games, Godot/Unity prototypes, playtest-fix loops like the viral Astra builds.
 
@@ -1676,5 +1676,572 @@ conflicting file if you must pause.
 Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
 assumptions and what you did not verify.
 Variant focus 90.
+```
+</details>
+
+<details>
+<summary><code>game-dev-091</code> - design a Fall Guys-style obstacle loop with elimination (click to expand)</summary>
+
+```text
+Act as a senior game designer.
+Design a Fall Guys-style obstacle loop with elimination for a web build.
+The intended result is a game design one-pager plus build steps.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 91.
+```
+</details>
+
+<details>
+<summary><code>game-dev-092</code> - design a 10v10 shooter map with spawns and lanes (click to expand)</summary>
+
+```text
+Act as an expert gameplay programmer.
+Design a 10v10 shooter map with spawns and lanes for a streamer demo.
+The intended result is a polish backlog ordered by fun impact.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 92.
+```
+</details>
+
+<details>
+<summary><code>game-dev-093</code> - build a tutorial, pause, and win-state shell for any prototype (click to expand)</summary>
+
+```text
+Act as a senior systems designer.
+Build a tutorial, pause, and win-state shell for any prototype for a classroom.
+The intended result is a level layout description.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Use tools where they help; state what evidence you checked before acting.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 93.
+```
+</details>
+
+<details>
+<summary><code>game-dev-094</code> - prototype a kart racer grey-box with drift tuning (click to expand)</summary>
+
+```text
+Act as an indie game producer.
+Prototype a kart racer grey-box with drift tuning for mobile browsers.
+The intended result is a cut/keep scope list.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 94.
+```
+</details>
+
+<details>
+<summary><code>game-dev-095</code> - design a horror-vignette with sound-cue scares (click to expand)</summary>
+
+```text
+Act as a senior level designer.
+Design a horror-vignette with sound-cue scares for kids ages 10+.
+The intended result is a playtest script with pass/fail criteria.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Keep a searchable working note so the task survives context compaction.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 95.
+```
+</details>
+
+<details>
+<summary><code>game-dev-096</code> - build a Sim City-lite zoning and happiness loop (click to expand)</summary>
+
+```text
+Act as an expert playtest lead.
+Build a Sim City-lite zoning and happiness loop for a game jam.
+The intended result is a mechanics table with tuning numbers.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Compare against the provided reference and fix the largest gaps first.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 96.
+```
+</details>
+
+<details>
+<summary><code>game-dev-097</code> - prototype a puzzle-platformer with three mechanics (click to expand)</summary>
+
+```text
+Act as a senior game designer.
+Prototype a puzzle-platformer with three mechanics for a web build.
+The intended result is a game design one-pager plus build steps.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 97.
+```
+</details>
+
+<details>
+<summary><code>game-dev-098</code> - create a roguelike deck-builder about AI founders (click to expand)</summary>
+
+```text
+Act as an expert gameplay programmer.
+Create a roguelike deck-builder about AI founders for a streamer demo.
+The intended result is a polish backlog ordered by fun impact.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 98.
+```
+</details>
+
+<details>
+<summary><code>game-dev-099</code> - build a survival-coop agent sandbox with incentives (click to expand)</summary>
+
+```text
+Act as a senior systems designer.
+Build a survival-coop agent sandbox with incentives for a classroom.
+The intended result is a level layout description.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Use tools where they help; state what evidence you checked before acting.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 99.
+```
+</details>
+
+<details>
+<summary><code>game-dev-100</code> - design a StarCraft-style RTS skirmish with two factions (click to expand)</summary>
+
+```text
+Act as an indie game producer.
+Design a StarCraft-style RTS skirmish with two factions for mobile browsers.
+The intended result is a cut/keep scope list.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 100.
+```
+</details>
+
+<details>
+<summary><code>game-dev-101</code> - design a GTA-style driving sandbox with missions (click to expand)</summary>
+
+```text
+Act as a senior level designer.
+Design a GTA-style driving sandbox with missions for kids ages 10+.
+The intended result is a playtest script with pass/fail criteria.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Keep a searchable working note so the task survives context compaction.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 101.
+```
+</details>
+
+<details>
+<summary><code>game-dev-102</code> - build a train-top FPS encounter with cover logic (click to expand)</summary>
+
+```text
+Act as an expert playtest lead.
+Build a train-top FPS encounter with cover logic for a game jam.
+The intended result is a mechanics table with tuning numbers.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Compare against the provided reference and fix the largest gaps first.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 102.
+```
+</details>
+
+<details>
+<summary><code>game-dev-103</code> - create a Red Alert-style RTS harvest-and-attack loop (click to expand)</summary>
+
+```text
+Act as a senior game designer.
+Create a Red Alert-style RTS harvest-and-attack loop for a web build.
+The intended result is a game design one-pager plus build steps.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 103.
+```
+</details>
+
+<details>
+<summary><code>game-dev-104</code> - prototype a Star Fox-style rail shooter level (click to expand)</summary>
+
+```text
+Act as an expert gameplay programmer.
+Prototype a Star Fox-style rail shooter level for a streamer demo.
+The intended result is a polish backlog ordered by fun impact.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 104.
+```
+</details>
+
+<details>
+<summary><code>game-dev-105</code> - build a Minecraft-style voxel sandbox starter (click to expand)</summary>
+
+```text
+Act as a senior systems designer.
+Build a Minecraft-style voxel sandbox starter for a classroom.
+The intended result is a level layout description.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Use tools where they help; state what evidence you checked before acting.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 105.
+```
+</details>
+
+<details>
+<summary><code>game-dev-106</code> - design a Fall Guys-style obstacle loop with elimination (click to expand)</summary>
+
+```text
+Act as an indie game producer.
+Design a Fall Guys-style obstacle loop with elimination for mobile browsers.
+The intended result is a cut/keep scope list.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 106.
+```
+</details>
+
+<details>
+<summary><code>game-dev-107</code> - design a 10v10 shooter map with spawns and lanes (click to expand)</summary>
+
+```text
+Act as a senior level designer.
+Design a 10v10 shooter map with spawns and lanes for kids ages 10+.
+The intended result is a playtest script with pass/fail criteria.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Keep a searchable working note so the task survives context compaction.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 107.
+```
+</details>
+
+<details>
+<summary><code>game-dev-108</code> - build a tutorial, pause, and win-state shell for any prototype (click to expand)</summary>
+
+```text
+Act as an expert playtest lead.
+Build a tutorial, pause, and win-state shell for any prototype for a game jam.
+The intended result is a mechanics table with tuning numbers.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Compare against the provided reference and fix the largest gaps first.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 108.
+```
+</details>
+
+<details>
+<summary><code>game-dev-109</code> - prototype a kart racer grey-box with drift tuning (click to expand)</summary>
+
+```text
+Act as a senior game designer.
+Prototype a kart racer grey-box with drift tuning for a web build.
+The intended result is a game design one-pager plus build steps.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 109.
+```
+</details>
+
+<details>
+<summary><code>game-dev-110</code> - design a horror-vignette with sound-cue scares (click to expand)</summary>
+
+```text
+Act as an expert gameplay programmer.
+Design a horror-vignette with sound-cue scares for a streamer demo.
+The intended result is a polish backlog ordered by fun impact.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 110.
+```
+</details>
+
+<details>
+<summary><code>game-dev-111</code> - build a Sim City-lite zoning and happiness loop (click to expand)</summary>
+
+```text
+Act as a senior systems designer.
+Build a Sim City-lite zoning and happiness loop for a classroom.
+The intended result is a level layout description.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Use tools where they help; state what evidence you checked before acting.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 111.
+```
+</details>
+
+<details>
+<summary><code>game-dev-112</code> - prototype a puzzle-platformer with three mechanics (click to expand)</summary>
+
+```text
+Act as an indie game producer.
+Prototype a puzzle-platformer with three mechanics for mobile browsers.
+The intended result is a cut/keep scope list.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 112.
+```
+</details>
+
+<details>
+<summary><code>game-dev-113</code> - create a roguelike deck-builder about AI founders (click to expand)</summary>
+
+```text
+Act as a senior level designer.
+Create a roguelike deck-builder about AI founders for kids ages 10+.
+The intended result is a playtest script with pass/fail criteria.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Keep a searchable working note so the task survives context compaction.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 113.
+```
+</details>
+
+<details>
+<summary><code>game-dev-114</code> - build a survival-coop agent sandbox with incentives (click to expand)</summary>
+
+```text
+Act as an expert playtest lead.
+Build a survival-coop agent sandbox with incentives for a game jam.
+The intended result is a mechanics table with tuning numbers.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Compare against the provided reference and fix the largest gaps first.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 114.
+```
+</details>
+
+<details>
+<summary><code>game-dev-115</code> - design a StarCraft-style RTS skirmish with two factions (click to expand)</summary>
+
+```text
+Act as a senior game designer.
+Design a StarCraft-style RTS skirmish with two factions for a web build.
+The intended result is a game design one-pager plus build steps.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 115.
+```
+</details>
+
+<details>
+<summary><code>game-dev-116</code> - design a GTA-style driving sandbox with missions (click to expand)</summary>
+
+```text
+Act as an expert gameplay programmer.
+Design a GTA-style driving sandbox with missions for a streamer demo.
+The intended result is a polish backlog ordered by fun impact.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 116.
+```
+</details>
+
+<details>
+<summary><code>game-dev-117</code> - build a train-top FPS encounter with cover logic (click to expand)</summary>
+
+```text
+Act as a senior systems designer.
+Build a train-top FPS encounter with cover logic for a classroom.
+The intended result is a level layout description.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Use tools where they help; state what evidence you checked before acting.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 117.
+```
+</details>
+
+<details>
+<summary><code>game-dev-118</code> - create a Red Alert-style RTS harvest-and-attack loop (click to expand)</summary>
+
+```text
+Act as an indie game producer.
+Create a Red Alert-style RTS harvest-and-attack loop for mobile browsers.
+The intended result is a cut/keep scope list.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 118.
+```
+</details>
+
+<details>
+<summary><code>game-dev-119</code> - prototype a Star Fox-style rail shooter level (click to expand)</summary>
+
+```text
+Act as a senior level designer.
+Prototype a Star Fox-style rail shooter level for kids ages 10+.
+The intended result is a playtest script with pass/fail criteria.
+Requirements: playable first: controls, goal, fail/win states before polish; no copied characters,
+music, or brand assets.
+Keep a searchable working note so the task survives context compaction.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 119.
+```
+</details>
+
+<details>
+<summary><code>game-dev-120</code> - build a Minecraft-style voxel sandbox starter (click to expand)</summary>
+
+```text
+Act as an expert playtest lead.
+Build a Minecraft-style voxel sandbox starter for a game jam.
+The intended result is a mechanics table with tuning numbers.
+Requirements: design for keyboard plus touch where feasible; include pause, restart, mute, and
+tutorial.
+Compare against the provided reference and fix the largest gaps first.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 120.
 ```
 </details>

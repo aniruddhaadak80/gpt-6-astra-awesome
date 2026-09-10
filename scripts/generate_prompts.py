@@ -1,4 +1,4 @@
-"""Generate 2,520 unique GPT-6 Astra prompts (28 categories x 90).
+"""Generate 3,360 unique GPT-6 Astra prompts (28 categories x 120).
 Each prompt follows Astra best practices: goal, inputs, constraints,
 output format, definition of done, autonomy + verification scope.
 Run: py scripts/generate_prompts.py
@@ -224,7 +224,7 @@ CATEGORIES = [
          outputs=["a ready-to-run plan with checklist", "drafts (unsent) plus a send list", "an itinerary with links and backups", "a tracker with owners/dates", "a budget table", "a 15-minute review template"]),
 ]
 
-PER_CATEGORY = 90
+PER_CATEGORY = 120
 
 def build_prompt(cat, i):
     n_roles = len(cat["roles"]); n_tasks = len(cat["tasks"])
@@ -298,7 +298,7 @@ def main():
     for cat in CATEGORIES:
         rows = [r for r in all_rows if r["category"] == cat["slug"]]
         md = []
-        md.append(f"# {cat['emoji']} {cat['title']} - 90 copyable GPT-6 Astra prompts\n")
+        md.append(f"# {cat['emoji']} {cat['title']} - 120 copyable GPT-6 Astra prompts\n")
         md.append(f"> {cat['desc']}\n")
         md.append("> Safety: defensive / authorized-scope use only. Stop before destructive, irreversible, sending, purchasing, deleting, or permission-changing steps without approval.\n")
         md.append(f"**Jump:** [Index](../README.md#category-carousel) · [Prev](#) · [Next](#) · [Search all](prompts_index.json) · [Interactive carousel](../docs/carousel.html)\n")

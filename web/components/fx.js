@@ -14,7 +14,7 @@ export function Loader({ ready }) {
           <span />
         </div>
         <div style={{ marginTop: 12 }}>
-          <small>Loading 2520 prompts</small>
+          <small>Loading 3360 prompts</small>
         </div>
       </div>
     </div>
@@ -152,4 +152,21 @@ export function CountUp({ to, duration }) {
     };
   }, [to, duration]);
   return <span ref={ref}>{val.toLocaleString("en-US")}</span>;
+}
+
+export function ScrollProgress() {
+  const ref = useRef(null);
+  useEffect(() => {
+    const el = ref.current;
+    if (el === null) return;
+    const onScroll = () => {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const p = max <= 0 ? 0 : Math.min(1, window.scrollY / max);
+      el.style.transform = "scaleX(" + p.toFixed(4) + ")";
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+  return <div ref={ref} className="scroll-progress" aria-hidden="true" />;
 }

@@ -540,6 +540,186 @@
   "task": "build a webhook receiver with signature verification and replay protection"
  },
  {
+  "id": "agentic-coding-091",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "build a REST endpoint with validation, error handling, and OpenAPI docs"
+ },
+ {
+  "id": "agentic-coding-092",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "harden an auth flow against OWASP Top 10 issues and document the threat model"
+ },
+ {
+  "id": "agentic-coding-093",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "create a feature-flag system with targeting rules and audit log"
+ },
+ {
+  "id": "agentic-coding-094",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "create a CLI tool with config files, help text, and shell completions"
+ },
+ {
+  "id": "agentic-coding-095",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "build a file-upload pipeline with virus-scan hooks and size limits"
+ },
+ {
+  "id": "agentic-coding-096",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "optimize a slow database query path and prove the speedup with benchmarks"
+ },
+ {
+  "id": "agentic-coding-097",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "write a migration script with dry-run, rollback, and data validation"
+ },
+ {
+  "id": "agentic-coding-098",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "add role-based access control to an existing API with tests"
+ },
+ {
+  "id": "agentic-coding-099",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "add structured logging, tracing, and health checks to a service"
+ },
+ {
+  "id": "agentic-coding-100",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "implement a background job queue with retries, idempotency, and observability"
+ },
+ {
+  "id": "agentic-coding-101",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "implement pagination, filtering, and sorting for a list API"
+ },
+ {
+  "id": "agentic-coding-102",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "migrate a callback-based flow to async/await with full type safety"
+ },
+ {
+  "id": "agentic-coding-103",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "convert a monolith handler into testable services with dependency injection"
+ },
+ {
+  "id": "agentic-coding-104",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "refactor a tangled module into clean layers without changing behavior"
+ },
+ {
+  "id": "agentic-coding-105",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "build a webhook receiver with signature verification and replay protection"
+ },
+ {
+  "id": "agentic-coding-106",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "build a REST endpoint with validation, error handling, and OpenAPI docs"
+ },
+ {
+  "id": "agentic-coding-107",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "harden an auth flow against OWASP Top 10 issues and document the threat model"
+ },
+ {
+  "id": "agentic-coding-108",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "create a feature-flag system with targeting rules and audit log"
+ },
+ {
+  "id": "agentic-coding-109",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "create a CLI tool with config files, help text, and shell completions"
+ },
+ {
+  "id": "agentic-coding-110",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "build a file-upload pipeline with virus-scan hooks and size limits"
+ },
+ {
+  "id": "agentic-coding-111",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "optimize a slow database query path and prove the speedup with benchmarks"
+ },
+ {
+  "id": "agentic-coding-112",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "write a migration script with dry-run, rollback, and data validation"
+ },
+ {
+  "id": "agentic-coding-113",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "add role-based access control to an existing API with tests"
+ },
+ {
+  "id": "agentic-coding-114",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "add structured logging, tracing, and health checks to a service"
+ },
+ {
+  "id": "agentic-coding-115",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "implement a background job queue with retries, idempotency, and observability"
+ },
+ {
+  "id": "agentic-coding-116",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "implement pagination, filtering, and sorting for a list API"
+ },
+ {
+  "id": "agentic-coding-117",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "migrate a callback-based flow to async/await with full type safety"
+ },
+ {
+  "id": "agentic-coding-118",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "convert a monolith handler into testable services with dependency injection"
+ },
+ {
+  "id": "agentic-coding-119",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "refactor a tangled module into clean layers without changing behavior"
+ },
+ {
+  "id": "agentic-coding-120",
+  "category": "01-agentic-coding",
+  "title": "Agentic Coding",
+  "task": "build a webhook receiver with signature verification and replay protection"
+ },
+ {
   "id": "computer-use-001",
   "category": "02-computer-use",
   "title": "Computer Use & Desktop Automation",
@@ -1075,6 +1255,186 @@
  },
  {
   "id": "computer-use-090",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "transcribe meeting notes from audio into structured action items"
+ },
+ {
+  "id": "computer-use-091",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "fill a multi-page web form from a spreadsheet and confirm submission"
+ },
+ {
+  "id": "computer-use-092",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "audit file permissions in a project folder and produce a fix plan"
+ },
+ {
+  "id": "computer-use-093",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "clean up duplicate photos while preserving originals in an archive"
+ },
+ {
+  "id": "computer-use-094",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "prepare a slide deck from a folder of screenshots and notes"
+ },
+ {
+  "id": "computer-use-095",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "document a reproduceable bug with steps, video timestamps, and logs"
+ },
+ {
+  "id": "computer-use-096",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "update CRM records from an inbox export without duplicating contacts"
+ },
+ {
+  "id": "computer-use-097",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "verify backup integrity by restoring one sample file and checksumming"
+ },
+ {
+  "id": "computer-use-098",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "run frontend QA on a staging site across three viewports and log defects"
+ },
+ {
+  "id": "computer-use-099",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "migrate bookmarks and settings to a new browser profile safely"
+ },
+ {
+  "id": "computer-use-100",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "install a dev tool, verify the install, and capture screenshots of each step"
+ },
+ {
+  "id": "computer-use-101",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "test a checkout flow with valid, empty, and invalid inputs"
+ },
+ {
+  "id": "computer-use-102",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "organize a downloads folder into a dated archive with a manifest"
+ },
+ {
+  "id": "computer-use-103",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "build a weekly report PDF from three source documents"
+ },
+ {
+  "id": "computer-use-104",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "reconcile calendar events across two accounts and resolve conflicts"
+ },
+ {
+  "id": "computer-use-105",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "transcribe meeting notes from audio into structured action items"
+ },
+ {
+  "id": "computer-use-106",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "fill a multi-page web form from a spreadsheet and confirm submission"
+ },
+ {
+  "id": "computer-use-107",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "audit file permissions in a project folder and produce a fix plan"
+ },
+ {
+  "id": "computer-use-108",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "clean up duplicate photos while preserving originals in an archive"
+ },
+ {
+  "id": "computer-use-109",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "prepare a slide deck from a folder of screenshots and notes"
+ },
+ {
+  "id": "computer-use-110",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "document a reproduceable bug with steps, video timestamps, and logs"
+ },
+ {
+  "id": "computer-use-111",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "update CRM records from an inbox export without duplicating contacts"
+ },
+ {
+  "id": "computer-use-112",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "verify backup integrity by restoring one sample file and checksumming"
+ },
+ {
+  "id": "computer-use-113",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "run frontend QA on a staging site across three viewports and log defects"
+ },
+ {
+  "id": "computer-use-114",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "migrate bookmarks and settings to a new browser profile safely"
+ },
+ {
+  "id": "computer-use-115",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "install a dev tool, verify the install, and capture screenshots of each step"
+ },
+ {
+  "id": "computer-use-116",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "test a checkout flow with valid, empty, and invalid inputs"
+ },
+ {
+  "id": "computer-use-117",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "organize a downloads folder into a dated archive with a manifest"
+ },
+ {
+  "id": "computer-use-118",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "build a weekly report PDF from three source documents"
+ },
+ {
+  "id": "computer-use-119",
+  "category": "02-computer-use",
+  "title": "Computer Use & Desktop Automation",
+  "task": "reconcile calendar events across two accounts and resolve conflicts"
+ },
+ {
+  "id": "computer-use-120",
   "category": "02-computer-use",
   "title": "Computer Use & Desktop Automation",
   "task": "transcribe meeting notes from audio into structured action items"
@@ -1620,6 +1980,186 @@
   "task": "monitor three competitor changelogs and summarize deltas weekly"
  },
  {
+  "id": "browser-research-091",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "compare five tools on pricing, limits, and API quality with sources"
+ },
+ {
+  "id": "browser-research-092",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "build a reading list with difficulty tiers and prerequisites"
+ },
+ {
+  "id": "browser-research-093",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "create a timeline of incidents with root causes and fixes"
+ },
+ {
+  "id": "browser-research-094",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "verify a viral claim against primary evidence and rate confidence"
+ },
+ {
+  "id": "browser-research-095",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "summarize academic papers into decision-ready memos"
+ },
+ {
+  "id": "browser-research-096",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "collect real user complaints about a product from forums with quotes"
+ },
+ {
+  "id": "browser-research-097",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "build a glossary from authoritative definitions with sources"
+ },
+ {
+  "id": "browser-research-098",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "map regulatory requirements across three regions with official links"
+ },
+ {
+  "id": "browser-research-099",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "find three independent confirmations for each key fact"
+ },
+ {
+  "id": "browser-research-100",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "summarize ten long articles into a cited briefing with disagreements flagged"
+ },
+ {
+  "id": "browser-research-101",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "benchmark framework docs for a migration decision"
+ },
+ {
+  "id": "browser-research-102",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "build a vendor shortlist with scored criteria and disqualifiers"
+ },
+ {
+  "id": "browser-research-103",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "extract dataset licenses and use-limits into a compliance table"
+ },
+ {
+  "id": "browser-research-104",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "trace the launch timeline of a model from primary sources only"
+ },
+ {
+  "id": "browser-research-105",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "monitor three competitor changelogs and summarize deltas weekly"
+ },
+ {
+  "id": "browser-research-106",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "compare five tools on pricing, limits, and API quality with sources"
+ },
+ {
+  "id": "browser-research-107",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "build a reading list with difficulty tiers and prerequisites"
+ },
+ {
+  "id": "browser-research-108",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "create a timeline of incidents with root causes and fixes"
+ },
+ {
+  "id": "browser-research-109",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "verify a viral claim against primary evidence and rate confidence"
+ },
+ {
+  "id": "browser-research-110",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "summarize academic papers into decision-ready memos"
+ },
+ {
+  "id": "browser-research-111",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "collect real user complaints about a product from forums with quotes"
+ },
+ {
+  "id": "browser-research-112",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "build a glossary from authoritative definitions with sources"
+ },
+ {
+  "id": "browser-research-113",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "map regulatory requirements across three regions with official links"
+ },
+ {
+  "id": "browser-research-114",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "find three independent confirmations for each key fact"
+ },
+ {
+  "id": "browser-research-115",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "summarize ten long articles into a cited briefing with disagreements flagged"
+ },
+ {
+  "id": "browser-research-116",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "benchmark framework docs for a migration decision"
+ },
+ {
+  "id": "browser-research-117",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "build a vendor shortlist with scored criteria and disqualifiers"
+ },
+ {
+  "id": "browser-research-118",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "extract dataset licenses and use-limits into a compliance table"
+ },
+ {
+  "id": "browser-research-119",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "trace the launch timeline of a model from primary sources only"
+ },
+ {
+  "id": "browser-research-120",
+  "category": "03-browser-research",
+  "title": "Browser Research & Deep Dives",
+  "task": "monitor three competitor changelogs and summarize deltas weekly"
+ },
+ {
   "id": "professional-docs-001",
   "category": "04-professional-docs",
   "title": "Professional Docs & Decks",
@@ -2155,6 +2695,186 @@
  },
  {
   "id": "professional-docs-090",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "write release notes grouped by user impact"
+ },
+ {
+  "id": "professional-docs-091",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft a one-page project charter with scope, risks, and milestones"
+ },
+ {
+  "id": "professional-docs-092",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "create a client onboarding checklist with acceptance criteria"
+ },
+ {
+  "id": "professional-docs-093",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft a handover doc a new owner can run with"
+ },
+ {
+  "id": "professional-docs-094",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft a policy doc with examples and edge cases"
+ },
+ {
+  "id": "professional-docs-095",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "build a KPI dashboard spec with definitions and owners"
+ },
+ {
+  "id": "professional-docs-096",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "write a postmortem that is blameless and action-oriented"
+ },
+ {
+  "id": "professional-docs-097",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "write an escalation email that is firm but professional"
+ },
+ {
+  "id": "professional-docs-098",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "build a project plan with owners, dates, and dependencies"
+ },
+ {
+  "id": "professional-docs-099",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "create a decision log with options, trade-offs, and owner"
+ },
+ {
+  "id": "professional-docs-100",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft an RFP response outline mapped to each requirement"
+ },
+ {
+  "id": "professional-docs-101",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft a statement of work with deliverables and exclusions"
+ },
+ {
+  "id": "professional-docs-102",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "create a meeting agenda that forces decisions, not updates"
+ },
+ {
+  "id": "professional-docs-103",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "build a stakeholder update with risks and asks"
+ },
+ {
+  "id": "professional-docs-104",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "write a status report that executives can skim in 60 seconds"
+ },
+ {
+  "id": "professional-docs-105",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "write release notes grouped by user impact"
+ },
+ {
+  "id": "professional-docs-106",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft a one-page project charter with scope, risks, and milestones"
+ },
+ {
+  "id": "professional-docs-107",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "create a client onboarding checklist with acceptance criteria"
+ },
+ {
+  "id": "professional-docs-108",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft a handover doc a new owner can run with"
+ },
+ {
+  "id": "professional-docs-109",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft a policy doc with examples and edge cases"
+ },
+ {
+  "id": "professional-docs-110",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "build a KPI dashboard spec with definitions and owners"
+ },
+ {
+  "id": "professional-docs-111",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "write a postmortem that is blameless and action-oriented"
+ },
+ {
+  "id": "professional-docs-112",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "write an escalation email that is firm but professional"
+ },
+ {
+  "id": "professional-docs-113",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "build a project plan with owners, dates, and dependencies"
+ },
+ {
+  "id": "professional-docs-114",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "create a decision log with options, trade-offs, and owner"
+ },
+ {
+  "id": "professional-docs-115",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft an RFP response outline mapped to each requirement"
+ },
+ {
+  "id": "professional-docs-116",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "draft a statement of work with deliverables and exclusions"
+ },
+ {
+  "id": "professional-docs-117",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "create a meeting agenda that forces decisions, not updates"
+ },
+ {
+  "id": "professional-docs-118",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "build a stakeholder update with risks and asks"
+ },
+ {
+  "id": "professional-docs-119",
+  "category": "04-professional-docs",
+  "title": "Professional Docs & Decks",
+  "task": "write a status report that executives can skim in 60 seconds"
+ },
+ {
+  "id": "professional-docs-120",
   "category": "04-professional-docs",
   "title": "Professional Docs & Decks",
   "task": "write release notes grouped by user impact"
@@ -2700,6 +3420,186 @@
   "task": "build a churn-risk score from usage signals"
  },
  {
+  "id": "spreadsheets-data-091",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "reconcile two transaction exports and isolate mismatches"
+ },
+ {
+  "id": "spreadsheets-data-092",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "create a hiring pipeline funnel with conversion rates"
+ },
+ {
+  "id": "spreadsheets-data-093",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "design a data-entry template with validation rules"
+ },
+ {
+  "id": "spreadsheets-data-094",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build an inventory reorder sheet with lead-time math"
+ },
+ {
+  "id": "spreadsheets-data-095",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a marketing attribution sheet with UTM hygiene checks"
+ },
+ {
+  "id": "spreadsheets-data-096",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "design a commission model with caps and accelerators"
+ },
+ {
+  "id": "spreadsheets-data-097",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "create a loan amortization schedule with extra-payment scenarios"
+ },
+ {
+  "id": "spreadsheets-data-098",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "create a cohort retention table from raw events"
+ },
+ {
+  "id": "spreadsheets-data-099",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a capacity plan from velocity and leave data"
+ },
+ {
+  "id": "spreadsheets-data-100",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a budget tracker with variance alerts"
+ },
+ {
+  "id": "spreadsheets-data-101",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "reconcile invoices against POs and flag exceptions"
+ },
+ {
+  "id": "spreadsheets-data-102",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "clean a messy contact list: dedupe, normalize, validate"
+ },
+ {
+  "id": "spreadsheets-data-103",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "design a survey analysis sheet with significance flags"
+ },
+ {
+  "id": "spreadsheets-data-104",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a pricing calculator with tiers, discounts, and guardrails"
+ },
+ {
+  "id": "spreadsheets-data-105",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a churn-risk score from usage signals"
+ },
+ {
+  "id": "spreadsheets-data-106",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "reconcile two transaction exports and isolate mismatches"
+ },
+ {
+  "id": "spreadsheets-data-107",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "create a hiring pipeline funnel with conversion rates"
+ },
+ {
+  "id": "spreadsheets-data-108",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "design a data-entry template with validation rules"
+ },
+ {
+  "id": "spreadsheets-data-109",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build an inventory reorder sheet with lead-time math"
+ },
+ {
+  "id": "spreadsheets-data-110",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a marketing attribution sheet with UTM hygiene checks"
+ },
+ {
+  "id": "spreadsheets-data-111",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "design a commission model with caps and accelerators"
+ },
+ {
+  "id": "spreadsheets-data-112",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "create a loan amortization schedule with extra-payment scenarios"
+ },
+ {
+  "id": "spreadsheets-data-113",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "create a cohort retention table from raw events"
+ },
+ {
+  "id": "spreadsheets-data-114",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a capacity plan from velocity and leave data"
+ },
+ {
+  "id": "spreadsheets-data-115",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a budget tracker with variance alerts"
+ },
+ {
+  "id": "spreadsheets-data-116",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "reconcile invoices against POs and flag exceptions"
+ },
+ {
+  "id": "spreadsheets-data-117",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "clean a messy contact list: dedupe, normalize, validate"
+ },
+ {
+  "id": "spreadsheets-data-118",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "design a survey analysis sheet with significance flags"
+ },
+ {
+  "id": "spreadsheets-data-119",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a pricing calculator with tiers, discounts, and guardrails"
+ },
+ {
+  "id": "spreadsheets-data-120",
+  "category": "05-spreadsheets-data",
+  "title": "Spreadsheets & Data Wrangling",
+  "task": "build a churn-risk score from usage signals"
+ },
+ {
   "id": "science-research-001",
   "category": "06-science-research",
   "title": "Science & Lab Workflows",
@@ -3235,6 +4135,186 @@
  },
  {
   "id": "science-research-090",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "write a codebook for qualitative coding"
+ },
+ {
+  "id": "science-research-091",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "synthesize five papers into a gap analysis with citations"
+ },
+ {
+  "id": "science-research-092",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "design a survey instrument with validation steps"
+ },
+ {
+  "id": "science-research-093",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "summarize a conference track into actionable methods"
+ },
+ {
+  "id": "science-research-094",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "build a reagent inventory with storage and safety notes"
+ },
+ {
+  "id": "science-research-095",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "write a replication checklist for a published result"
+ },
+ {
+  "id": "science-research-096",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "draft a materials-and-methods section from lab notes"
+ },
+ {
+  "id": "science-research-097",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "design a blinded evaluation procedure"
+ },
+ {
+  "id": "science-research-098",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "create a figure plan: panels, stats, and captions"
+ },
+ {
+  "id": "science-research-099",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "build a calibration schedule for instruments"
+ },
+ {
+  "id": "science-research-100",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "write a data-analysis plan with pre-registered hypotheses"
+ },
+ {
+  "id": "science-research-101",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "draft an ethics-application summary with risk mitigations"
+ },
+ {
+  "id": "science-research-102",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "design an experiment with power analysis and randomization"
+ },
+ {
+  "id": "science-research-103",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "create a systematic-review inclusion/exclusion rubric"
+ },
+ {
+  "id": "science-research-104",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "draft a reproducible protocol with controls and failure modes"
+ },
+ {
+  "id": "science-research-105",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "write a codebook for qualitative coding"
+ },
+ {
+  "id": "science-research-106",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "synthesize five papers into a gap analysis with citations"
+ },
+ {
+  "id": "science-research-107",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "design a survey instrument with validation steps"
+ },
+ {
+  "id": "science-research-108",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "summarize a conference track into actionable methods"
+ },
+ {
+  "id": "science-research-109",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "build a reagent inventory with storage and safety notes"
+ },
+ {
+  "id": "science-research-110",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "write a replication checklist for a published result"
+ },
+ {
+  "id": "science-research-111",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "draft a materials-and-methods section from lab notes"
+ },
+ {
+  "id": "science-research-112",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "design a blinded evaluation procedure"
+ },
+ {
+  "id": "science-research-113",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "create a figure plan: panels, stats, and captions"
+ },
+ {
+  "id": "science-research-114",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "build a calibration schedule for instruments"
+ },
+ {
+  "id": "science-research-115",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "write a data-analysis plan with pre-registered hypotheses"
+ },
+ {
+  "id": "science-research-116",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "draft an ethics-application summary with risk mitigations"
+ },
+ {
+  "id": "science-research-117",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "design an experiment with power analysis and randomization"
+ },
+ {
+  "id": "science-research-118",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "create a systematic-review inclusion/exclusion rubric"
+ },
+ {
+  "id": "science-research-119",
+  "category": "06-science-research",
+  "title": "Science & Lab Workflows",
+  "task": "draft a reproducible protocol with controls and failure modes"
+ },
+ {
+  "id": "science-research-120",
   "category": "06-science-research",
   "title": "Science & Lab Workflows",
   "task": "write a codebook for qualitative coding"
@@ -3780,6 +4860,186 @@
   "task": "write a secure-defaults checklist for cloud storage and sharing"
  },
  {
+  "id": "defensive-security-091",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "triage suspicious login alerts into a prioritized queue with reasoning"
+ },
+ {
+  "id": "defensive-security-092",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "build a secrets-hygiene checklist for a codebase (rotation, vaulting)"
+ },
+ {
+  "id": "defensive-security-093",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "write a post-incident improvement backlog from a timeline"
+ },
+ {
+  "id": "defensive-security-094",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "draft an access-review workflow for joiners, movers, leavers"
+ },
+ {
+  "id": "defensive-security-095",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "design a security-awareness micro-lesson with a quiz"
+ },
+ {
+  "id": "defensive-security-096",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "create a backup-and-restore verification checklist"
+ },
+ {
+  "id": "defensive-security-097",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "draft an incident-communication template for customers"
+ },
+ {
+  "id": "defensive-security-098",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "review application logs for anomalies and propose alert thresholds"
+ },
+ {
+  "id": "defensive-security-099",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "build a least-privilege review plan for a team drive"
+ },
+ {
+  "id": "defensive-security-100",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "draft a phishing-triage playbook with containment steps"
+ },
+ {
+  "id": "defensive-security-101",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "create a vulnerability-disclosure intake template"
+ },
+ {
+  "id": "defensive-security-102",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "build a patch-prioritization plan from asset criticality and exposure"
+ },
+ {
+  "id": "defensive-security-103",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "draft a tabletop exercise scenario for ransomware recovery"
+ },
+ {
+  "id": "defensive-security-104",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "write detection hypotheses and Sigma-style logic descriptions for review"
+ },
+ {
+  "id": "defensive-security-105",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "write a secure-defaults checklist for cloud storage and sharing"
+ },
+ {
+  "id": "defensive-security-106",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "triage suspicious login alerts into a prioritized queue with reasoning"
+ },
+ {
+  "id": "defensive-security-107",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "build a secrets-hygiene checklist for a codebase (rotation, vaulting)"
+ },
+ {
+  "id": "defensive-security-108",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "write a post-incident improvement backlog from a timeline"
+ },
+ {
+  "id": "defensive-security-109",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "draft an access-review workflow for joiners, movers, leavers"
+ },
+ {
+  "id": "defensive-security-110",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "design a security-awareness micro-lesson with a quiz"
+ },
+ {
+  "id": "defensive-security-111",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "create a backup-and-restore verification checklist"
+ },
+ {
+  "id": "defensive-security-112",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "draft an incident-communication template for customers"
+ },
+ {
+  "id": "defensive-security-113",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "review application logs for anomalies and propose alert thresholds"
+ },
+ {
+  "id": "defensive-security-114",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "build a least-privilege review plan for a team drive"
+ },
+ {
+  "id": "defensive-security-115",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "draft a phishing-triage playbook with containment steps"
+ },
+ {
+  "id": "defensive-security-116",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "create a vulnerability-disclosure intake template"
+ },
+ {
+  "id": "defensive-security-117",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "build a patch-prioritization plan from asset criticality and exposure"
+ },
+ {
+  "id": "defensive-security-118",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "draft a tabletop exercise scenario for ransomware recovery"
+ },
+ {
+  "id": "defensive-security-119",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "write detection hypotheses and Sigma-style logic descriptions for review"
+ },
+ {
+  "id": "defensive-security-120",
+  "category": "07-defensive-security",
+  "title": "Defensive Security (Blue Team Only)",
+  "task": "write a secure-defaults checklist for cloud storage and sharing"
+ },
+ {
   "id": "3d-blender-unreal-001",
   "category": "08-3d-blender-unreal",
   "title": "3D: Blender / Unreal / Three.js",
@@ -4315,6 +5575,186 @@
  },
  {
   "id": "3d-blender-unreal-090",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "create a product turntable scene with studio lighting"
+ },
+ {
+  "id": "3d-blender-unreal-091",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "block out a seaside house then add lived-in detail pass"
+ },
+ {
+  "id": "3d-blender-unreal-092",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "build a bottle-ship diorama with water and reef accents"
+ },
+ {
+  "id": "3d-blender-unreal-093",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "retopology pass plan for a sculpt with pole-flow notes"
+ },
+ {
+  "id": "3d-blender-unreal-094",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "light a museum gallery for two camera framings"
+ },
+ {
+  "id": "3d-blender-unreal-095",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "plan a shot list so actors stay in frame"
+ },
+ {
+  "id": "3d-blender-unreal-096",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "model a steam-train vignette with named collections"
+ },
+ {
+  "id": "3d-blender-unreal-097",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "build a palace facade study with modular pieces"
+ },
+ {
+  "id": "3d-blender-unreal-098",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "create a Van Gogh-inspired courtyard as a walkable sketch"
+ },
+ {
+  "id": "3d-blender-unreal-099",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "create an isometric office diorama with Chiaki-style warmth"
+ },
+ {
+  "id": "3d-blender-unreal-100",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "build a low-poly Manhattan block with street-level props"
+ },
+ {
+  "id": "3d-blender-unreal-101",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "design a kitchen scene optimized for a laptop GPU"
+ },
+ {
+  "id": "3d-blender-unreal-102",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "model a stylized wolf character with clean topology"
+ },
+ {
+  "id": "3d-blender-unreal-103",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "build a game-ready prop set with LOD notes"
+ },
+ {
+  "id": "3d-blender-unreal-104",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "reconstruct a room from listing photos with inferred dimensions"
+ },
+ {
+  "id": "3d-blender-unreal-105",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "create a product turntable scene with studio lighting"
+ },
+ {
+  "id": "3d-blender-unreal-106",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "block out a seaside house then add lived-in detail pass"
+ },
+ {
+  "id": "3d-blender-unreal-107",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "build a bottle-ship diorama with water and reef accents"
+ },
+ {
+  "id": "3d-blender-unreal-108",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "retopology pass plan for a sculpt with pole-flow notes"
+ },
+ {
+  "id": "3d-blender-unreal-109",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "light a museum gallery for two camera framings"
+ },
+ {
+  "id": "3d-blender-unreal-110",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "plan a shot list so actors stay in frame"
+ },
+ {
+  "id": "3d-blender-unreal-111",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "model a steam-train vignette with named collections"
+ },
+ {
+  "id": "3d-blender-unreal-112",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "build a palace facade study with modular pieces"
+ },
+ {
+  "id": "3d-blender-unreal-113",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "create a Van Gogh-inspired courtyard as a walkable sketch"
+ },
+ {
+  "id": "3d-blender-unreal-114",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "create an isometric office diorama with Chiaki-style warmth"
+ },
+ {
+  "id": "3d-blender-unreal-115",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "build a low-poly Manhattan block with street-level props"
+ },
+ {
+  "id": "3d-blender-unreal-116",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "design a kitchen scene optimized for a laptop GPU"
+ },
+ {
+  "id": "3d-blender-unreal-117",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "model a stylized wolf character with clean topology"
+ },
+ {
+  "id": "3d-blender-unreal-118",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "build a game-ready prop set with LOD notes"
+ },
+ {
+  "id": "3d-blender-unreal-119",
+  "category": "08-3d-blender-unreal",
+  "title": "3D: Blender / Unreal / Three.js",
+  "task": "reconstruct a room from listing photos with inferred dimensions"
+ },
+ {
+  "id": "3d-blender-unreal-120",
   "category": "08-3d-blender-unreal",
   "title": "3D: Blender / Unreal / Three.js",
   "task": "create a product turntable scene with studio lighting"
@@ -4860,6 +6300,186 @@
   "task": "build a Minecraft-style voxel sandbox starter"
  },
  {
+  "id": "game-dev-091",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a Fall Guys-style obstacle loop with elimination"
+ },
+ {
+  "id": "game-dev-092",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a 10v10 shooter map with spawns and lanes"
+ },
+ {
+  "id": "game-dev-093",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a tutorial, pause, and win-state shell for any prototype"
+ },
+ {
+  "id": "game-dev-094",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "prototype a kart racer grey-box with drift tuning"
+ },
+ {
+  "id": "game-dev-095",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a horror-vignette with sound-cue scares"
+ },
+ {
+  "id": "game-dev-096",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a Sim City-lite zoning and happiness loop"
+ },
+ {
+  "id": "game-dev-097",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "prototype a puzzle-platformer with three mechanics"
+ },
+ {
+  "id": "game-dev-098",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "create a roguelike deck-builder about AI founders"
+ },
+ {
+  "id": "game-dev-099",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a survival-coop agent sandbox with incentives"
+ },
+ {
+  "id": "game-dev-100",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a StarCraft-style RTS skirmish with two factions"
+ },
+ {
+  "id": "game-dev-101",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a GTA-style driving sandbox with missions"
+ },
+ {
+  "id": "game-dev-102",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a train-top FPS encounter with cover logic"
+ },
+ {
+  "id": "game-dev-103",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "create a Red Alert-style RTS harvest-and-attack loop"
+ },
+ {
+  "id": "game-dev-104",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "prototype a Star Fox-style rail shooter level"
+ },
+ {
+  "id": "game-dev-105",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a Minecraft-style voxel sandbox starter"
+ },
+ {
+  "id": "game-dev-106",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a Fall Guys-style obstacle loop with elimination"
+ },
+ {
+  "id": "game-dev-107",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a 10v10 shooter map with spawns and lanes"
+ },
+ {
+  "id": "game-dev-108",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a tutorial, pause, and win-state shell for any prototype"
+ },
+ {
+  "id": "game-dev-109",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "prototype a kart racer grey-box with drift tuning"
+ },
+ {
+  "id": "game-dev-110",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a horror-vignette with sound-cue scares"
+ },
+ {
+  "id": "game-dev-111",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a Sim City-lite zoning and happiness loop"
+ },
+ {
+  "id": "game-dev-112",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "prototype a puzzle-platformer with three mechanics"
+ },
+ {
+  "id": "game-dev-113",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "create a roguelike deck-builder about AI founders"
+ },
+ {
+  "id": "game-dev-114",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a survival-coop agent sandbox with incentives"
+ },
+ {
+  "id": "game-dev-115",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a StarCraft-style RTS skirmish with two factions"
+ },
+ {
+  "id": "game-dev-116",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "design a GTA-style driving sandbox with missions"
+ },
+ {
+  "id": "game-dev-117",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a train-top FPS encounter with cover logic"
+ },
+ {
+  "id": "game-dev-118",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "create a Red Alert-style RTS harvest-and-attack loop"
+ },
+ {
+  "id": "game-dev-119",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "prototype a Star Fox-style rail shooter level"
+ },
+ {
+  "id": "game-dev-120",
+  "category": "09-game-dev",
+  "title": "Game Dev & Playable Prototypes",
+  "task": "build a Minecraft-style voxel sandbox starter"
+ },
+ {
   "id": "web-dev-001",
   "category": "10-web-dev",
   "title": "Web Dev & Sites in ChatGPT",
@@ -5395,6 +7015,186 @@
  },
  {
   "id": "web-dev-090",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a nonprofit donation page with impact stories"
+ },
+ {
+  "id": "web-dev-091",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a luxury auto-detailing site with booking flow"
+ },
+ {
+  "id": "web-dev-092",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a course landing page with curriculum and outcomes"
+ },
+ {
+  "id": "web-dev-093",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "run a frontend QA pass: nav, forms, mobile, a11y"
+ },
+ {
+  "id": "web-dev-094",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a real-estate listing page with gallery and tour CTA"
+ },
+ {
+  "id": "web-dev-095",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a pricing-page A/B test plan with hypotheses"
+ },
+ {
+  "id": "web-dev-096",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create an event site with schedule, speakers, and tickets"
+ },
+ {
+  "id": "web-dev-097",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a waitlist page with referral mechanics"
+ },
+ {
+  "id": "web-dev-098",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a clinic booking site with forms and reminders copy"
+ },
+ {
+  "id": "web-dev-099",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a changelog page with version filters"
+ },
+ {
+  "id": "web-dev-100",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a portfolio site with case-study templates"
+ },
+ {
+  "id": "web-dev-101",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a docs site with search-friendly structure"
+ },
+ {
+  "id": "web-dev-102",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a SaaS landing page with pricing and FAQ"
+ },
+ {
+  "id": "web-dev-103",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a job-board page with filters and alerts copy"
+ },
+ {
+  "id": "web-dev-104",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a restaurant site with menu, reservations, and local SEO"
+ },
+ {
+  "id": "web-dev-105",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a nonprofit donation page with impact stories"
+ },
+ {
+  "id": "web-dev-106",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a luxury auto-detailing site with booking flow"
+ },
+ {
+  "id": "web-dev-107",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a course landing page with curriculum and outcomes"
+ },
+ {
+  "id": "web-dev-108",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "run a frontend QA pass: nav, forms, mobile, a11y"
+ },
+ {
+  "id": "web-dev-109",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a real-estate listing page with gallery and tour CTA"
+ },
+ {
+  "id": "web-dev-110",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a pricing-page A/B test plan with hypotheses"
+ },
+ {
+  "id": "web-dev-111",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create an event site with schedule, speakers, and tickets"
+ },
+ {
+  "id": "web-dev-112",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a waitlist page with referral mechanics"
+ },
+ {
+  "id": "web-dev-113",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a clinic booking site with forms and reminders copy"
+ },
+ {
+  "id": "web-dev-114",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a changelog page with version filters"
+ },
+ {
+  "id": "web-dev-115",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a portfolio site with case-study templates"
+ },
+ {
+  "id": "web-dev-116",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a docs site with search-friendly structure"
+ },
+ {
+  "id": "web-dev-117",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "build a SaaS landing page with pricing and FAQ"
+ },
+ {
+  "id": "web-dev-118",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a job-board page with filters and alerts copy"
+ },
+ {
+  "id": "web-dev-119",
+  "category": "10-web-dev",
+  "title": "Web Dev & Sites in ChatGPT",
+  "task": "create a restaurant site with menu, reservations, and local SEO"
+ },
+ {
+  "id": "web-dev-120",
   "category": "10-web-dev",
   "title": "Web Dev & Sites in ChatGPT",
   "task": "build a nonprofit donation page with impact stories"
@@ -5940,6 +7740,186 @@
   "task": "design lower-thirds and caption styles"
  },
  {
+  "id": "video-creation-091",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "plan a 5-minute T-cell explainer with scenes and narration"
+ },
+ {
+  "id": "video-creation-092",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "create a voiceover script with timing marks"
+ },
+ {
+  "id": "video-creation-093",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "create a review-and-approve checklist"
+ },
+ {
+  "id": "video-creation-094",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "build a Final Cut import-to-grade checklist"
+ },
+ {
+  "id": "video-creation-095",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "plan captions and translations workflow"
+ },
+ {
+  "id": "video-creation-096",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "write a cinematic prompt for a 10-second animation"
+ },
+ {
+  "id": "video-creation-097",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "build a sound-design cue sheet"
+ },
+ {
+  "id": "video-creation-098",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "plan a tutorial series with per-episode outcomes"
+ },
+ {
+  "id": "video-creation-099",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "create a color-grade pass plan"
+ },
+ {
+  "id": "video-creation-100",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "create a house-tour video outline from listing photos"
+ },
+ {
+  "id": "video-creation-101",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "write a trailer beat sheet with hooks"
+ },
+ {
+  "id": "video-creation-102",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "build a product promo from 3D renders with beats"
+ },
+ {
+  "id": "video-creation-103",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "plan B-roll coverage for an interview"
+ },
+ {
+  "id": "video-creation-104",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "write a shot list that keeps actors in frame"
+ },
+ {
+  "id": "video-creation-105",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "design lower-thirds and caption styles"
+ },
+ {
+  "id": "video-creation-106",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "plan a 5-minute T-cell explainer with scenes and narration"
+ },
+ {
+  "id": "video-creation-107",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "create a voiceover script with timing marks"
+ },
+ {
+  "id": "video-creation-108",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "create a review-and-approve checklist"
+ },
+ {
+  "id": "video-creation-109",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "build a Final Cut import-to-grade checklist"
+ },
+ {
+  "id": "video-creation-110",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "plan captions and translations workflow"
+ },
+ {
+  "id": "video-creation-111",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "write a cinematic prompt for a 10-second animation"
+ },
+ {
+  "id": "video-creation-112",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "build a sound-design cue sheet"
+ },
+ {
+  "id": "video-creation-113",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "plan a tutorial series with per-episode outcomes"
+ },
+ {
+  "id": "video-creation-114",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "create a color-grade pass plan"
+ },
+ {
+  "id": "video-creation-115",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "create a house-tour video outline from listing photos"
+ },
+ {
+  "id": "video-creation-116",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "write a trailer beat sheet with hooks"
+ },
+ {
+  "id": "video-creation-117",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "build a product promo from 3D renders with beats"
+ },
+ {
+  "id": "video-creation-118",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "plan B-roll coverage for an interview"
+ },
+ {
+  "id": "video-creation-119",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "write a shot list that keeps actors in frame"
+ },
+ {
+  "id": "video-creation-120",
+  "category": "11-video-creation",
+  "title": "Video & Cinematic AI",
+  "task": "design lower-thirds and caption styles"
+ },
+ {
   "id": "music-audio-001",
   "category": "12-music-audio",
   "title": "Music & Audio (Ableton-style)",
@@ -6475,6 +8455,186 @@
  },
  {
   "id": "music-audio-090",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "write lyrics with rhyme and meter notes"
+ },
+ {
+  "id": "music-audio-091",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "arrange a 2-minute theme with intro/build/drop/outro"
+ },
+ {
+  "id": "music-audio-092",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "create a mix checklist: gain, EQ, compression, space"
+ },
+ {
+  "id": "music-audio-093",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "build a mastering delivery checklist"
+ },
+ {
+  "id": "music-audio-094",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "build a practice routine for a beginner keyboardist"
+ },
+ {
+  "id": "music-audio-095",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "design a sound logo with variations"
+ },
+ {
+  "id": "music-audio-096",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "design a game-loop track that avoids fatigue"
+ },
+ {
+  "id": "music-audio-097",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "write a jingle brief with three directions"
+ },
+ {
+  "id": "music-audio-098",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "create a podcast edit plan: umms, levels, chapters"
+ },
+ {
+  "id": "music-audio-099",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "create a live-set flow with fail-safes"
+ },
+ {
+  "id": "music-audio-100",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "write a chord progression with melody options"
+ },
+ {
+  "id": "music-audio-101",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "build a sample-organization system"
+ },
+ {
+  "id": "music-audio-102",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "build a drum groove with variations and fills"
+ },
+ {
+  "id": "music-audio-103",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "design transition risers and impacts"
+ },
+ {
+  "id": "music-audio-104",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "design three synth patches with parameter notes"
+ },
+ {
+  "id": "music-audio-105",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "write lyrics with rhyme and meter notes"
+ },
+ {
+  "id": "music-audio-106",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "arrange a 2-minute theme with intro/build/drop/outro"
+ },
+ {
+  "id": "music-audio-107",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "create a mix checklist: gain, EQ, compression, space"
+ },
+ {
+  "id": "music-audio-108",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "build a mastering delivery checklist"
+ },
+ {
+  "id": "music-audio-109",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "build a practice routine for a beginner keyboardist"
+ },
+ {
+  "id": "music-audio-110",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "design a sound logo with variations"
+ },
+ {
+  "id": "music-audio-111",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "design a game-loop track that avoids fatigue"
+ },
+ {
+  "id": "music-audio-112",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "write a jingle brief with three directions"
+ },
+ {
+  "id": "music-audio-113",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "create a podcast edit plan: umms, levels, chapters"
+ },
+ {
+  "id": "music-audio-114",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "create a live-set flow with fail-safes"
+ },
+ {
+  "id": "music-audio-115",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "write a chord progression with melody options"
+ },
+ {
+  "id": "music-audio-116",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "build a sample-organization system"
+ },
+ {
+  "id": "music-audio-117",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "build a drum groove with variations and fills"
+ },
+ {
+  "id": "music-audio-118",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "design transition risers and impacts"
+ },
+ {
+  "id": "music-audio-119",
+  "category": "12-music-audio",
+  "title": "Music & Audio (Ableton-style)",
+  "task": "design three synth patches with parameter notes"
+ },
+ {
+  "id": "music-audio-120",
   "category": "12-music-audio",
   "title": "Music & Audio (Ableton-style)",
   "task": "write lyrics with rhyme and meter notes"
@@ -7020,6 +9180,186 @@
   "task": "design a data-viz card with honest scales"
  },
  {
+  "id": "design-figma-091",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "redesign a dashboard using a compact table reference"
+ },
+ {
+  "id": "design-figma-092",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "build a notification system with priority rules"
+ },
+ {
+  "id": "design-figma-093",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a handoff pack developers will love"
+ },
+ {
+  "id": "design-figma-094",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a settings page that reuses existing patterns"
+ },
+ {
+  "id": "design-figma-095",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "create a prototype test script with tasks"
+ },
+ {
+  "id": "design-figma-096",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "create a mobile checkout with trust signals"
+ },
+ {
+  "id": "design-figma-097",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a dark-mode pass with token mapping"
+ },
+ {
+  "id": "design-figma-098",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design an onboarding flow with empty/error states"
+ },
+ {
+  "id": "design-figma-099",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "build an icon usage guide with do/don'ts"
+ },
+ {
+  "id": "design-figma-100",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "build a component spec with states and tokens"
+ },
+ {
+  "id": "design-figma-101",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design an accessible form with help and errors"
+ },
+ {
+  "id": "design-figma-102",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "turn a whiteboard sketch into a clickable flow"
+ },
+ {
+  "id": "design-figma-103",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "create a landing hero with three tested variants"
+ },
+ {
+  "id": "design-figma-104",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a pricing page from two typography references"
+ },
+ {
+  "id": "design-figma-105",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a data-viz card with honest scales"
+ },
+ {
+  "id": "design-figma-106",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "redesign a dashboard using a compact table reference"
+ },
+ {
+  "id": "design-figma-107",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "build a notification system with priority rules"
+ },
+ {
+  "id": "design-figma-108",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a handoff pack developers will love"
+ },
+ {
+  "id": "design-figma-109",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a settings page that reuses existing patterns"
+ },
+ {
+  "id": "design-figma-110",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "create a prototype test script with tasks"
+ },
+ {
+  "id": "design-figma-111",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "create a mobile checkout with trust signals"
+ },
+ {
+  "id": "design-figma-112",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a dark-mode pass with token mapping"
+ },
+ {
+  "id": "design-figma-113",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design an onboarding flow with empty/error states"
+ },
+ {
+  "id": "design-figma-114",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "build an icon usage guide with do/don'ts"
+ },
+ {
+  "id": "design-figma-115",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "build a component spec with states and tokens"
+ },
+ {
+  "id": "design-figma-116",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design an accessible form with help and errors"
+ },
+ {
+  "id": "design-figma-117",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "turn a whiteboard sketch into a clickable flow"
+ },
+ {
+  "id": "design-figma-118",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "create a landing hero with three tested variants"
+ },
+ {
+  "id": "design-figma-119",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a pricing page from two typography references"
+ },
+ {
+  "id": "design-figma-120",
+  "category": "13-design-figma",
+  "title": "Design, Figma & Flora",
+  "task": "design a data-viz card with honest scales"
+ },
+ {
   "id": "writing-technical-001",
   "category": "14-writing-technical",
   "title": "Technical Writing (No Slop)",
@@ -7555,6 +9895,186 @@
  },
  {
   "id": "writing-technical-090",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a changelog users actually read"
+ },
+ {
+  "id": "writing-technical-091",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a quickstart that gets to hello-world in 5 minutes"
+ },
+ {
+  "id": "writing-technical-092",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "create a glossary with precise definitions"
+ },
+ {
+  "id": "writing-technical-093",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a deprecation notice with dates and path forward"
+ },
+ {
+  "id": "writing-technical-094",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a runbook for a 3am page"
+ },
+ {
+  "id": "writing-technical-095",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "document rate limits with headers and examples"
+ },
+ {
+  "id": "writing-technical-096",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "document a CLI with examples per flag"
+ },
+ {
+  "id": "writing-technical-097",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a FAQ that kills support tickets"
+ },
+ {
+  "id": "writing-technical-098",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write architecture decision records for three choices"
+ },
+ {
+  "id": "writing-technical-099",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "create a tutorial with checkpoints and expected outputs"
+ },
+ {
+  "id": "writing-technical-100",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "create a troubleshooting page ordered by frequency"
+ },
+ {
+  "id": "writing-technical-101",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a security disclosure policy page"
+ },
+ {
+  "id": "writing-technical-102",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a migration guide with rollback steps"
+ },
+ {
+  "id": "writing-technical-103",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "document webhook semantics: retries, ordering, dedupe"
+ },
+ {
+  "id": "writing-technical-104",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "document an API endpoint with errors and retries"
+ },
+ {
+  "id": "writing-technical-105",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a changelog users actually read"
+ },
+ {
+  "id": "writing-technical-106",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a quickstart that gets to hello-world in 5 minutes"
+ },
+ {
+  "id": "writing-technical-107",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "create a glossary with precise definitions"
+ },
+ {
+  "id": "writing-technical-108",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a deprecation notice with dates and path forward"
+ },
+ {
+  "id": "writing-technical-109",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a runbook for a 3am page"
+ },
+ {
+  "id": "writing-technical-110",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "document rate limits with headers and examples"
+ },
+ {
+  "id": "writing-technical-111",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "document a CLI with examples per flag"
+ },
+ {
+  "id": "writing-technical-112",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a FAQ that kills support tickets"
+ },
+ {
+  "id": "writing-technical-113",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write architecture decision records for three choices"
+ },
+ {
+  "id": "writing-technical-114",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "create a tutorial with checkpoints and expected outputs"
+ },
+ {
+  "id": "writing-technical-115",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "create a troubleshooting page ordered by frequency"
+ },
+ {
+  "id": "writing-technical-116",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a security disclosure policy page"
+ },
+ {
+  "id": "writing-technical-117",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "write a migration guide with rollback steps"
+ },
+ {
+  "id": "writing-technical-118",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "document webhook semantics: retries, ordering, dedupe"
+ },
+ {
+  "id": "writing-technical-119",
+  "category": "14-writing-technical",
+  "title": "Technical Writing (No Slop)",
+  "task": "document an API endpoint with errors and retries"
+ },
+ {
+  "id": "writing-technical-120",
   "category": "14-writing-technical",
   "title": "Technical Writing (No Slop)",
   "task": "write a changelog users actually read"
@@ -8100,6 +10620,186 @@
   "task": "write a flash-fiction piece under 500 words"
  },
  {
+  "id": "writing-creative-091",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "outline a heist short story with three reversals"
+ },
+ {
+  "id": "writing-creative-092",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "build a town bible: factions, rumors, secrets"
+ },
+ {
+  "id": "writing-creative-093",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "create character sheets with wants vs needs"
+ },
+ {
+  "id": "writing-creative-094",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write a villain monologue with a real grievance"
+ },
+ {
+  "id": "writing-creative-095",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write arewrite pass plan for a saggy middle"
+ },
+ {
+  "id": "writing-creative-096",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "draft a quest chain with meaningful choices"
+ },
+ {
+  "id": "writing-creative-097",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "build a TTRPG one-shot with timers"
+ },
+ {
+  "id": "writing-creative-098",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write a picture-book spread plan with page turns"
+ },
+ {
+  "id": "writing-creative-099",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "draft a comic outline panel by panel"
+ },
+ {
+  "id": "writing-creative-100",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "create a cozy mystery premise with fair-play clues"
+ },
+ {
+  "id": "writing-creative-101",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write song-story lyrics with meter notes"
+ },
+ {
+  "id": "writing-creative-102",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "build a magic system with costs and limits"
+ },
+ {
+  "id": "writing-creative-103",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "create a myth retelling with a fresh angle"
+ },
+ {
+  "id": "writing-creative-104",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write a dialogue scene with subtext and beats"
+ },
+ {
+  "id": "writing-creative-105",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write a flash-fiction piece under 500 words"
+ },
+ {
+  "id": "writing-creative-106",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "outline a heist short story with three reversals"
+ },
+ {
+  "id": "writing-creative-107",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "build a town bible: factions, rumors, secrets"
+ },
+ {
+  "id": "writing-creative-108",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "create character sheets with wants vs needs"
+ },
+ {
+  "id": "writing-creative-109",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write a villain monologue with a real grievance"
+ },
+ {
+  "id": "writing-creative-110",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write arewrite pass plan for a saggy middle"
+ },
+ {
+  "id": "writing-creative-111",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "draft a quest chain with meaningful choices"
+ },
+ {
+  "id": "writing-creative-112",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "build a TTRPG one-shot with timers"
+ },
+ {
+  "id": "writing-creative-113",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write a picture-book spread plan with page turns"
+ },
+ {
+  "id": "writing-creative-114",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "draft a comic outline panel by panel"
+ },
+ {
+  "id": "writing-creative-115",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "create a cozy mystery premise with fair-play clues"
+ },
+ {
+  "id": "writing-creative-116",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write song-story lyrics with meter notes"
+ },
+ {
+  "id": "writing-creative-117",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "build a magic system with costs and limits"
+ },
+ {
+  "id": "writing-creative-118",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "create a myth retelling with a fresh angle"
+ },
+ {
+  "id": "writing-creative-119",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write a dialogue scene with subtext and beats"
+ },
+ {
+  "id": "writing-creative-120",
+  "category": "15-writing-creative",
+  "title": "Creative & Story Writing",
+  "task": "write a flash-fiction piece under 500 words"
+ },
+ {
   "id": "business-ops-001",
   "category": "16-business-ops",
   "title": "Business Ops, CRM & Support",
@@ -8635,6 +11335,186 @@
  },
  {
   "id": "business-ops-090",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "create a customer health review template"
+ },
+ {
+  "id": "business-ops-091",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "triage today's inbox into urgent/reply/file with drafts unsent"
+ },
+ {
+  "id": "business-ops-092",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "write a launch checklist with owners"
+ },
+ {
+  "id": "business-ops-093",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "draft a status page update template"
+ },
+ {
+  "id": "business-ops-094",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "build a vendor comparison with total cost"
+ },
+ {
+  "id": "business-ops-095",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "build a knowledge-base article from tickets"
+ },
+ {
+  "id": "business-ops-096",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "create an escalation matrix with SLAs"
+ },
+ {
+  "id": "business-ops-097",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "write a returns QA checklist"
+ },
+ {
+  "id": "business-ops-098",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "draft support macros that stay human"
+ },
+ {
+  "id": "business-ops-099",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "create a meeting-notes-to-tasks pipeline"
+ },
+ {
+  "id": "business-ops-100",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "build a weekly ops review agenda with metrics"
+ },
+ {
+  "id": "business-ops-101",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "build a hiring scorecard with structured questions"
+ },
+ {
+  "id": "business-ops-102",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "write an SOP for refunds with edge cases"
+ },
+ {
+  "id": "business-ops-103",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "draft a renewal play with risk flags"
+ },
+ {
+  "id": "business-ops-104",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "dedupe CRM contacts and merge with audit notes"
+ },
+ {
+  "id": "business-ops-105",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "create a customer health review template"
+ },
+ {
+  "id": "business-ops-106",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "triage today's inbox into urgent/reply/file with drafts unsent"
+ },
+ {
+  "id": "business-ops-107",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "write a launch checklist with owners"
+ },
+ {
+  "id": "business-ops-108",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "draft a status page update template"
+ },
+ {
+  "id": "business-ops-109",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "build a vendor comparison with total cost"
+ },
+ {
+  "id": "business-ops-110",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "build a knowledge-base article from tickets"
+ },
+ {
+  "id": "business-ops-111",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "create an escalation matrix with SLAs"
+ },
+ {
+  "id": "business-ops-112",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "write a returns QA checklist"
+ },
+ {
+  "id": "business-ops-113",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "draft support macros that stay human"
+ },
+ {
+  "id": "business-ops-114",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "create a meeting-notes-to-tasks pipeline"
+ },
+ {
+  "id": "business-ops-115",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "build a weekly ops review agenda with metrics"
+ },
+ {
+  "id": "business-ops-116",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "build a hiring scorecard with structured questions"
+ },
+ {
+  "id": "business-ops-117",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "write an SOP for refunds with edge cases"
+ },
+ {
+  "id": "business-ops-118",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "draft a renewal play with risk flags"
+ },
+ {
+  "id": "business-ops-119",
+  "category": "16-business-ops",
+  "title": "Business Ops, CRM & Support",
+  "task": "dedupe CRM contacts and merge with audit notes"
+ },
+ {
+  "id": "business-ops-120",
   "category": "16-business-ops",
   "title": "Business Ops, CRM & Support",
   "task": "create a customer health review template"
@@ -9180,6 +12060,186 @@
   "task": "teach statistics intuition with simulations described"
  },
  {
+  "id": "education-091",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "teach recursion with three worked examples and checks"
+ },
+ {
+  "id": "education-092",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "coach essay structure with a worked outline"
+ },
+ {
+  "id": "education-093",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "create a final-review cheat sheet with examples"
+ },
+ {
+  "id": "education-094",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "build a quiz with explanations per answer"
+ },
+ {
+  "id": "education-095",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "coach presentation skills with a practice script"
+ },
+ {
+  "id": "education-096",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "teach git branching with diagrams described"
+ },
+ {
+  "id": "education-097",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "build a language drill set with corrections"
+ },
+ {
+  "id": "education-098",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "design a lab activity with safety notes"
+ },
+ {
+  "id": "education-099",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "teach music theory basics with exercises"
+ },
+ {
+  "id": "education-100",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "create a spaced-repetition deck plan for an exam"
+ },
+ {
+  "id": "education-101",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "design a debate lesson with roles and rubric"
+ },
+ {
+  "id": "education-102",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "explain T-cell activation like I'm a bright 10th grader"
+ },
+ {
+  "id": "education-103",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "create a reading plan with difficulty ramp"
+ },
+ {
+  "id": "education-104",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "build a 4-week Python plan with projects"
+ },
+ {
+  "id": "education-105",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "teach statistics intuition with simulations described"
+ },
+ {
+  "id": "education-106",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "teach recursion with three worked examples and checks"
+ },
+ {
+  "id": "education-107",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "coach essay structure with a worked outline"
+ },
+ {
+  "id": "education-108",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "create a final-review cheat sheet with examples"
+ },
+ {
+  "id": "education-109",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "build a quiz with explanations per answer"
+ },
+ {
+  "id": "education-110",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "coach presentation skills with a practice script"
+ },
+ {
+  "id": "education-111",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "teach git branching with diagrams described"
+ },
+ {
+  "id": "education-112",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "build a language drill set with corrections"
+ },
+ {
+  "id": "education-113",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "design a lab activity with safety notes"
+ },
+ {
+  "id": "education-114",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "teach music theory basics with exercises"
+ },
+ {
+  "id": "education-115",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "create a spaced-repetition deck plan for an exam"
+ },
+ {
+  "id": "education-116",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "design a debate lesson with roles and rubric"
+ },
+ {
+  "id": "education-117",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "explain T-cell activation like I'm a bright 10th grader"
+ },
+ {
+  "id": "education-118",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "create a reading plan with difficulty ramp"
+ },
+ {
+  "id": "education-119",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "build a 4-week Python plan with projects"
+ },
+ {
+  "id": "education-120",
+  "category": "17-education",
+  "title": "Education & Tutoring",
+  "task": "teach statistics intuition with simulations described"
+ },
+ {
   "id": "math-frontier-001",
   "category": "18-math-frontier",
   "title": "Math (Frontier-Style Rigor)",
@@ -9715,6 +12775,186 @@
  },
  {
   "id": "math-frontier-090",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "explore prime gaps computationally with a plan"
+ },
+ {
+  "id": "math-frontier-091",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "prove a combinatorial identity with a clear lemma chain"
+ },
+ {
+  "id": "math-frontier-092",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "prove an inequality with named theorems"
+ },
+ {
+  "id": "math-frontier-093",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "write a solution sketch plus a full-solution expansion"
+ },
+ {
+  "id": "math-frontier-094",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "analyze a recurrence with generating functions"
+ },
+ {
+  "id": "math-frontier-095",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "design a practice set that ramps difficulty"
+ },
+ {
+  "id": "math-frontier-096",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "design a counting argument with bijection"
+ },
+ {
+  "id": "math-frontier-097",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "explain Bayes with a worked medical-test example"
+ },
+ {
+  "id": "math-frontier-098",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "explain a FrontierMath-style problem's structure without solving"
+ },
+ {
+  "id": "math-frontier-099",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "build a probability model with assumptions stated"
+ },
+ {
+  "id": "math-frontier-100",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "build intuition for eigenvalues with worked cases"
+ },
+ {
+  "id": "math-frontier-101",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "translate a word problem into equations cleanly"
+ },
+ {
+  "id": "math-frontier-102",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "solve a number-theory problem with modular reasoning"
+ },
+ {
+  "id": "math-frontier-103",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "verify a proof step by step and flag gaps"
+ },
+ {
+  "id": "math-frontier-104",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "find a counterexample to a plausible conjecture"
+ },
+ {
+  "id": "math-frontier-105",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "explore prime gaps computationally with a plan"
+ },
+ {
+  "id": "math-frontier-106",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "prove a combinatorial identity with a clear lemma chain"
+ },
+ {
+  "id": "math-frontier-107",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "prove an inequality with named theorems"
+ },
+ {
+  "id": "math-frontier-108",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "write a solution sketch plus a full-solution expansion"
+ },
+ {
+  "id": "math-frontier-109",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "analyze a recurrence with generating functions"
+ },
+ {
+  "id": "math-frontier-110",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "design a practice set that ramps difficulty"
+ },
+ {
+  "id": "math-frontier-111",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "design a counting argument with bijection"
+ },
+ {
+  "id": "math-frontier-112",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "explain Bayes with a worked medical-test example"
+ },
+ {
+  "id": "math-frontier-113",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "explain a FrontierMath-style problem's structure without solving"
+ },
+ {
+  "id": "math-frontier-114",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "build a probability model with assumptions stated"
+ },
+ {
+  "id": "math-frontier-115",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "build intuition for eigenvalues with worked cases"
+ },
+ {
+  "id": "math-frontier-116",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "translate a word problem into equations cleanly"
+ },
+ {
+  "id": "math-frontier-117",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "solve a number-theory problem with modular reasoning"
+ },
+ {
+  "id": "math-frontier-118",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "verify a proof step by step and flag gaps"
+ },
+ {
+  "id": "math-frontier-119",
+  "category": "18-math-frontier",
+  "title": "Math (Frontier-Style Rigor)",
+  "task": "find a counterexample to a plausible conjecture"
+ },
+ {
+  "id": "math-frontier-120",
   "category": "18-math-frontier",
   "title": "Math (Frontier-Style Rigor)",
   "task": "explore prime gaps computationally with a plan"
@@ -10260,6 +13500,186 @@
   "task": "plan a data-quality audit with check queries"
  },
  {
+  "id": "data-viz-091",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "analyze a funnel drop with segment breakdowns"
+ },
+ {
+  "id": "data-viz-092",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "write SQL for a tricky sessionization problem"
+ },
+ {
+  "id": "data-viz-093",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "write a metrics-definitions doc"
+ },
+ {
+  "id": "data-viz-094",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "design a dashboard spec with five honest charts"
+ },
+ {
+  "id": "data-viz-095",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "build a anomaly-triage playbook"
+ },
+ {
+  "id": "data-viz-096",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "build a pricing elasticity sketch from history"
+ },
+ {
+  "id": "data-viz-097",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "create a executive one-chart memo"
+ },
+ {
+  "id": "data-viz-098",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "analyze survey free-text into themes"
+ },
+ {
+  "id": "data-viz-099",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "design an experiment backlog scored by ICE"
+ },
+ {
+  "id": "data-viz-100",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "create a forecast with scenarios and assumptions"
+ },
+ {
+  "id": "data-viz-101",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "analyze support tickets for top drivers"
+ },
+ {
+  "id": "data-viz-102",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "design an A/B read-out with guardrails"
+ },
+ {
+  "id": "data-viz-103",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "build a cohort table from event logs"
+ },
+ {
+  "id": "data-viz-104",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "build a churn analysis with leading indicators"
+ },
+ {
+  "id": "data-viz-105",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "plan a data-quality audit with check queries"
+ },
+ {
+  "id": "data-viz-106",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "analyze a funnel drop with segment breakdowns"
+ },
+ {
+  "id": "data-viz-107",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "write SQL for a tricky sessionization problem"
+ },
+ {
+  "id": "data-viz-108",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "write a metrics-definitions doc"
+ },
+ {
+  "id": "data-viz-109",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "design a dashboard spec with five honest charts"
+ },
+ {
+  "id": "data-viz-110",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "build a anomaly-triage playbook"
+ },
+ {
+  "id": "data-viz-111",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "build a pricing elasticity sketch from history"
+ },
+ {
+  "id": "data-viz-112",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "create a executive one-chart memo"
+ },
+ {
+  "id": "data-viz-113",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "analyze survey free-text into themes"
+ },
+ {
+  "id": "data-viz-114",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "design an experiment backlog scored by ICE"
+ },
+ {
+  "id": "data-viz-115",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "create a forecast with scenarios and assumptions"
+ },
+ {
+  "id": "data-viz-116",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "analyze support tickets for top drivers"
+ },
+ {
+  "id": "data-viz-117",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "design an A/B read-out with guardrails"
+ },
+ {
+  "id": "data-viz-118",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "build a cohort table from event logs"
+ },
+ {
+  "id": "data-viz-119",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "build a churn analysis with leading indicators"
+ },
+ {
+  "id": "data-viz-120",
+  "category": "19-data-viz",
+  "title": "Data Analysis & Visualization",
+  "task": "plan a data-quality audit with check queries"
+ },
+ {
   "id": "devops-terminal-001",
   "category": "20-devops-terminal",
   "title": "DevOps & Terminal-Bench Style",
@@ -10795,6 +14215,186 @@
  },
  {
   "id": "devops-terminal-090",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "write a Makefile that new hires understand"
+ },
+ {
+  "id": "devops-terminal-091",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "debug a failing CI pipeline from logs with a fix plan"
+ },
+ {
+  "id": "devops-terminal-092",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "build a canary rollout plan with metrics"
+ },
+ {
+  "id": "devops-terminal-093",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "create a post-deploy smoke-test script plan"
+ },
+ {
+  "id": "devops-terminal-094",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "create a runbook for disk-pressure alerts"
+ },
+ {
+  "id": "devops-terminal-095",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "design a cache-invalidation plan"
+ },
+ {
+  "id": "devops-terminal-096",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "design a backup test with restore proof"
+ },
+ {
+  "id": "devops-terminal-097",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "write a cron-plus-monitor pair with alerts"
+ },
+ {
+  "id": "devops-terminal-098",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "write a log-grep recipe for a 500-spike"
+ },
+ {
+  "id": "devops-terminal-099",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "build an incident timeline template"
+ },
+ {
+  "id": "devops-terminal-100",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "build a deploy checklist with rollback triggers"
+ },
+ {
+  "id": "devops-terminal-101",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "create a load-test sketch with success criteria"
+ },
+ {
+  "id": "devops-terminal-102",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "create a compose stack for local dev with healthchecks"
+ },
+ {
+  "id": "devops-terminal-103",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "design a secrets-rotation procedure"
+ },
+ {
+  "id": "devops-terminal-104",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "write a Dockerfile that is small, cached, and non-root"
+ },
+ {
+  "id": "devops-terminal-105",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "write a Makefile that new hires understand"
+ },
+ {
+  "id": "devops-terminal-106",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "debug a failing CI pipeline from logs with a fix plan"
+ },
+ {
+  "id": "devops-terminal-107",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "build a canary rollout plan with metrics"
+ },
+ {
+  "id": "devops-terminal-108",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "create a post-deploy smoke-test script plan"
+ },
+ {
+  "id": "devops-terminal-109",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "create a runbook for disk-pressure alerts"
+ },
+ {
+  "id": "devops-terminal-110",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "design a cache-invalidation plan"
+ },
+ {
+  "id": "devops-terminal-111",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "design a backup test with restore proof"
+ },
+ {
+  "id": "devops-terminal-112",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "write a cron-plus-monitor pair with alerts"
+ },
+ {
+  "id": "devops-terminal-113",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "write a log-grep recipe for a 500-spike"
+ },
+ {
+  "id": "devops-terminal-114",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "build an incident timeline template"
+ },
+ {
+  "id": "devops-terminal-115",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "build a deploy checklist with rollback triggers"
+ },
+ {
+  "id": "devops-terminal-116",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "create a load-test sketch with success criteria"
+ },
+ {
+  "id": "devops-terminal-117",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "create a compose stack for local dev with healthchecks"
+ },
+ {
+  "id": "devops-terminal-118",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "design a secrets-rotation procedure"
+ },
+ {
+  "id": "devops-terminal-119",
+  "category": "20-devops-terminal",
+  "title": "DevOps & Terminal-Bench Style",
+  "task": "write a Dockerfile that is small, cached, and non-root"
+ },
+ {
+  "id": "devops-terminal-120",
   "category": "20-devops-terminal",
   "title": "DevOps & Terminal-Bench Style",
   "task": "write a Makefile that new hires understand"
@@ -11340,6 +14940,186 @@
   "task": "design a chaos-drill with abort criteria"
  },
  {
+  "id": "testing-qa-091",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "write targeted tests for a one-line fix without over-testing"
+ },
+ {
+  "id": "testing-qa-092",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "create a data-migration verification plan"
+ },
+ {
+  "id": "testing-qa-093",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "build a test-data factory plan"
+ },
+ {
+  "id": "testing-qa-094",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "build a mobile-layout QA checklist"
+ },
+ {
+  "id": "testing-qa-095",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "write a bug report that gets fixed fast"
+ },
+ {
+  "id": "testing-qa-096",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "write accessibility checks for a form"
+ },
+ {
+  "id": "testing-qa-097",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "design a release gate with quality bars"
+ },
+ {
+  "id": "testing-qa-098",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "design a load-test plan with thresholds"
+ },
+ {
+  "id": "testing-qa-099",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "create a flaky-test triage workflow"
+ },
+ {
+  "id": "testing-qa-100",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "create API contract tests with edge cases"
+ },
+ {
+  "id": "testing-qa-101",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "build a visual-regression checklist vs reference"
+ },
+ {
+  "id": "testing-qa-102",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "build a browser test plan for a booking flow"
+ },
+ {
+  "id": "testing-qa-103",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "write a security smoke-test list (defensive)"
+ },
+ {
+  "id": "testing-qa-104",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "design a regression set for a refactor"
+ },
+ {
+  "id": "testing-qa-105",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "design a chaos-drill with abort criteria"
+ },
+ {
+  "id": "testing-qa-106",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "write targeted tests for a one-line fix without over-testing"
+ },
+ {
+  "id": "testing-qa-107",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "create a data-migration verification plan"
+ },
+ {
+  "id": "testing-qa-108",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "build a test-data factory plan"
+ },
+ {
+  "id": "testing-qa-109",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "build a mobile-layout QA checklist"
+ },
+ {
+  "id": "testing-qa-110",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "write a bug report that gets fixed fast"
+ },
+ {
+  "id": "testing-qa-111",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "write accessibility checks for a form"
+ },
+ {
+  "id": "testing-qa-112",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "design a release gate with quality bars"
+ },
+ {
+  "id": "testing-qa-113",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "design a load-test plan with thresholds"
+ },
+ {
+  "id": "testing-qa-114",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "create a flaky-test triage workflow"
+ },
+ {
+  "id": "testing-qa-115",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "create API contract tests with edge cases"
+ },
+ {
+  "id": "testing-qa-116",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "build a visual-regression checklist vs reference"
+ },
+ {
+  "id": "testing-qa-117",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "build a browser test plan for a booking flow"
+ },
+ {
+  "id": "testing-qa-118",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "write a security smoke-test list (defensive)"
+ },
+ {
+  "id": "testing-qa-119",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "design a regression set for a refactor"
+ },
+ {
+  "id": "testing-qa-120",
+  "category": "21-testing-qa",
+  "title": "Testing, QA & Verification",
+  "task": "design a chaos-drill with abort criteria"
+ },
+ {
   "id": "multi-agent-001",
   "category": "22-multi-agent",
   "title": "Multi-Agent & Subagent Orchestration",
@@ -11875,6 +15655,186 @@
  },
  {
   "id": "multi-agent-090",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "build a support-triage swarm with escalation"
+ },
+ {
+  "id": "multi-agent-091",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "split a research brief across three parallel subagents"
+ },
+ {
+  "id": "multi-agent-092",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "coordinate a release crew: notes, QA, comms"
+ },
+ {
+  "id": "multi-agent-093",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "design an agent stop/ask/continue policy"
+ },
+ {
+  "id": "multi-agent-094",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "orchestrate a data pipeline: extract, validate, load agents"
+ },
+ {
+  "id": "multi-agent-095",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "run a docs-sync crew across repos"
+ },
+ {
+  "id": "multi-agent-096",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "build a critic loop: drafter, checker, fixer"
+ },
+ {
+  "id": "multi-agent-097",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "build a meeting-to-actions pipeline with owners"
+ },
+ {
+  "id": "multi-agent-098",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "run competing solution spikes then merge winners"
+ },
+ {
+  "id": "multi-agent-099",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "coordinate a test-generation swarm per module"
+ },
+ {
+  "id": "multi-agent-100",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "coordinate a migration crew with ownership zones"
+ },
+ {
+  "id": "multi-agent-101",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "orchestrate a translation-plus-glossary crew"
+ },
+ {
+  "id": "multi-agent-102",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "build a map-reduce doc review with merge rules"
+ },
+ {
+  "id": "multi-agent-103",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "run a red-vs-blue review (defensive) with judges"
+ },
+ {
+  "id": "multi-agent-104",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "orchestrate design+code+QA agents with handoffs"
+ },
+ {
+  "id": "multi-agent-105",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "build a support-triage swarm with escalation"
+ },
+ {
+  "id": "multi-agent-106",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "split a research brief across three parallel subagents"
+ },
+ {
+  "id": "multi-agent-107",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "coordinate a release crew: notes, QA, comms"
+ },
+ {
+  "id": "multi-agent-108",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "design an agent stop/ask/continue policy"
+ },
+ {
+  "id": "multi-agent-109",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "orchestrate a data pipeline: extract, validate, load agents"
+ },
+ {
+  "id": "multi-agent-110",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "run a docs-sync crew across repos"
+ },
+ {
+  "id": "multi-agent-111",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "build a critic loop: drafter, checker, fixer"
+ },
+ {
+  "id": "multi-agent-112",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "build a meeting-to-actions pipeline with owners"
+ },
+ {
+  "id": "multi-agent-113",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "run competing solution spikes then merge winners"
+ },
+ {
+  "id": "multi-agent-114",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "coordinate a test-generation swarm per module"
+ },
+ {
+  "id": "multi-agent-115",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "coordinate a migration crew with ownership zones"
+ },
+ {
+  "id": "multi-agent-116",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "orchestrate a translation-plus-glossary crew"
+ },
+ {
+  "id": "multi-agent-117",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "build a map-reduce doc review with merge rules"
+ },
+ {
+  "id": "multi-agent-118",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "run a red-vs-blue review (defensive) with judges"
+ },
+ {
+  "id": "multi-agent-119",
+  "category": "22-multi-agent",
+  "title": "Multi-Agent & Subagent Orchestration",
+  "task": "orchestrate design+code+QA agents with handoffs"
+ },
+ {
+  "id": "multi-agent-120",
   "category": "22-multi-agent",
   "title": "Multi-Agent & Subagent Orchestration",
   "task": "build a support-triage swarm with escalation"
@@ -12420,6 +16380,186 @@
   "task": "audit a contract set for renewal dates"
  },
  {
+  "id": "long-context-091",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "digest a 500-page manual into a task-indexed guide"
+ },
+ {
+  "id": "long-context-092",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "merge three handbooks into one canonical SOP"
+ },
+ {
+  "id": "long-context-093",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "design a context-refresh plan for a long project"
+ },
+ {
+  "id": "long-context-094",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "find every mention of a deprecated flag"
+ },
+ {
+  "id": "long-context-095",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "build a compliance evidence pack"
+ },
+ {
+  "id": "long-context-096",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "build a changelog across 50 release notes"
+ },
+ {
+  "id": "long-context-097",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "summarize a research corpus with gaps flagged"
+ },
+ {
+  "id": "long-context-098",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "summarize a monorepo's conventions from ten docs"
+ },
+ {
+  "id": "long-context-099",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "create a personalized glossary from course material"
+ },
+ {
+  "id": "long-context-100",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "extract all action items from a year of meeting notes"
+ },
+ {
+  "id": "long-context-101",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "trace a decision across emails and docs"
+ },
+ {
+  "id": "long-context-102",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "build a citation map for a claim family"
+ },
+ {
+  "id": "long-context-103",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "build a FAQ from 200 support threads"
+ },
+ {
+  "id": "long-context-104",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "reconcile conflicting specs across versions"
+ },
+ {
+  "id": "long-context-105",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "audit a contract set for renewal dates"
+ },
+ {
+  "id": "long-context-106",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "digest a 500-page manual into a task-indexed guide"
+ },
+ {
+  "id": "long-context-107",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "merge three handbooks into one canonical SOP"
+ },
+ {
+  "id": "long-context-108",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "design a context-refresh plan for a long project"
+ },
+ {
+  "id": "long-context-109",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "find every mention of a deprecated flag"
+ },
+ {
+  "id": "long-context-110",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "build a compliance evidence pack"
+ },
+ {
+  "id": "long-context-111",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "build a changelog across 50 release notes"
+ },
+ {
+  "id": "long-context-112",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "summarize a research corpus with gaps flagged"
+ },
+ {
+  "id": "long-context-113",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "summarize a monorepo's conventions from ten docs"
+ },
+ {
+  "id": "long-context-114",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "create a personalized glossary from course material"
+ },
+ {
+  "id": "long-context-115",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "extract all action items from a year of meeting notes"
+ },
+ {
+  "id": "long-context-116",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "trace a decision across emails and docs"
+ },
+ {
+  "id": "long-context-117",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "build a citation map for a claim family"
+ },
+ {
+  "id": "long-context-118",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "build a FAQ from 200 support threads"
+ },
+ {
+  "id": "long-context-119",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "reconcile conflicting specs across versions"
+ },
+ {
+  "id": "long-context-120",
+  "category": "23-long-context",
+  "title": "Long Context (1M Tokens)",
+  "task": "audit a contract set for renewal dates"
+ },
+ {
   "id": "structured-outputs-001",
   "category": "24-structured-outputs",
   "title": "Structured Outputs & Schemas",
@@ -12955,6 +17095,186 @@
  },
  {
   "id": "structured-outputs-090",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create a recipe schema with units and steps"
+ },
+ {
+  "id": "structured-outputs-091",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "define a ticket-triage schema with enums and confidence"
+ },
+ {
+  "id": "structured-outputs-092",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a resume-parse schema with evidence spans"
+ },
+ {
+  "id": "structured-outputs-093",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create a eval-row schema for prompt testing"
+ },
+ {
+  "id": "structured-outputs-094",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "design an event-log schema with dedupe keys"
+ },
+ {
+  "id": "structured-outputs-095",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a translation-memory schema"
+ },
+ {
+  "id": "structured-outputs-096",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create a catalog-item schema with variants"
+ },
+ {
+  "id": "structured-outputs-097",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "design a deployment-manifest schema"
+ },
+ {
+  "id": "structured-outputs-098",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a QA-report schema with severity enums"
+ },
+ {
+  "id": "structured-outputs-099",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create a survey-response schema with scales"
+ },
+ {
+  "id": "structured-outputs-100",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "design a meeting-notes schema with owners/dates"
+ },
+ {
+  "id": "structured-outputs-101",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a bug-report schema with repro steps"
+ },
+ {
+  "id": "structured-outputs-102",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create an invoice-line schema with totals validation"
+ },
+ {
+  "id": "structured-outputs-103",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "design a course-outline schema with outcomes"
+ },
+ {
+  "id": "structured-outputs-104",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a product-review extraction schema"
+ },
+ {
+  "id": "structured-outputs-105",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create a recipe schema with units and steps"
+ },
+ {
+  "id": "structured-outputs-106",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "define a ticket-triage schema with enums and confidence"
+ },
+ {
+  "id": "structured-outputs-107",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a resume-parse schema with evidence spans"
+ },
+ {
+  "id": "structured-outputs-108",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create a eval-row schema for prompt testing"
+ },
+ {
+  "id": "structured-outputs-109",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "design an event-log schema with dedupe keys"
+ },
+ {
+  "id": "structured-outputs-110",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a translation-memory schema"
+ },
+ {
+  "id": "structured-outputs-111",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create a catalog-item schema with variants"
+ },
+ {
+  "id": "structured-outputs-112",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "design a deployment-manifest schema"
+ },
+ {
+  "id": "structured-outputs-113",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a QA-report schema with severity enums"
+ },
+ {
+  "id": "structured-outputs-114",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create a survey-response schema with scales"
+ },
+ {
+  "id": "structured-outputs-115",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "design a meeting-notes schema with owners/dates"
+ },
+ {
+  "id": "structured-outputs-116",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a bug-report schema with repro steps"
+ },
+ {
+  "id": "structured-outputs-117",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "create an invoice-line schema with totals validation"
+ },
+ {
+  "id": "structured-outputs-118",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "design a course-outline schema with outcomes"
+ },
+ {
+  "id": "structured-outputs-119",
+  "category": "24-structured-outputs",
+  "title": "Structured Outputs & Schemas",
+  "task": "build a product-review extraction schema"
+ },
+ {
+  "id": "structured-outputs-120",
   "category": "24-structured-outputs",
   "title": "Structured Outputs & Schemas",
   "task": "create a recipe schema with units and steps"
@@ -13500,6 +17820,186 @@
   "task": "build a regression pack that pins effort per task type"
  },
  {
+  "id": "reasoning-effort-091",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "pick effort for a CRUD ticket vs a distributed bug"
+ },
+ {
+  "id": "reasoning-effort-092",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "decide when xhigh/max is justified with a checklist"
+ },
+ {
+  "id": "reasoning-effort-093",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "write an incident note when max still fails"
+ },
+ {
+  "id": "reasoning-effort-094",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "tune effort for long-doc QA vs short chat"
+ },
+ {
+  "id": "reasoning-effort-095",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "create an effort-selection flowchart"
+ },
+ {
+  "id": "reasoning-effort-096",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "build a prompt+effort matrix for support macros"
+ },
+ {
+  "id": "reasoning-effort-097",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "tune verification depth alongside effort"
+ },
+ {
+  "id": "reasoning-effort-098",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "measure cost-per-task across efforts with retries counted"
+ },
+ {
+  "id": "reasoning-effort-099",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "build a cache strategy to offset higher effort"
+ },
+ {
+  "id": "reasoning-effort-100",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "diagnose a save-but-lost-on-refresh bug before escalating effort"
+ },
+ {
+  "id": "reasoning-effort-101",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "design a fallback: low first, escalate on failure signals"
+ },
+ {
+  "id": "reasoning-effort-102",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "build a routing rule: fast lane vs deep lane"
+ },
+ {
+  "id": "reasoning-effort-103",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "analyze latency vs quality trade-offs"
+ },
+ {
+  "id": "reasoning-effort-104",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "design an eval to compare medium vs high on your workload"
+ },
+ {
+  "id": "reasoning-effort-105",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "build a regression pack that pins effort per task type"
+ },
+ {
+  "id": "reasoning-effort-106",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "pick effort for a CRUD ticket vs a distributed bug"
+ },
+ {
+  "id": "reasoning-effort-107",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "decide when xhigh/max is justified with a checklist"
+ },
+ {
+  "id": "reasoning-effort-108",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "write an incident note when max still fails"
+ },
+ {
+  "id": "reasoning-effort-109",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "tune effort for long-doc QA vs short chat"
+ },
+ {
+  "id": "reasoning-effort-110",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "create an effort-selection flowchart"
+ },
+ {
+  "id": "reasoning-effort-111",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "build a prompt+effort matrix for support macros"
+ },
+ {
+  "id": "reasoning-effort-112",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "tune verification depth alongside effort"
+ },
+ {
+  "id": "reasoning-effort-113",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "measure cost-per-task across efforts with retries counted"
+ },
+ {
+  "id": "reasoning-effort-114",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "build a cache strategy to offset higher effort"
+ },
+ {
+  "id": "reasoning-effort-115",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "diagnose a save-but-lost-on-refresh bug before escalating effort"
+ },
+ {
+  "id": "reasoning-effort-116",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "design a fallback: low first, escalate on failure signals"
+ },
+ {
+  "id": "reasoning-effort-117",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "build a routing rule: fast lane vs deep lane"
+ },
+ {
+  "id": "reasoning-effort-118",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "analyze latency vs quality trade-offs"
+ },
+ {
+  "id": "reasoning-effort-119",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "design an eval to compare medium vs high on your workload"
+ },
+ {
+  "id": "reasoning-effort-120",
+  "category": "25-reasoning-effort",
+  "title": "Reasoning Effort Tuning",
+  "task": "build a regression pack that pins effort per task type"
+ },
+ {
   "id": "migration-001",
   "category": "26-migration",
   "title": "Migration: GPT-5.x → Astra",
@@ -14035,6 +18535,186 @@
  },
  {
   "id": "migration-090",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "update AGENTS.md/SKILL.md priority blocks for Astra"
+ },
+ {
+  "id": "migration-091",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a Chat Completions tool app to the Responses API"
+ },
+ {
+  "id": "migration-092",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a RAG app's citation format to Astra style"
+ },
+ {
+  "id": "migration-093",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "run the $openai-docs migrate checklist with sign-off"
+ },
+ {
+  "id": "migration-094",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "re-baseline evals after the model swap"
+ },
+ {
+  "id": "migration-095",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a support bot's verbosity to concise paragraphs"
+ },
+ {
+  "id": "migration-096",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a multi-agent harness to Astra delegation norms"
+ },
+ {
+  "id": "migration-097",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "build a rollback plan if Astra regresses a task"
+ },
+ {
+  "id": "migration-098",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "update cache config for Astra's read/write pricing"
+ },
+ {
+  "id": "migration-099",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate structured-output schemas with semantic prompts"
+ },
+ {
+  "id": "migration-100",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a GPT-5.6 Sol agent to Astra's autonomy model"
+ },
+ {
+  "id": "migration-101",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "re-price a workload at $10/$50 with cache math"
+ },
+ {
+  "id": "migration-102",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "re-tune prompts that over-ask after moving to Astra"
+ },
+ {
+  "id": "migration-103",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a browser-use workflow with new stop rules"
+ },
+ {
+  "id": "migration-104",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "remove temperature/top_p/logprobs with behavior checks"
+ },
+ {
+  "id": "migration-105",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "update AGENTS.md/SKILL.md priority blocks for Astra"
+ },
+ {
+  "id": "migration-106",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a Chat Completions tool app to the Responses API"
+ },
+ {
+  "id": "migration-107",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a RAG app's citation format to Astra style"
+ },
+ {
+  "id": "migration-108",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "run the $openai-docs migrate checklist with sign-off"
+ },
+ {
+  "id": "migration-109",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "re-baseline evals after the model swap"
+ },
+ {
+  "id": "migration-110",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a support bot's verbosity to concise paragraphs"
+ },
+ {
+  "id": "migration-111",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a multi-agent harness to Astra delegation norms"
+ },
+ {
+  "id": "migration-112",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "build a rollback plan if Astra regresses a task"
+ },
+ {
+  "id": "migration-113",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "update cache config for Astra's read/write pricing"
+ },
+ {
+  "id": "migration-114",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate structured-output schemas with semantic prompts"
+ },
+ {
+  "id": "migration-115",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a GPT-5.6 Sol agent to Astra's autonomy model"
+ },
+ {
+  "id": "migration-116",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "re-price a workload at $10/$50 with cache math"
+ },
+ {
+  "id": "migration-117",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "re-tune prompts that over-ask after moving to Astra"
+ },
+ {
+  "id": "migration-118",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "migrate a browser-use workflow with new stop rules"
+ },
+ {
+  "id": "migration-119",
+  "category": "26-migration",
+  "title": "Migration: GPT-5.x → Astra",
+  "task": "remove temperature/top_p/logprobs with behavior checks"
+ },
+ {
+  "id": "migration-120",
   "category": "26-migration",
   "title": "Migration: GPT-5.x → Astra",
   "task": "update AGENTS.md/SKILL.md priority blocks for Astra"
@@ -14580,6 +19260,186 @@
   "task": "diagnose over-testing on tiny diffs"
  },
  {
+  "id": "prompt-debugging-091",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "diagnose why Astra keeps asking instead of acting"
+ },
+ {
+  "id": "prompt-debugging-092",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "audit verbosity: find the formatting instruction causing bloat"
+ },
+ {
+  "id": "prompt-debugging-093",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "build a stop-word/slop-word lint pass"
+ },
+ {
+  "id": "prompt-debugging-094",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "build a regression set from five real failures"
+ },
+ {
+  "id": "prompt-debugging-095",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "audit PII leakage paths in a workflow"
+ },
+ {
+  "id": "prompt-debugging-096",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "trace a scope-escape to its instruction source"
+ },
+ {
+  "id": "prompt-debugging-097",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "design a canary eval before wide rollout"
+ },
+ {
+  "id": "prompt-debugging-098",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "design a prompt A/B with success criteria"
+ },
+ {
+  "id": "prompt-debugging-099",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "create a prompt-version log with diffs"
+ },
+ {
+  "id": "prompt-debugging-100",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "build a minimal repro for a flaky agent run"
+ },
+ {
+  "id": "prompt-debugging-101",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "write a failure taxonomy with examples"
+ },
+ {
+  "id": "prompt-debugging-102",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "audit AGENTS.md for conflicting instructions"
+ },
+ {
+  "id": "prompt-debugging-103",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "build a confusion matrix for a classifier prompt"
+ },
+ {
+  "id": "prompt-debugging-104",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "find which SKILL.md line caused a stall and quote it"
+ },
+ {
+  "id": "prompt-debugging-105",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "diagnose over-testing on tiny diffs"
+ },
+ {
+  "id": "prompt-debugging-106",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "diagnose why Astra keeps asking instead of acting"
+ },
+ {
+  "id": "prompt-debugging-107",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "audit verbosity: find the formatting instruction causing bloat"
+ },
+ {
+  "id": "prompt-debugging-108",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "build a stop-word/slop-word lint pass"
+ },
+ {
+  "id": "prompt-debugging-109",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "build a regression set from five real failures"
+ },
+ {
+  "id": "prompt-debugging-110",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "audit PII leakage paths in a workflow"
+ },
+ {
+  "id": "prompt-debugging-111",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "trace a scope-escape to its instruction source"
+ },
+ {
+  "id": "prompt-debugging-112",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "design a canary eval before wide rollout"
+ },
+ {
+  "id": "prompt-debugging-113",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "design a prompt A/B with success criteria"
+ },
+ {
+  "id": "prompt-debugging-114",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "create a prompt-version log with diffs"
+ },
+ {
+  "id": "prompt-debugging-115",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "build a minimal repro for a flaky agent run"
+ },
+ {
+  "id": "prompt-debugging-116",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "write a failure taxonomy with examples"
+ },
+ {
+  "id": "prompt-debugging-117",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "audit AGENTS.md for conflicting instructions"
+ },
+ {
+  "id": "prompt-debugging-118",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "build a confusion matrix for a classifier prompt"
+ },
+ {
+  "id": "prompt-debugging-119",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "find which SKILL.md line caused a stall and quote it"
+ },
+ {
+  "id": "prompt-debugging-120",
+  "category": "27-prompt-debugging",
+  "title": "Prompt Debugging & Audits",
+  "task": "diagnose over-testing on tiny diffs"
+ },
+ {
   "id": "productivity-001",
   "category": "28-productivity",
   "title": "Everyday Productivity",
@@ -15115,6 +19975,186 @@
  },
  {
   "id": "productivity-090",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "build a gift list with budget and links"
+ },
+ {
+  "id": "productivity-091",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "plan a week of meals from fridge contents and a budget"
+ },
+ {
+  "id": "productivity-092",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "organize a family calendar with conflicts resolved"
+ },
+ {
+  "id": "productivity-093",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "build a weekly review template that takes 15 minutes"
+ },
+ {
+  "id": "productivity-094",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "plan a study week around work shifts"
+ },
+ {
+  "id": "productivity-095",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "draft a meeting follow-up sequence"
+ },
+ {
+  "id": "productivity-096",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "create a tax-return document checklist (no filing advice beyond organizing)"
+ },
+ {
+  "id": "productivity-097",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "plan a conference visit: sessions, meetings, transit"
+ },
+ {
+  "id": "productivity-098",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "build a moving checklist with vendors and dates"
+ },
+ {
+  "id": "productivity-099",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "build a workout plan around injury constraints"
+ },
+ {
+  "id": "productivity-100",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "draft job-search outreach with tailored bullets"
+ },
+ {
+  "id": "productivity-101",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "create a home-maintenance schedule"
+ },
+ {
+  "id": "productivity-102",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "plan a 3-day trip with transit, stays, and backups"
+ },
+ {
+  "id": "productivity-103",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "draft a landlord email with photos inventory"
+ },
+ {
+  "id": "productivity-104",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "triage 200 unread emails into act/file/archive with drafts"
+ },
+ {
+  "id": "productivity-105",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "build a gift list with budget and links"
+ },
+ {
+  "id": "productivity-106",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "plan a week of meals from fridge contents and a budget"
+ },
+ {
+  "id": "productivity-107",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "organize a family calendar with conflicts resolved"
+ },
+ {
+  "id": "productivity-108",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "build a weekly review template that takes 15 minutes"
+ },
+ {
+  "id": "productivity-109",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "plan a study week around work shifts"
+ },
+ {
+  "id": "productivity-110",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "draft a meeting follow-up sequence"
+ },
+ {
+  "id": "productivity-111",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "create a tax-return document checklist (no filing advice beyond organizing)"
+ },
+ {
+  "id": "productivity-112",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "plan a conference visit: sessions, meetings, transit"
+ },
+ {
+  "id": "productivity-113",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "build a moving checklist with vendors and dates"
+ },
+ {
+  "id": "productivity-114",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "build a workout plan around injury constraints"
+ },
+ {
+  "id": "productivity-115",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "draft job-search outreach with tailored bullets"
+ },
+ {
+  "id": "productivity-116",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "create a home-maintenance schedule"
+ },
+ {
+  "id": "productivity-117",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "plan a 3-day trip with transit, stays, and backups"
+ },
+ {
+  "id": "productivity-118",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "draft a landlord email with photos inventory"
+ },
+ {
+  "id": "productivity-119",
+  "category": "28-productivity",
+  "title": "Everyday Productivity",
+  "task": "triage 200 unread emails into act/file/archive with drafts"
+ },
+ {
+  "id": "productivity-120",
   "category": "28-productivity",
   "title": "Everyday Productivity",
   "task": "build a gift list with budget and links"

@@ -1,4 +1,4 @@
-# 🖥️ Computer Use & Desktop Automation - 90 copyable GPT-6 Astra prompts
+# 🖥️ Computer Use & Desktop Automation - 120 copyable GPT-6 Astra prompts
 
 > Astra operating files, apps, forms, calendars, QA flows, with explicit stop points and approvals.
 
@@ -1694,5 +1694,578 @@ conflicting file if you must pause.
 Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
 assumptions and what you did not verify.
 Variant focus 90.
+```
+</details>
+
+<details>
+<summary><code>computer-use-091</code> - fill a multi-page web form from a spreadsheet and confirm submission (click to expand)</summary>
+
+```text
+Act as a senior desktop-automation specialist.
+Fill a multi-page web form from a spreadsheet and confirm submission on Windows 11.
+The intended result is a step log with evidence links and a Done table.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 91.
+```
+</details>
+
+<details>
+<summary><code>computer-use-092</code> - audit file permissions in a project folder and produce a fix plan (click to expand)</summary>
+
+```text
+Act as an expert QA operator.
+Audit file permissions in a project folder and produce a fix plan under strict least-privilege
+access.
+The intended result is an archive folder plus a rollback note.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 92.
+```
+</details>
+
+<details>
+<summary><code>computer-use-093</code> - clean up duplicate photos while preserving originals in an archive (click to expand)</summary>
+
+```text
+Act as a senior IT support engineer.
+Clean up duplicate photos while preserving originals in an archive for a non-technical stakeholder.
+The intended result is a summary email draft (do not send) with attachments listed.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Use tools where they help; state what evidence you checked before acting.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 93.
+```
+</details>
+
+<details>
+<summary><code>computer-use-094</code> - prepare a slide deck from a folder of screenshots and notes (click to expand)</summary>
+
+```text
+Act as an operations automation lead.
+Prepare a slide deck from a folder of screenshots and notes in a shared team workspace.
+The intended result is a QA report: tested / failed / unverified with details.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 94.
+```
+</details>
+
+<details>
+<summary><code>computer-use-095</code> - document a reproduceable bug with steps, video timestamps, and logs (click to expand)</summary>
+
+```text
+Act as a senior systems analyst.
+Document a reproduceable bug with steps, video timestamps, and logs inside a corporate VM.
+The intended result is a cleaned workspace plus a manifest CSV.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Keep a searchable working note so the task survives context compaction.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 95.
+```
+</details>
+
+<details>
+<summary><code>computer-use-096</code> - update CRM records from an inbox export without duplicating contacts (click to expand)</summary>
+
+```text
+Act as an expert accessibility tester.
+Update CRM records from an inbox export without duplicating contacts on macOS.
+The intended result is a defect list with severity, repro steps, and screenshots.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Compare against the provided reference and fix the largest gaps first.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 96.
+```
+</details>
+
+<details>
+<summary><code>computer-use-097</code> - verify backup integrity by restoring one sample file and checksumming (click to expand)</summary>
+
+```text
+Act as a senior desktop-automation specialist.
+Verify backup integrity by restoring one sample file and checksumming on Windows 11.
+The intended result is a step log with evidence links and a Done table.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 97.
+```
+</details>
+
+<details>
+<summary><code>computer-use-098</code> - run frontend QA on a staging site across three viewports and log defects (click to expand)</summary>
+
+```text
+Act as an expert QA operator.
+Run frontend QA on a staging site across three viewports and log defects under strict least-
+privilege access.
+The intended result is an archive folder plus a rollback note.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 98.
+```
+</details>
+
+<details>
+<summary><code>computer-use-099</code> - migrate bookmarks and settings to a new browser profile safely (click to expand)</summary>
+
+```text
+Act as a senior IT support engineer.
+Migrate bookmarks and settings to a new browser profile safely for a non-technical stakeholder.
+The intended result is a summary email draft (do not send) with attachments listed.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Use tools where they help; state what evidence you checked before acting.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 99.
+```
+</details>
+
+<details>
+<summary><code>computer-use-100</code> - install a dev tool, verify the install, and capture screenshots of each  (click to expand)</summary>
+
+```text
+Act as an operations automation lead.
+Install a dev tool, verify the install, and capture screenshots of each step in a shared team
+workspace.
+The intended result is a QA report: tested / failed / unverified with details.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 100.
+```
+</details>
+
+<details>
+<summary><code>computer-use-101</code> - test a checkout flow with valid, empty, and invalid inputs (click to expand)</summary>
+
+```text
+Act as a senior systems analyst.
+Test a checkout flow with valid, empty, and invalid inputs inside a corporate VM.
+The intended result is a cleaned workspace plus a manifest CSV.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Keep a searchable working note so the task survives context compaction.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 101.
+```
+</details>
+
+<details>
+<summary><code>computer-use-102</code> - organize a downloads folder into a dated archive with a manifest (click to expand)</summary>
+
+```text
+Act as an expert accessibility tester.
+Organize a downloads folder into a dated archive with a manifest on macOS.
+The intended result is a defect list with severity, repro steps, and screenshots.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Compare against the provided reference and fix the largest gaps first.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 102.
+```
+</details>
+
+<details>
+<summary><code>computer-use-103</code> - build a weekly report PDF from three source documents (click to expand)</summary>
+
+```text
+Act as a senior desktop-automation specialist.
+Build a weekly report PDF from three source documents on Windows 11.
+The intended result is a step log with evidence links and a Done table.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 103.
+```
+</details>
+
+<details>
+<summary><code>computer-use-104</code> - reconcile calendar events across two accounts and resolve conflicts (click to expand)</summary>
+
+```text
+Act as an expert QA operator.
+Reconcile calendar events across two accounts and resolve conflicts under strict least-privilege
+access.
+The intended result is an archive folder plus a rollback note.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 104.
+```
+</details>
+
+<details>
+<summary><code>computer-use-105</code> - transcribe meeting notes from audio into structured action items (click to expand)</summary>
+
+```text
+Act as a senior IT support engineer.
+Transcribe meeting notes from audio into structured action items for a non-technical stakeholder.
+The intended result is a summary email draft (do not send) with attachments listed.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Use tools where they help; state what evidence you checked before acting.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 105.
+```
+</details>
+
+<details>
+<summary><code>computer-use-106</code> - fill a multi-page web form from a spreadsheet and confirm submission (click to expand)</summary>
+
+```text
+Act as an operations automation lead.
+Fill a multi-page web form from a spreadsheet and confirm submission in a shared team workspace.
+The intended result is a QA report: tested / failed / unverified with details.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 106.
+```
+</details>
+
+<details>
+<summary><code>computer-use-107</code> - audit file permissions in a project folder and produce a fix plan (click to expand)</summary>
+
+```text
+Act as a senior systems analyst.
+Audit file permissions in a project folder and produce a fix plan inside a corporate VM.
+The intended result is a cleaned workspace plus a manifest CSV.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Keep a searchable working note so the task survives context compaction.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 107.
+```
+</details>
+
+<details>
+<summary><code>computer-use-108</code> - clean up duplicate photos while preserving originals in an archive (click to expand)</summary>
+
+```text
+Act as an expert accessibility tester.
+Clean up duplicate photos while preserving originals in an archive on macOS.
+The intended result is a defect list with severity, repro steps, and screenshots.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Compare against the provided reference and fix the largest gaps first.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 108.
+```
+</details>
+
+<details>
+<summary><code>computer-use-109</code> - prepare a slide deck from a folder of screenshots and notes (click to expand)</summary>
+
+```text
+Act as a senior desktop-automation specialist.
+Prepare a slide deck from a folder of screenshots and notes on Windows 11.
+The intended result is a step log with evidence links and a Done table.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 109.
+```
+</details>
+
+<details>
+<summary><code>computer-use-110</code> - document a reproduceable bug with steps, video timestamps, and logs (click to expand)</summary>
+
+```text
+Act as an expert QA operator.
+Document a reproduceable bug with steps, video timestamps, and logs under strict least-privilege
+access.
+The intended result is an archive folder plus a rollback note.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 110.
+```
+</details>
+
+<details>
+<summary><code>computer-use-111</code> - update CRM records from an inbox export without duplicating contacts (click to expand)</summary>
+
+```text
+Act as a senior IT support engineer.
+Update CRM records from an inbox export without duplicating contacts for a non-technical
+stakeholder.
+The intended result is a summary email draft (do not send) with attachments listed.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Use tools where they help; state what evidence you checked before acting.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 111.
+```
+</details>
+
+<details>
+<summary><code>computer-use-112</code> - verify backup integrity by restoring one sample file and checksumming (click to expand)</summary>
+
+```text
+Act as an operations automation lead.
+Verify backup integrity by restoring one sample file and checksumming in a shared team workspace.
+The intended result is a QA report: tested / failed / unverified with details.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 112.
+```
+</details>
+
+<details>
+<summary><code>computer-use-113</code> - run frontend QA on a staging site across three viewports and log defects (click to expand)</summary>
+
+```text
+Act as a senior systems analyst.
+Run frontend QA on a staging site across three viewports and log defects inside a corporate VM.
+The intended result is a cleaned workspace plus a manifest CSV.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Keep a searchable working note so the task survives context compaction.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 113.
+```
+</details>
+
+<details>
+<summary><code>computer-use-114</code> - migrate bookmarks and settings to a new browser profile safely (click to expand)</summary>
+
+```text
+Act as an expert accessibility tester.
+Migrate bookmarks and settings to a new browser profile safely on macOS.
+The intended result is a defect list with severity, repro steps, and screenshots.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Compare against the provided reference and fix the largest gaps first.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 114.
+```
+</details>
+
+<details>
+<summary><code>computer-use-115</code> - install a dev tool, verify the install, and capture screenshots of each  (click to expand)</summary>
+
+```text
+Act as a senior desktop-automation specialist.
+Install a dev tool, verify the install, and capture screenshots of each step on Windows 11.
+The intended result is a step log with evidence links and a Done table.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 115.
+```
+</details>
+
+<details>
+<summary><code>computer-use-116</code> - test a checkout flow with valid, empty, and invalid inputs (click to expand)</summary>
+
+```text
+Act as an expert QA operator.
+Test a checkout flow with valid, empty, and invalid inputs under strict least-privilege access.
+The intended result is an archive folder plus a rollback note.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 116.
+```
+</details>
+
+<details>
+<summary><code>computer-use-117</code> - organize a downloads folder into a dated archive with a manifest (click to expand)</summary>
+
+```text
+Act as a senior IT support engineer.
+Organize a downloads folder into a dated archive with a manifest for a non-technical stakeholder.
+The intended result is a summary email draft (do not send) with attachments listed.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Use tools where they help; state what evidence you checked before acting.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 117.
+```
+</details>
+
+<details>
+<summary><code>computer-use-118</code> - build a weekly report PDF from three source documents (click to expand)</summary>
+
+```text
+Act as an operations automation lead.
+Build a weekly report PDF from three source documents in a shared team workspace.
+The intended result is a QA report: tested / failed / unverified with details.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 118.
+```
+</details>
+
+<details>
+<summary><code>computer-use-119</code> - reconcile calendar events across two accounts and resolve conflicts (click to expand)</summary>
+
+```text
+Act as a senior systems analyst.
+Reconcile calendar events across two accounts and resolve conflicts inside a corporate VM.
+The intended result is a cleaned workspace plus a manifest CSV.
+Requirements: never delete originals; move removals to an Archive folder; stop before sending,
+purchasing, booking, deleting, or changing permissions.
+Keep a searchable working note so the task survives context compaction.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 119.
+```
+</details>
+
+<details>
+<summary><code>computer-use-120</code> - transcribe meeting notes from audio into structured action items (click to expand)</summary>
+
+```text
+Act as an expert accessibility tester.
+Transcribe meeting notes from audio into structured action items on macOS.
+The intended result is a defect list with severity, repro steps, and screenshots.
+Requirements: capture evidence (screenshots/paths) for every consequential step; work only inside
+the named folder; do not touch files outside it.
+Compare against the provided reference and fix the largest gaps first.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 120.
 ```
 </details>

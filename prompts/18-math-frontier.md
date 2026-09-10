@@ -1,4 +1,4 @@
-# 🧮 Math (Frontier-Style Rigor) - 90 copyable GPT-6 Astra prompts
+# 🧮 Math (Frontier-Style Rigor) - 120 copyable GPT-6 Astra prompts
 
 > Proof sketches, counterexamples, and verification discipline.
 
@@ -1586,5 +1586,542 @@ conflicting file if you must pause.
 Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
 assumptions and what you did not verify.
 Variant focus 90.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-091</code> - prove a combinatorial identity with a clear lemma chain (click to expand)</summary>
+
+```text
+Act as a senior mathematician aide.
+Prove a combinatorial identity with a clear lemma chain for a contest student.
+The intended result is a rigorous solution.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 91.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-092</code> - prove an inequality with named theorems (click to expand)</summary>
+
+```text
+Act as an expert contest coach.
+Prove an inequality with named theorems for a teacher.
+The intended result is an intuition-plus-proof pair.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 92.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-093</code> - write a solution sketch plus a full-solution expansion (click to expand)</summary>
+
+```text
+Act as a patient proof tutor.
+Write a solution sketch plus a full-solution expansion for a study group.
+The intended result is a verification report.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Use tools where they help; state what evidence you checked before acting.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 93.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-094</code> - analyze a recurrence with generating functions (click to expand)</summary>
+
+```text
+Act as a senior statistics mentor.
+Analyze a recurrence with generating functions for a curious adult.
+The intended result is a practice set with hints.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 94.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-095</code> - design a practice set that ramps difficulty (click to expand)</summary>
+
+```text
+Act as an expert discrete-math guide.
+Design a practice set that ramps difficulty for a researcher.
+The intended result is a counterexample with check.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Keep a searchable working note so the task survives context compaction.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 95.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-096</code> - design a counting argument with bijection (click to expand)</summary>
+
+```text
+Act as a senior olympiad trainer.
+Design a counting argument with bijection for an undergrad.
+The intended result is a lemma chain outline.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Compare against the provided reference and fix the largest gaps first.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 96.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-097</code> - explain Bayes with a worked medical-test example (click to expand)</summary>
+
+```text
+Act as a senior mathematician aide.
+Explain Bayes with a worked medical-test example for a contest student.
+The intended result is a rigorous solution.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 97.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-098</code> - explain a FrontierMath-style problem's structure without solving (click to expand)</summary>
+
+```text
+Act as an expert contest coach.
+Explain a FrontierMath-style problem's structure without solving for a teacher.
+The intended result is an intuition-plus-proof pair.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 98.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-099</code> - build a probability model with assumptions stated (click to expand)</summary>
+
+```text
+Act as a patient proof tutor.
+Build a probability model with assumptions stated for a study group.
+The intended result is a verification report.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Use tools where they help; state what evidence you checked before acting.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 99.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-100</code> - build intuition for eigenvalues with worked cases (click to expand)</summary>
+
+```text
+Act as a senior statistics mentor.
+Build intuition for eigenvalues with worked cases for a curious adult.
+The intended result is a practice set with hints.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 100.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-101</code> - translate a word problem into equations cleanly (click to expand)</summary>
+
+```text
+Act as an expert discrete-math guide.
+Translate a word problem into equations cleanly for a researcher.
+The intended result is a counterexample with check.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Keep a searchable working note so the task survives context compaction.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 101.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-102</code> - solve a number-theory problem with modular reasoning (click to expand)</summary>
+
+```text
+Act as a senior olympiad trainer.
+Solve a number-theory problem with modular reasoning for an undergrad.
+The intended result is a lemma chain outline.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Compare against the provided reference and fix the largest gaps first.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 102.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-103</code> - verify a proof step by step and flag gaps (click to expand)</summary>
+
+```text
+Act as a senior mathematician aide.
+Verify a proof step by step and flag gaps for a contest student.
+The intended result is a rigorous solution.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 103.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-104</code> - find a counterexample to a plausible conjecture (click to expand)</summary>
+
+```text
+Act as an expert contest coach.
+Find a counterexample to a plausible conjecture for a teacher.
+The intended result is an intuition-plus-proof pair.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 104.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-105</code> - explore prime gaps computationally with a plan (click to expand)</summary>
+
+```text
+Act as a patient proof tutor.
+Explore prime gaps computationally with a plan for a study group.
+The intended result is a verification report.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Use tools where they help; state what evidence you checked before acting.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 105.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-106</code> - prove a combinatorial identity with a clear lemma chain (click to expand)</summary>
+
+```text
+Act as a senior statistics mentor.
+Prove a combinatorial identity with a clear lemma chain for a curious adult.
+The intended result is a practice set with hints.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 106.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-107</code> - prove an inequality with named theorems (click to expand)</summary>
+
+```text
+Act as an expert discrete-math guide.
+Prove an inequality with named theorems for a researcher.
+The intended result is a counterexample with check.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Keep a searchable working note so the task survives context compaction.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 107.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-108</code> - write a solution sketch plus a full-solution expansion (click to expand)</summary>
+
+```text
+Act as a senior olympiad trainer.
+Write a solution sketch plus a full-solution expansion for an undergrad.
+The intended result is a lemma chain outline.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Compare against the provided reference and fix the largest gaps first.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 108.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-109</code> - analyze a recurrence with generating functions (click to expand)</summary>
+
+```text
+Act as a senior mathematician aide.
+Analyze a recurrence with generating functions for a contest student.
+The intended result is a rigorous solution.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 109.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-110</code> - design a practice set that ramps difficulty (click to expand)</summary>
+
+```text
+Act as an expert contest coach.
+Design a practice set that ramps difficulty for a teacher.
+The intended result is an intuition-plus-proof pair.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 110.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-111</code> - design a counting argument with bijection (click to expand)</summary>
+
+```text
+Act as a patient proof tutor.
+Design a counting argument with bijection for a study group.
+The intended result is a verification report.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Use tools where they help; state what evidence you checked before acting.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 111.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-112</code> - explain Bayes with a worked medical-test example (click to expand)</summary>
+
+```text
+Act as a senior statistics mentor.
+Explain Bayes with a worked medical-test example for a curious adult.
+The intended result is a practice set with hints.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 112.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-113</code> - explain a FrontierMath-style problem's structure without solving (click to expand)</summary>
+
+```text
+Act as an expert discrete-math guide.
+Explain a FrontierMath-style problem's structure without solving for a researcher.
+The intended result is a counterexample with check.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Keep a searchable working note so the task survives context compaction.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 113.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-114</code> - build a probability model with assumptions stated (click to expand)</summary>
+
+```text
+Act as a senior olympiad trainer.
+Build a probability model with assumptions stated for an undergrad.
+The intended result is a lemma chain outline.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Compare against the provided reference and fix the largest gaps first.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 114.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-115</code> - build intuition for eigenvalues with worked cases (click to expand)</summary>
+
+```text
+Act as a senior mathematician aide.
+Build intuition for eigenvalues with worked cases for a contest student.
+The intended result is a rigorous solution.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 115.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-116</code> - translate a word problem into equations cleanly (click to expand)</summary>
+
+```text
+Act as an expert contest coach.
+Translate a word problem into equations cleanly for a teacher.
+The intended result is an intuition-plus-proof pair.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 116.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-117</code> - solve a number-theory problem with modular reasoning (click to expand)</summary>
+
+```text
+Act as a patient proof tutor.
+Solve a number-theory problem with modular reasoning for a study group.
+The intended result is a verification report.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Use tools where they help; state what evidence you checked before acting.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 117.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-118</code> - verify a proof step by step and flag gaps (click to expand)</summary>
+
+```text
+Act as a senior statistics mentor.
+Verify a proof step by step and flag gaps for a curious adult.
+The intended result is a practice set with hints.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 118.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-119</code> - find a counterexample to a plausible conjecture (click to expand)</summary>
+
+```text
+Act as an expert discrete-math guide.
+Find a counterexample to a plausible conjecture for a researcher.
+The intended result is a counterexample with check.
+Requirements: show each logical step; name theorems used; separate proof from intuition explicitly.
+Keep a searchable working note so the task survives context compaction.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 119.
+```
+</details>
+
+<details>
+<summary><code>math-frontier-120</code> - explore prime gaps computationally with a plan (click to expand)</summary>
+
+```text
+Act as a senior olympiad trainer.
+Explore prime gaps computationally with a plan for an undergrad.
+The intended result is a lemma chain outline.
+Requirements: check edge cases and small n by hand; no hand-waving; quantify where possible.
+Compare against the provided reference and fix the largest gaps first.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 120.
 ```
 </details>

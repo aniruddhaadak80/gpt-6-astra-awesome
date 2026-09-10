@@ -1,4 +1,4 @@
-# 🎬 Video & Cinematic AI - 90 copyable GPT-6 Astra prompts
+# 🎬 Video & Cinematic AI - 120 copyable GPT-6 Astra prompts
 
 > Remotion/Final Cut workflows, shot lists, 5-minute explainers like the T-cell demo.
 
@@ -1631,5 +1631,557 @@ conflicting file if you must pause.
 Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
 assumptions and what you did not verify.
 Variant focus 90.
+```
+</details>
+
+<details>
+<summary><code>video-creation-091</code> - plan a 5-minute T-cell explainer with scenes and narration (click to expand)</summary>
+
+```text
+Act as a senior video producer.
+Plan a 5-minute T-cell explainer with scenes and narration for YouTube.
+The intended result is a scene-by-scene script with timings.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 91.
+```
+</details>
+
+<details>
+<summary><code>video-creation-092</code> - create a voiceover script with timing marks (click to expand)</summary>
+
+```text
+Act as an expert motion designer.
+Create a voiceover script with timing marks for a nonprofit story.
+The intended result is a delivery spec sheet.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 92.
+```
+</details>
+
+<details>
+<summary><code>video-creation-093</code> - create a review-and-approve checklist (click to expand)</summary>
+
+```text
+Act as a film director aide.
+Create a review-and-approve checklist for social clips.
+The intended result is a review notes template.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Use tools where they help; state what evidence you checked before acting.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 93.
+```
+</details>
+
+<details>
+<summary><code>video-creation-094</code> - build a Final Cut import-to-grade checklist (click to expand)</summary>
+
+```text
+Act as a senior tutorial creator.
+Build a Final Cut import-to-grade checklist for a conference.
+The intended result is an edit checklist.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 94.
+```
+</details>
+
+<details>
+<summary><code>video-creation-095</code> - plan captions and translations workflow (click to expand)</summary>
+
+```text
+Act as an expert science communicator.
+Plan captions and translations workflow for a client ad.
+The intended result is a VO script with timecodes.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Keep a searchable working note so the task survives context compaction.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 95.
+```
+</details>
+
+<details>
+<summary><code>video-creation-096</code> - write a cinematic prompt for a 10-second animation (click to expand)</summary>
+
+```text
+Act as a senior editor.
+Write a cinematic prompt for a 10-second animation for a classroom.
+The intended result is a shot list with framing notes.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Compare against the provided reference and fix the largest gaps first.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 96.
+```
+</details>
+
+<details>
+<summary><code>video-creation-097</code> - build a sound-design cue sheet (click to expand)</summary>
+
+```text
+Act as a senior video producer.
+Build a sound-design cue sheet for YouTube.
+The intended result is a scene-by-scene script with timings.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 97.
+```
+</details>
+
+<details>
+<summary><code>video-creation-098</code> - plan a tutorial series with per-episode outcomes (click to expand)</summary>
+
+```text
+Act as an expert motion designer.
+Plan a tutorial series with per-episode outcomes for a nonprofit story.
+The intended result is a delivery spec sheet.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 98.
+```
+</details>
+
+<details>
+<summary><code>video-creation-099</code> - create a color-grade pass plan (click to expand)</summary>
+
+```text
+Act as a film director aide.
+Create a color-grade pass plan for social clips.
+The intended result is a review notes template.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Use tools where they help; state what evidence you checked before acting.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 99.
+```
+</details>
+
+<details>
+<summary><code>video-creation-100</code> - create a house-tour video outline from listing photos (click to expand)</summary>
+
+```text
+Act as a senior tutorial creator.
+Create a house-tour video outline from listing photos for a conference.
+The intended result is an edit checklist.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 100.
+```
+</details>
+
+<details>
+<summary><code>video-creation-101</code> - write a trailer beat sheet with hooks (click to expand)</summary>
+
+```text
+Act as an expert science communicator.
+Write a trailer beat sheet with hooks for a client ad.
+The intended result is a VO script with timecodes.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Keep a searchable working note so the task survives context compaction.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 101.
+```
+</details>
+
+<details>
+<summary><code>video-creation-102</code> - build a product promo from 3D renders with beats (click to expand)</summary>
+
+```text
+Act as a senior editor.
+Build a product promo from 3D renders with beats for a classroom.
+The intended result is a shot list with framing notes.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Compare against the provided reference and fix the largest gaps first.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 102.
+```
+</details>
+
+<details>
+<summary><code>video-creation-103</code> - plan B-roll coverage for an interview (click to expand)</summary>
+
+```text
+Act as a senior video producer.
+Plan B-roll coverage for an interview for YouTube.
+The intended result is a scene-by-scene script with timings.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 103.
+```
+</details>
+
+<details>
+<summary><code>video-creation-104</code> - write a shot list that keeps actors in frame (click to expand)</summary>
+
+```text
+Act as an expert motion designer.
+Write a shot list that keeps actors in frame for a nonprofit story.
+The intended result is a delivery spec sheet.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 104.
+```
+</details>
+
+<details>
+<summary><code>video-creation-105</code> - design lower-thirds and caption styles (click to expand)</summary>
+
+```text
+Act as a film director aide.
+Design lower-thirds and caption styles for social clips.
+The intended result is a review notes template.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Use tools where they help; state what evidence you checked before acting.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 105.
+```
+</details>
+
+<details>
+<summary><code>video-creation-106</code> - plan a 5-minute T-cell explainer with scenes and narration (click to expand)</summary>
+
+```text
+Act as a senior tutorial creator.
+Plan a 5-minute T-cell explainer with scenes and narration for a conference.
+The intended result is an edit checklist.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 106.
+```
+</details>
+
+<details>
+<summary><code>video-creation-107</code> - create a voiceover script with timing marks (click to expand)</summary>
+
+```text
+Act as an expert science communicator.
+Create a voiceover script with timing marks for a client ad.
+The intended result is a VO script with timecodes.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Keep a searchable working note so the task survives context compaction.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 107.
+```
+</details>
+
+<details>
+<summary><code>video-creation-108</code> - create a review-and-approve checklist (click to expand)</summary>
+
+```text
+Act as a senior editor.
+Create a review-and-approve checklist for a classroom.
+The intended result is a shot list with framing notes.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Compare against the provided reference and fix the largest gaps first.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 108.
+```
+</details>
+
+<details>
+<summary><code>video-creation-109</code> - build a Final Cut import-to-grade checklist (click to expand)</summary>
+
+```text
+Act as a senior video producer.
+Build a Final Cut import-to-grade checklist for YouTube.
+The intended result is a scene-by-scene script with timings.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 109.
+```
+</details>
+
+<details>
+<summary><code>video-creation-110</code> - plan captions and translations workflow (click to expand)</summary>
+
+```text
+Act as an expert motion designer.
+Plan captions and translations workflow for a nonprofit story.
+The intended result is a delivery spec sheet.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 110.
+```
+</details>
+
+<details>
+<summary><code>video-creation-111</code> - write a cinematic prompt for a 10-second animation (click to expand)</summary>
+
+```text
+Act as a film director aide.
+Write a cinematic prompt for a 10-second animation for social clips.
+The intended result is a review notes template.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Use tools where they help; state what evidence you checked before acting.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 111.
+```
+</details>
+
+<details>
+<summary><code>video-creation-112</code> - build a sound-design cue sheet (click to expand)</summary>
+
+```text
+Act as a senior tutorial creator.
+Build a sound-design cue sheet for a conference.
+The intended result is an edit checklist.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 112.
+```
+</details>
+
+<details>
+<summary><code>video-creation-113</code> - plan a tutorial series with per-episode outcomes (click to expand)</summary>
+
+```text
+Act as an expert science communicator.
+Plan a tutorial series with per-episode outcomes for a client ad.
+The intended result is a VO script with timecodes.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Keep a searchable working note so the task survives context compaction.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 113.
+```
+</details>
+
+<details>
+<summary><code>video-creation-114</code> - create a color-grade pass plan (click to expand)</summary>
+
+```text
+Act as a senior editor.
+Create a color-grade pass plan for a classroom.
+The intended result is a shot list with framing notes.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Compare against the provided reference and fix the largest gaps first.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 114.
+```
+</details>
+
+<details>
+<summary><code>video-creation-115</code> - create a house-tour video outline from listing photos (click to expand)</summary>
+
+```text
+Act as a senior video producer.
+Create a house-tour video outline from listing photos for YouTube.
+The intended result is a scene-by-scene script with timings.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 115.
+```
+</details>
+
+<details>
+<summary><code>video-creation-116</code> - write a trailer beat sheet with hooks (click to expand)</summary>
+
+```text
+Act as an expert motion designer.
+Write a trailer beat sheet with hooks for a nonprofit story.
+The intended result is a delivery spec sheet.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 116.
+```
+</details>
+
+<details>
+<summary><code>video-creation-117</code> - build a product promo from 3D renders with beats (click to expand)</summary>
+
+```text
+Act as a film director aide.
+Build a product promo from 3D renders with beats for social clips.
+The intended result is a review notes template.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Use tools where they help; state what evidence you checked before acting.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 117.
+```
+</details>
+
+<details>
+<summary><code>video-creation-118</code> - plan B-roll coverage for an interview (click to expand)</summary>
+
+```text
+Act as a senior tutorial creator.
+Plan B-roll coverage for an interview for a conference.
+The intended result is an edit checklist.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 118.
+```
+</details>
+
+<details>
+<summary><code>video-creation-119</code> - write a shot list that keeps actors in frame (click to expand)</summary>
+
+```text
+Act as an expert science communicator.
+Write a shot list that keeps actors in frame for a client ad.
+The intended result is a VO script with timecodes.
+Requirements: specify duration, aspect, and delivery specs up front; keep narration timed to
+visuals; no wall-of-text VO.
+Keep a searchable working note so the task survives context compaction.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 119.
+```
+</details>
+
+<details>
+<summary><code>video-creation-120</code> - design lower-thirds and caption styles (click to expand)</summary>
+
+```text
+Act as a senior editor.
+Design lower-thirds and caption styles for a classroom.
+The intended result is a shot list with framing notes.
+Requirements: design for captions-on viewing; plan one revision pass with prioritized fixes.
+Compare against the provided reference and fix the largest gaps first.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 120.
 ```
 </details>

@@ -5,23 +5,39 @@ import { useMemo, useRef, useState } from "react";
 const PAGE = 60;
 
 function matchesQuery(p, tokens) {
-  const hay = (p.prompt + " " + p.id + " " + p.category).toLowerCase();
+  const hay = (p.prompt + " " + p.id + " " + p.category + " " + p.task + " " + p.level).toLowerCase();
   for (const t of tokens) {
     if (hay.includes(t) === false) return false;
   }
   return true;
 }
 
-export function PromptCard({ item, open, onToggle, copied, onCopy }) {
-  const prettyCat = item.category.replace(/^\d+-/, "").replace(/-/g, " ");
+function previewOf(text) {
+  const flat = text.replace(/\s+/g, " ").trim();
+  if (flat.length <= 150) return flat;
+  const cut = flat.slice(0, 150);
+  const space = cut.lastIndexOf(" ");
+  return (space > 60 ? cut.slice(0, space) : cut) + " …";
+}
+
+function levelClass(level) {
+  if (level === "low-level") return "lvl-low";
+  if (level === "high-level") return "lvl-high";
+  return "lvl-med";
+}
+
+export function PromptCard({ item, open, onToggle, copied, onCopy, domId }) {
   return (
-    <div className={"prompt-card" + (open === true ? " open" : "")}>
+    <div className={"prompt-card" + (open === true ? " open" : "")} id={domId}>
       <button className="prompt-head" onClick={onToggle} aria-expanded={open === true}>
+        <span className="prompt-num">#{item.n}</span>
         <span className="prompt-id">{item.id}</span>
-        <span className="prompt-title">{prettyCat}</span>
+        <span className="prompt-title">{item.task}</span>
+        <span className={"level-tag " + levelClass(item.level)}>{item.level}</span>
         {item.effort === null ? null : <span className="effort-tag">{item.effort}</span>}
         <span className="chev">▾</span>
       </button>
+      <div className="prompt-preview">{previewOf(item.prompt)}</div>
       <div className="prompt-body">
         <div className="prompt-body-inner">
           <pre className="prompt-text">{item.prompt}</pre>
@@ -32,7 +48,7 @@ export function PromptCard({ item, open, onToggle, copied, onCopy }) {
             >
               {copied === true ? "Copied to clipboard" : "Copy prompt"}
             </button>
-            <span className="cat-link">{item.category} · {item.prompt.length} chars</span>
+            <span className="cat-link">{item.catTitle} · {item.prompt.length} chars · {item.level}</span>
           </div>
         </div>
       </div>
@@ -40,15 +56,16 @@ export function PromptCard({ item, open, onToggle, copied, onCopy }) {
   );
 }
 
-export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) {
-  const [query, setQuery] = useState("");
+export function PromptExplorer({ prompts, categories, activeCat, onCatChange, query, onQueryChange }) {
   const [effort, setEffort] = useState("");
+  const [level, setLevel] = useState("");
   const [sort, setSort] = useState("relevance");
   const [limit, setLimit] = useState(PAGE);
   const [openId, setOpenId] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
   const [shuffled, setShuffled] = useState(null);
-  const timer = useRef(null);
+  const [hl, setHl] = useState(0);
+  const timer = useRef(0);
 
   const filtered = useMemo(() => {
     const tokens = query.toLowerCase().split(/\s+/).filter((t) => t.length > 0);
@@ -59,17 +76,23 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
       if (catOk === false) continue;
       const effOk = effort === "" || p.effort === effort;
       if (effOk === false) continue;
+      const lvlOk = level === "" || p.level === level;
+      if (lvlOk === false) continue;
       if (tokens.length === 0 ? false : matchesQuery(p, tokens) === false) continue;
       out.push(p);
     }
     if (sort === "az") out = [...out].sort((a, b) => (a.id < b.id ? -1 : 1));
     if (sort === "category") out = [...out].sort((a, b) => (a.category + a.id < b.category + b.id ? -1 : 1));
+    if (sort === "level") {
+      const rank = { "low-level": 0, "medium-level": 1, "high-level": 2 };
+      out = [...out].sort((a, b) => rank[a.level] - rank[b.level]);
+    }
     return out;
-  }, [prompts, shuffled, query, activeCat, effort, sort]);
+  }, [prompts, shuffled, query, activeCat, effort, level, sort]);
 
   const visible = filtered.slice(0, limit);
 
-  function copyText(text, id) {
+  function doCopy(text, id) {
     const done = () => {
       setCopiedId(id);
       clearTimeout(timer.current);
@@ -100,6 +123,17 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
     }
   }
 
+  function openAt(i) {
+    const clamped = Math.max(0, Math.min(i, visible.length - 1));
+    setHl(clamped);
+    const p = visible[clamped];
+    if (p) {
+      setOpenId(p.id);
+      const el = document.getElementById("pcard-" + p.n);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }
+
   function surprise() {
     const pool = filtered.length === 0 ? prompts : filtered;
     const pick = pool[Math.floor(Math.random() * pool.length)];
@@ -107,17 +141,37 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
     setShuffled(rest);
     setOpenId(pick.id);
     setLimit(PAGE);
+    setHl(0);
     const el = document.getElementById("results");
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function clearAll() {
-    setQuery("");
+    onQueryChange("");
     setEffort("");
+    setLevel("");
     setSort("relevance");
     setShuffled(null);
     setLimit(PAGE);
+    setHl(0);
     onCatChange("");
+  }
+
+  if (typeof window === "undefined") {
+    // server render, keyboard bridge attaches on the client only
+  } else {
+    window.__astraExplorer = {
+      next: () => openAt(hl + 1),
+      prev: () => openAt(hl - 1),
+      toggle: () => {
+        const p = visible[hl];
+        if (p) setOpenId(openId === p.id ? null : p.id);
+      },
+      copyOpen: () => {
+        const p = openId === null ? visible[hl] : visible.find((x) => x.id === openId);
+        if (p) doCopy(p.prompt, p.id);
+      }
+    };
   }
 
   return (
@@ -130,7 +184,7 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
               id="q"
               className="input"
               value={query}
-              onChange={(e) => { setLimit(PAGE); setQuery(e.target.value); }}
+              onChange={(e) => { setLimit(PAGE); setHl(0); onQueryChange(e.target.value); }}
               placeholder="Try blender QA, booking flow, triage table, shader budget"
             />
           </div>
@@ -140,7 +194,7 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
               id="cat"
               className="select"
               value={activeCat}
-              onChange={(e) => { setLimit(PAGE); setShuffled(null); onCatChange(e.target.value); }}
+              onChange={(e) => { setLimit(PAGE); setHl(0); setShuffled(null); onCatChange(e.target.value); }}
             >
               <option value="">All 28 categories</option>
               {categories.map((c) => (
@@ -151,12 +205,26 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
             </select>
           </div>
           <div className="field">
+            <label htmlFor="lvl">Difficulty level</label>
+            <select
+              id="lvl"
+              className="select"
+              value={level}
+              onChange={(e) => { setLimit(PAGE); setHl(0); setLevel(e.target.value); }}
+            >
+              <option value="">Any level</option>
+              <option value="low-level">Low-level starters</option>
+              <option value="medium-level">Medium-level builds</option>
+              <option value="high-level">High-level deep work</option>
+            </select>
+          </div>
+          <div className="field">
             <label htmlFor="eff">Reasoning effort</label>
             <select
               id="eff"
               className="select"
               value={effort}
-              onChange={(e) => { setLimit(PAGE); setEffort(e.target.value); }}
+              onChange={(e) => { setLimit(PAGE); setHl(0); setEffort(e.target.value); }}
             >
               <option value="">Any effort level</option>
               <option value="low">low</option>
@@ -172,6 +240,7 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
               <option value="relevance">Curated order</option>
               <option value="az">Prompt ID, A to Z</option>
               <option value="category">Grouped by category</option>
+              <option value="level">Easy to advanced</option>
             </select>
           </div>
         </div>
@@ -183,7 +252,7 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
             <button
               key={c.slug}
               className={"chip" + (activeCat === c.slug ? " on" : "")}
-              onClick={() => { setLimit(PAGE); setShuffled(null); onCatChange(activeCat === c.slug ? "" : c.slug); }}
+              onClick={() => { setLimit(PAGE); setHl(0); setShuffled(null); onCatChange(activeCat === c.slug ? "" : c.slug); }}
             >
               {c.emoji} {c.title}
             </button>
@@ -196,9 +265,9 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
         <span>
           Showing <b>{visible.length}</b> of <b>{filtered.length}</b> matches
         </span>
-        <span>from 2520 hard-coded prompts</span>
+        <span>from 3360 hard-coded prompts</span>
         <span style={{ marginLeft: "auto" }} className="cat-link">
-          Each card expands downward, text wraps vertically, one click copies all of it
+          Numbered 1 to {prompts.length} · keys j and k move · Enter opens · c copies
         </span>
       </div>
       <div className="prompt-list">
@@ -211,11 +280,12 @@ export function PromptExplorer({ prompts, categories, activeCat, onCatChange }) 
         {visible.map((p) => (
           <PromptCard
             key={p.id}
+            domId={"pcard-" + p.n}
             item={p}
             open={openId === p.id}
             onToggle={() => setOpenId(openId === p.id ? null : p.id)}
             copied={copiedId === p.id}
-            onCopy={() => copyText(p.prompt, p.id)}
+            onCopy={() => doCopy(p.prompt, p.id)}
           />
         ))}
       </div>

@@ -1,4 +1,4 @@
-# 📈 Data Analysis & Visualization - 90 copyable GPT-6 Astra prompts
+# 📈 Data Analysis & Visualization - 120 copyable GPT-6 Astra prompts
 
 > From question to chart spec to decision, with honest scales.
 
@@ -1676,5 +1676,572 @@ conflicting file if you must pause.
 Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
 assumptions and what you did not verify.
 Variant focus 90.
+```
+</details>
+
+<details>
+<summary><code>data-viz-091</code> - analyze a funnel drop with segment breakdowns (click to expand)</summary>
+
+```text
+Act as a senior data scientist.
+Analyze a funnel drop with segment breakdowns for a product team.
+The intended result is an analysis memo with a recommendation.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 91.
+```
+</details>
+
+<details>
+<summary><code>data-viz-092</code> - write SQL for a tricky sessionization problem (click to expand)</summary>
+
+```text
+Act as an expert analytics engineer.
+Write SQL for a tricky sessionization problem for a classroom.
+The intended result is a next-questions list.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 92.
+```
+</details>
+
+<details>
+<summary><code>data-viz-093</code> - write a metrics-definitions doc (click to expand)</summary>
+
+```text
+Act as a senior BI developer.
+Write a metrics-definitions doc for a nonprofit.
+The intended result is a metrics dictionary.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Use tools where they help; state what evidence you checked before acting.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 93.
+```
+</details>
+
+<details>
+<summary><code>data-viz-094</code> - design a dashboard spec with five honest charts (click to expand)</summary>
+
+```text
+Act as a product analyst.
+Design a dashboard spec with five honest charts for finance.
+The intended result is a dashboard wireframe description.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 94.
+```
+</details>
+
+<details>
+<summary><code>data-viz-095</code> - build a anomaly-triage playbook (click to expand)</summary>
+
+```text
+Act as a senior statistician.
+Build a anomaly-triage playbook for marketing.
+The intended result is SQL plus validation queries.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Keep a searchable working note so the task survives context compaction.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 95.
+```
+</details>
+
+<details>
+<summary><code>data-viz-096</code> - build a pricing elasticity sketch from history (click to expand)</summary>
+
+```text
+Act as an expert data storyteller.
+Build a pricing elasticity sketch from history for execs.
+The intended result is a chart spec with columns and filters.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Compare against the provided reference and fix the largest gaps first.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 96.
+```
+</details>
+
+<details>
+<summary><code>data-viz-097</code> - create a executive one-chart memo (click to expand)</summary>
+
+```text
+Act as a senior data scientist.
+Create a executive one-chart memo for a product team.
+The intended result is an analysis memo with a recommendation.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 97.
+```
+</details>
+
+<details>
+<summary><code>data-viz-098</code> - analyze survey free-text into themes (click to expand)</summary>
+
+```text
+Act as an expert analytics engineer.
+Analyze survey free-text into themes for a classroom.
+The intended result is a next-questions list.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 98.
+```
+</details>
+
+<details>
+<summary><code>data-viz-099</code> - design an experiment backlog scored by ICE (click to expand)</summary>
+
+```text
+Act as a senior BI developer.
+Design an experiment backlog scored by ICE for a nonprofit.
+The intended result is a metrics dictionary.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Use tools where they help; state what evidence you checked before acting.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 99.
+```
+</details>
+
+<details>
+<summary><code>data-viz-100</code> - create a forecast with scenarios and assumptions (click to expand)</summary>
+
+```text
+Act as a product analyst.
+Create a forecast with scenarios and assumptions for finance.
+The intended result is a dashboard wireframe description.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 100.
+```
+</details>
+
+<details>
+<summary><code>data-viz-101</code> - analyze support tickets for top drivers (click to expand)</summary>
+
+```text
+Act as a senior statistician.
+Analyze support tickets for top drivers for marketing.
+The intended result is SQL plus validation queries.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Keep a searchable working note so the task survives context compaction.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 101.
+```
+</details>
+
+<details>
+<summary><code>data-viz-102</code> - design an A/B read-out with guardrails (click to expand)</summary>
+
+```text
+Act as an expert data storyteller.
+Design an A/B read-out with guardrails for execs.
+The intended result is a chart spec with columns and filters.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Compare against the provided reference and fix the largest gaps first.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 102.
+```
+</details>
+
+<details>
+<summary><code>data-viz-103</code> - build a cohort table from event logs (click to expand)</summary>
+
+```text
+Act as a senior data scientist.
+Build a cohort table from event logs for a product team.
+The intended result is an analysis memo with a recommendation.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 103.
+```
+</details>
+
+<details>
+<summary><code>data-viz-104</code> - build a churn analysis with leading indicators (click to expand)</summary>
+
+```text
+Act as an expert analytics engineer.
+Build a churn analysis with leading indicators for a classroom.
+The intended result is a next-questions list.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 104.
+```
+</details>
+
+<details>
+<summary><code>data-viz-105</code> - plan a data-quality audit with check queries (click to expand)</summary>
+
+```text
+Act as a senior BI developer.
+Plan a data-quality audit with check queries for a nonprofit.
+The intended result is a metrics dictionary.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Use tools where they help; state what evidence you checked before acting.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 105.
+```
+</details>
+
+<details>
+<summary><code>data-viz-106</code> - analyze a funnel drop with segment breakdowns (click to expand)</summary>
+
+```text
+Act as a product analyst.
+Analyze a funnel drop with segment breakdowns for finance.
+The intended result is a dashboard wireframe description.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 106.
+```
+</details>
+
+<details>
+<summary><code>data-viz-107</code> - write SQL for a tricky sessionization problem (click to expand)</summary>
+
+```text
+Act as a senior statistician.
+Write SQL for a tricky sessionization problem for marketing.
+The intended result is SQL plus validation queries.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Keep a searchable working note so the task survives context compaction.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 107.
+```
+</details>
+
+<details>
+<summary><code>data-viz-108</code> - write a metrics-definitions doc (click to expand)</summary>
+
+```text
+Act as an expert data storyteller.
+Write a metrics-definitions doc for execs.
+The intended result is a chart spec with columns and filters.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Compare against the provided reference and fix the largest gaps first.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 108.
+```
+</details>
+
+<details>
+<summary><code>data-viz-109</code> - design a dashboard spec with five honest charts (click to expand)</summary>
+
+```text
+Act as a senior data scientist.
+Design a dashboard spec with five honest charts for a product team.
+The intended result is an analysis memo with a recommendation.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 109.
+```
+</details>
+
+<details>
+<summary><code>data-viz-110</code> - build a anomaly-triage playbook (click to expand)</summary>
+
+```text
+Act as an expert analytics engineer.
+Build a anomaly-triage playbook for a classroom.
+The intended result is a next-questions list.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 110.
+```
+</details>
+
+<details>
+<summary><code>data-viz-111</code> - build a pricing elasticity sketch from history (click to expand)</summary>
+
+```text
+Act as a senior BI developer.
+Build a pricing elasticity sketch from history for a nonprofit.
+The intended result is a metrics dictionary.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Use tools where they help; state what evidence you checked before acting.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 111.
+```
+</details>
+
+<details>
+<summary><code>data-viz-112</code> - create a executive one-chart memo (click to expand)</summary>
+
+```text
+Act as a product analyst.
+Create a executive one-chart memo for finance.
+The intended result is a dashboard wireframe description.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 112.
+```
+</details>
+
+<details>
+<summary><code>data-viz-113</code> - analyze survey free-text into themes (click to expand)</summary>
+
+```text
+Act as a senior statistician.
+Analyze survey free-text into themes for marketing.
+The intended result is SQL plus validation queries.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Keep a searchable working note so the task survives context compaction.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 113.
+```
+</details>
+
+<details>
+<summary><code>data-viz-114</code> - design an experiment backlog scored by ICE (click to expand)</summary>
+
+```text
+Act as an expert data storyteller.
+Design an experiment backlog scored by ICE for execs.
+The intended result is a chart spec with columns and filters.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Compare against the provided reference and fix the largest gaps first.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 114.
+```
+</details>
+
+<details>
+<summary><code>data-viz-115</code> - create a forecast with scenarios and assumptions (click to expand)</summary>
+
+```text
+Act as a senior data scientist.
+Create a forecast with scenarios and assumptions for a product team.
+The intended result is an analysis memo with a recommendation.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 115.
+```
+</details>
+
+<details>
+<summary><code>data-viz-116</code> - analyze support tickets for top drivers (click to expand)</summary>
+
+```text
+Act as an expert analytics engineer.
+Analyze support tickets for top drivers for a classroom.
+The intended result is a next-questions list.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 116.
+```
+</details>
+
+<details>
+<summary><code>data-viz-117</code> - design an A/B read-out with guardrails (click to expand)</summary>
+
+```text
+Act as a senior BI developer.
+Design an A/B read-out with guardrails for a nonprofit.
+The intended result is a metrics dictionary.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Use tools where they help; state what evidence you checked before acting.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 117.
+```
+</details>
+
+<details>
+<summary><code>data-viz-118</code> - build a cohort table from event logs (click to expand)</summary>
+
+```text
+Act as a product analyst.
+Build a cohort table from event logs for finance.
+The intended result is a dashboard wireframe description.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 118.
+```
+</details>
+
+<details>
+<summary><code>data-viz-119</code> - build a churn analysis with leading indicators (click to expand)</summary>
+
+```text
+Act as a senior statistician.
+Build a churn analysis with leading indicators for marketing.
+The intended result is SQL plus validation queries.
+Requirements: state the question, data, grain, and date range first; honest axes; no truncated-y
+tricks without labels.
+Keep a searchable working note so the task survives context compaction.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 119.
+```
+</details>
+
+<details>
+<summary><code>data-viz-120</code> - plan a data-quality audit with check queries (click to expand)</summary>
+
+```text
+Act as an expert data storyteller.
+Plan a data-quality audit with check queries for execs.
+The intended result is a chart spec with columns and filters.
+Requirements: note missing data and biases explicitly; reproducible steps: queries plus check
+totals.
+Compare against the provided reference and fix the largest gaps first.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 120.
 ```
 </details>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/prompts-2520-orange" alt="2520 prompts">
+  <img src="https://img.shields.io/badge/prompts-3360-orange" alt="3360 prompts">
   <img src="https://img.shields.io/badge/categories-28-yellow" alt="28 categories">
   <img src="https://img.shields.io/badge/unique-100_percent-brightgreen" alt="100 percent unique">
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license">
@@ -10,14 +10,14 @@
 <h1 align="center">GPT-6 Astra Awesome Hub</h1>
 
 <p align="center">
-  <b>2,520 copy-paste GPT-6 Astra prompts, carousel navigator, real community builds index, API quickstarts, safety notes</b>
+  <b>3,360 copy-paste GPT-6 Astra prompts, carousel navigator, real community builds index, API quickstarts, safety notes</b>
   <br>
   Launch-aware: GPT-6 Astra shipped <b>Sept 3 to 4, 2026</b>. The public ecosystem is days old. This repo stays factual about that.
 </p>
 
 <p align="center">
   <a href="https://gpt-6-astra-showcase.vercel.app"><img src="https://img.shields.io/badge/open_live_showcase-orange" alt="Open live showcase"></a>
-  <a href="https://github.com/aniruddhaadak80/gpt-6-astra-awesome/tree/main/prompts"><img src="https://img.shields.io/badge/browse-2520_prompts-yellow" alt="Browse 2520 prompts"></a>
+  <a href="https://github.com/aniruddhaadak80/gpt-6-astra-awesome/tree/main/prompts"><img src="https://img.shields.io/badge/browse-3360_prompts-yellow" alt="Browse 3360 prompts"></a>
   <a href="https://github.com/aniruddhaadak80/gpt-6-astra-awesome/blob/main/docs/3d-advanced-guide.md"><img src="https://img.shields.io/badge/advanced-3D_guide-blue" alt="Advanced 3D guide"></a>
   <a href="https://vercel.com/new/clone?repository-url=https://github.com/aniruddhaadak80/gpt-6-astra-awesome&amp;root-directory=web"><img src="https://vercel.com/button" alt="Deploy with Vercel"></a>
 </p>
@@ -26,19 +26,20 @@
   <a href="https://awesome.re">Awesome</a> - <a href="prompts/">Prompts</a> - <a href="#category-carousel">Categories</a> - <a href="#live-web-showcase">Live showcase</a> - <a href="LICENSE">License</a> - <a href="SOURCES.md">Sources</a>
 </p>
 
-**Status line:** Prompts 2520 | Categories 28 | Unique verified SHA-256 | License MIT | Updated 2026-09-10 | Web showcase Next.js 14, static export, live preview linked above
+**Status line:** Prompts 3360 | Categories 28 | Unique verified SHA-256 | License MIT | Updated 2026-09-10 | Web showcase Next.js 14, static export, live preview linked above
 
 ---
 
 ## Live web showcase
 
-The full library now runs as a cinematic web app: all 2520 prompts hard-coded in the bundle, one-click copy, dropdown filters, advanced search, animated hero with particle canvas, scroll reveals, stat counters, marquee ticker, 3D pipeline timeline, builds gallery, framework, quickstart, safety, and sources.
+The full library now runs as a cinematic web app: all 3360 prompts hard-coded in the bundle, one-click copy, dropdown filters, advanced search, animated hero with particle canvas, scroll reveals, stat counters, marquee ticker, 3D pipeline timeline, builds gallery, framework, quickstart, safety, and sources.
 
 - **Production URL:** https://gpt-6-astra-showcase.vercel.app
 - **Project:** `gpt-6-astra-showcase` under the account workspace, root directory `web`, auto-deploys every push to `main` once the Git integration is connected. Fresh deploys from an authenticated shell use `npx vercel deploy --prod` inside `web/`.
 - **Run locally:** `cd web`, `npm install`, `npm run dev`, open the printed localhost address.
 - **Regenerate data:** `cd web`, `py data/build-data.py`, then rebuild. The bundle reads `web/data/prompts.json` plus `web/data/categories.json`, both generated from `prompts/prompts.jsonl`.
 - **Palette:** obsidian black, amber, signal orange, teal, sky. No purple, no pink anywhere in the interface.
+- **Navigation:** navbar search plus section jumper plus keyboard map (`?` opens the guide), GitHub shortcut in the upper-right corner.
 - **Full manual:** [`#web-app-manual`](#web-app-manual)
 
 ---
@@ -47,7 +48,7 @@ The full library now runs as a cinematic web app: all 2520 prompts hard-coded in
 
 Public search across GitHub, X, LinkedIn, Reddit mirrors, DEV, Substack, and vendor docs on 2026-09-10 shows Astra is real and very new, with thin public signal: mostly launch shares, access questions, score screenshots, and about 15 to 20 substantive demos. No 2,000-plus community prompt corpus exists yet in the wild. This repo therefore contains two distinct parts:
 
-1. `prompts/` - **2,520 original, unique, Astra-tuned prompts** (28 times 90), built from official Astra guidance patterns. Labeled as curation, not scraped content.
+1. `prompts/` - **3,360 original, unique, Astra-tuned prompts** (28 times 120), built from official Astra guidance patterns. Labeled as curation, not scraped content.
 2. **Real builds index** - significant public builds with creator attribution and links. Inclusion does not mean reproduction. Confidence labels reflect evidence quality.
 
 For strictly found material, use the builds table plus `SOURCES.md`. For a working library, use `prompts/` plus `examples/` plus `docs/`, or the live showcase above.
@@ -146,12 +147,14 @@ For strictly found material, use the builds table plus `SOURCES.md`. For a worki
 
 | Highlight | Detail |
 |---|---|
-| 2520 prompts, zero duplicates | SHA-256 verified on every push by `scripts/verify_prompts.py` plus CI |
+| 3360 prompts, zero duplicates | SHA-256 verified on every push by `scripts/verify_prompts.py` plus CI |
 | Collapsible vertical blocks | Click any title to expand top to bottom, copy icon on the inner fence, no sideways scrolling |
 | Circular category chain | Every file links Index, Prev, Next, Search, Carousel, so navigation never dead-ends |
 | Machine-readable twins | `prompts.jsonl`, `prompts.csv`, `prompts_index.json` ship beside the markdown |
 | Interactive carousel | `docs/carousel.html` with search, prev, next, random, keyboard control |
 | Cinematic web showcase | Next.js 14 static export with loader, particle hero, counters, marquee, reveals, filters |
+| Numbered cards with previews | Stable numbers 1 to 3360, one-line summaries, pre-open previews, low, medium, and high difficulty tags |
+| Command-grade navigation | Navbar search, section jumper, GitHub shortcut, full keyboard map with guide overlay |
 | Advanced 3D pipeline | Nine-gate playbook plus budgets, export matrix, QA gate in `docs/3d-advanced-guide.md` |
 | Honest sourcing | Vendor claims labeled as claims, builds carry attribution plus confidence |
 
@@ -310,7 +313,7 @@ Swap one slot at a time: new role, new task, new audience, tighter constraints, 
 
 ## Category carousel
 
-> **2,520 prompts, 28 categories, 90 each, all unique with SHA-256 verification.**
+> **3,360 prompts, 28 categories, 120 each, all unique with SHA-256 verification.**
 > Each file uses collapsible sections. Click a title to expand it top to bottom, then use the copy icon on the inner code block. Text wraps vertically. There is no left to right scrolling.
 > Interactive version with search plus prev, next, random, and keyboard support: [`docs/carousel.html`](docs/carousel.html).
 > Cinematic version with filters and animations: [live showcase](https://gpt-6-astra-showcase.vercel.app).
@@ -363,8 +366,8 @@ Each category file header links Index, Prev, Next, Search, and Carousel, so navi
 **Showcase path:**
 
 1. Open the [live showcase](https://gpt-6-astra-showcase.vercel.app).
-2. Type in advanced search, pick the category dropdown, optionally filter by effort, sort, or hit Surprise me.
-3. Expand any card downward and press Copy prompt. Clipboard feedback confirms the copy.
+2. Type in advanced search, pick the category dropdown, filter by difficulty or effort, sort, or hit Surprise me. The navbar search filters the same vault from anywhere on the page.
+3. Skim the number, summary, preview, and difficulty tag, expand any card downward, and press Copy prompt. Clipboard feedback confirms the copy. Press ? at any time for the keyboard map.
 
 **Programmatic path:**
 
@@ -462,10 +465,10 @@ Measure full-task cost with retries, not list price. Pin effort per task type af
 
 ## Architecture and data flow
 
-How the 2520 prompts flow from generator to every surface:
+How the 3360 prompts flow from generator to every surface:
 
 ```text
-scripts/generate_prompts.py  (28 categories x 90, deterministic, SHA-256 checked)
+scripts/generate_prompts.py  (28 categories x 120, deterministic, SHA-256 checked)
   -> prompts/NN-name.md      (collapsible details blocks, circular Prev and Next)
   -> prompts/prompts.jsonl   (id, category, prompt, one row per line)
   -> prompts/prompts.csv     (same rows, spreadsheet friendly)
@@ -575,7 +578,7 @@ gpt-6-astra-awesome/
 - categories.json, 28-category manifest
 - prompts_index.json, id, category, and task search index
 - prompts/
-  - 01-agentic-coding.md through 28-productivity.md, 90 prompts each, collapsible
+  - 01-agentic-coding.md through 28-productivity.md, 120 prompts each, collapsible
   - prompts.jsonl, prompts.csv, prompts_index.json
   - README.md, prompt-library usage
 - docs/
@@ -588,7 +591,7 @@ gpt-6-astra-awesome/
   - data/, build-data.py plus generated prompts.json and categories.json
   - out/, static export output after npm run build
 - scripts/
-  - generate_prompts.py, deterministic 28 times 90 generator
+  - generate_prompts.py, deterministic 28 times 120 generator
   - verify_prompts.py, SHA-256 uniqueness plus count check
   - patch_nav.py, circular carousel linker
 ```
@@ -629,6 +632,8 @@ npm run build
 
 **Design tokens:** obsidian `#070b0e`, card `#111b20`, amber `#f5a524`, signal orange `#f97316`, teal `#2dd4bf`, sky `#38bdf8`, green `#4ade80` for success, red `#f87171` for stop gates. Motion: boot loader with progress, particle canvas, drifting gradient orbs, staggered hero entrance, marquee ticker, scroll reveals, animated counters, accordion cards, hover lifts, back-to-top control. Reduced-motion preferences are respected.
 
+**Keyboard map:** `/` focuses navbar search, `?` opens the shortcut guide, `Esc` closes, `j` and `k` move across cards, `Enter` toggles, `c` copies, `1` to `7` jump sections.
+
 ---
 
 ## FAQ
@@ -636,11 +641,11 @@ npm run build
 **Is GPT-6 Astra publicly available.**
 Yes, with rollout gates. API as `gpt-6-astra` since Sept 4, 2026, plus ChatGPT Work, Codex, Copilot, Azure, and Bedrock surfaces. Enterprise access is off by default and paid plans propagate over days.
 
-**Are the 2520 prompts scraped from the community.**
+**Are the 3360 prompts scraped from the community.**
 No. They are original curation written to official Astra patterns. Community builds are indexed separately with attribution. The distinction is stated wherever both appear.
 
 **How is uniqueness enforced.**
-`scripts/verify_prompts.py` hashes every prompt with SHA-256 and fails below 2520 rows or on any duplicate. CI runs the same gate on push and pull requests.
+`scripts/verify_prompts.py` hashes every prompt with SHA-256 and fails below 3360 rows or on any duplicate. CI runs the same gate on push and pull requests.
 
 **Which effort level belongs on a new task.**
 Start low for triage and edits, medium with planning for features, high for deep bugs, xhigh for frontier work, max only behind an eval harness with cost sign-off. Details in category 25.
@@ -661,6 +666,7 @@ Scraped dumps without provenance, offensive-security content, jailbreaks, bypass
 
 ## Changelog
 
+- **v1.3.0, 2026-09-10:** Library expanded to 3360 prompts with 120 per category. Showcase gains navbar search, section jumper, GitHub shortcut, keyboard map with guide overlay, numbered cards with summaries and previews, difficulty tags plus filter, refined fonts, richer motion.
 - **v1.2.0, 2026-09-10:** Next.js 14 cinematic showcase with all prompts bundled, advanced search and filters, dropdowns, one-click copy, loader plus particles plus reveals plus counters, static export, live Vercel preview, advanced README pass with badges, benchmarks, anatomy, architecture, FAQ.
 - **v1.1.0, 2026-09-10:** Collapsible vertical prompt blocks with circular navigation, advanced 3D guide, expanded operations, machine-readable twins, interactive carousel page, CI verification.
 - **v1.0.0, 2026-09-10:** Initial hub with 2520 unique prompts across 28 categories, real builds index, official and community sources, API quickstarts, safety notes.
@@ -675,7 +681,7 @@ New real build: open a PR adding a row to the builds table plus a line in `SOURC
 
 ## License and citations
 
-MIT, see [`LICENSE`](LICENSE). Builds and demos belong to their creators, linked in the tables. Model facts and scores are vendor claims, linked in `SOURCES.md`. The prompt library in `prompts/` is original curation for this repo, dated Sept 2026, not a scrape. Cite as: `GPT-6 Astra Awesome Hub - 2,520 Astra-tuned prompts plus verified builds index, accessed 2026-09-10`.
+MIT, see [`LICENSE`](LICENSE). Builds and demos belong to their creators, linked in the tables. Model facts and scores are vendor claims, linked in `SOURCES.md`. The prompt library in `prompts/` is original curation for this repo, dated Sept 2026, not a scrape. Cite as: `GPT-6 Astra Awesome Hub - 3,360 Astra-tuned prompts plus verified builds index, accessed 2026-09-10`.
 
 ---
 

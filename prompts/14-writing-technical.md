@@ -1,4 +1,4 @@
-# 📝 Technical Writing (No Slop) - 90 copyable GPT-6 Astra prompts
+# 📝 Technical Writing (No Slop) - 120 copyable GPT-6 Astra prompts
 
 > Concise paragraphs, plain verbs, explicit structure per Astra style guidance.
 
@@ -1676,5 +1676,572 @@ conflicting file if you must pause.
 Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
 assumptions and what you did not verify.
 Variant focus 90.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-091</code> - write a quickstart that gets to hello-world in 5 minutes (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Write a quickstart that gets to hello-world in 5 minutes for developers.
+The intended result is a publish-ready doc.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 91.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-092</code> - create a glossary with precise definitions (click to expand)</summary>
+
+```text
+Act as an expert documentation lead.
+Create a glossary with precise definitions for students.
+The intended result is a review checklist.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 92.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-093</code> - write a deprecation notice with dates and path forward (click to expand)</summary>
+
+```text
+Act as a principal engineer-writer.
+Write a deprecation notice with dates and path forward for auditors.
+The intended result is a changelog entry.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Use tools where they help; state what evidence you checked before acting.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 93.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-094</code> - write a runbook for a 3am page (click to expand)</summary>
+
+```text
+Act as a senior API writer.
+Write a runbook for a 3am page for end users.
+The intended result is a FAQ with links.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 94.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-095</code> - document rate limits with headers and examples (click to expand)</summary>
+
+```text
+Act as an expert release-notes writer.
+Document rate limits with headers and examples for admins.
+The intended result is a runbook with commands.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Keep a searchable working note so the task survives context compaction.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 95.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-096</code> - document a CLI with examples per flag (click to expand)</summary>
+
+```text
+Act as a senior tutorial author.
+Document a CLI with examples per flag for operators.
+The intended result is a quickstart with verification steps.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Compare against the provided reference and fix the largest gaps first.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 96.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-097</code> - write a FAQ that kills support tickets (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Write a FAQ that kills support tickets for developers.
+The intended result is a publish-ready doc.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 97.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-098</code> - write architecture decision records for three choices (click to expand)</summary>
+
+```text
+Act as an expert documentation lead.
+Write architecture decision records for three choices for students.
+The intended result is a review checklist.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 98.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-099</code> - create a tutorial with checkpoints and expected outputs (click to expand)</summary>
+
+```text
+Act as a principal engineer-writer.
+Create a tutorial with checkpoints and expected outputs for auditors.
+The intended result is a changelog entry.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Use tools where they help; state what evidence you checked before acting.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 99.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-100</code> - create a troubleshooting page ordered by frequency (click to expand)</summary>
+
+```text
+Act as a senior API writer.
+Create a troubleshooting page ordered by frequency for end users.
+The intended result is a FAQ with links.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 100.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-101</code> - write a security disclosure policy page (click to expand)</summary>
+
+```text
+Act as an expert release-notes writer.
+Write a security disclosure policy page for admins.
+The intended result is a runbook with commands.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Keep a searchable working note so the task survives context compaction.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 101.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-102</code> - write a migration guide with rollback steps (click to expand)</summary>
+
+```text
+Act as a senior tutorial author.
+Write a migration guide with rollback steps for operators.
+The intended result is a quickstart with verification steps.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Compare against the provided reference and fix the largest gaps first.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 102.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-103</code> - document webhook semantics: retries, ordering, dedupe (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Document webhook semantics: retries, ordering, dedupe for developers.
+The intended result is a publish-ready doc.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 103.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-104</code> - document an API endpoint with errors and retries (click to expand)</summary>
+
+```text
+Act as an expert documentation lead.
+Document an API endpoint with errors and retries for students.
+The intended result is a review checklist.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 104.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-105</code> - write a changelog users actually read (click to expand)</summary>
+
+```text
+Act as a principal engineer-writer.
+Write a changelog users actually read for auditors.
+The intended result is a changelog entry.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Use tools where they help; state what evidence you checked before acting.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 105.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-106</code> - write a quickstart that gets to hello-world in 5 minutes (click to expand)</summary>
+
+```text
+Act as a senior API writer.
+Write a quickstart that gets to hello-world in 5 minutes for end users.
+The intended result is a FAQ with links.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 106.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-107</code> - create a glossary with precise definitions (click to expand)</summary>
+
+```text
+Act as an expert release-notes writer.
+Create a glossary with precise definitions for admins.
+The intended result is a runbook with commands.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Keep a searchable working note so the task survives context compaction.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 107.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-108</code> - write a deprecation notice with dates and path forward (click to expand)</summary>
+
+```text
+Act as a senior tutorial author.
+Write a deprecation notice with dates and path forward for operators.
+The intended result is a quickstart with verification steps.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Compare against the provided reference and fix the largest gaps first.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 108.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-109</code> - write a runbook for a 3am page (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Write a runbook for a 3am page for developers.
+The intended result is a publish-ready doc.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 109.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-110</code> - document rate limits with headers and examples (click to expand)</summary>
+
+```text
+Act as an expert documentation lead.
+Document rate limits with headers and examples for students.
+The intended result is a review checklist.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 110.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-111</code> - document a CLI with examples per flag (click to expand)</summary>
+
+```text
+Act as a principal engineer-writer.
+Document a CLI with examples per flag for auditors.
+The intended result is a changelog entry.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Use tools where they help; state what evidence you checked before acting.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 111.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-112</code> - write a FAQ that kills support tickets (click to expand)</summary>
+
+```text
+Act as a senior API writer.
+Write a FAQ that kills support tickets for end users.
+The intended result is a FAQ with links.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 112.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-113</code> - write architecture decision records for three choices (click to expand)</summary>
+
+```text
+Act as an expert release-notes writer.
+Write architecture decision records for three choices for admins.
+The intended result is a runbook with commands.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Keep a searchable working note so the task survives context compaction.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 113.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-114</code> - create a tutorial with checkpoints and expected outputs (click to expand)</summary>
+
+```text
+Act as a senior tutorial author.
+Create a tutorial with checkpoints and expected outputs for operators.
+The intended result is a quickstart with verification steps.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Compare against the provided reference and fix the largest gaps first.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 114.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-115</code> - create a troubleshooting page ordered by frequency (click to expand)</summary>
+
+```text
+Act as a senior technical writer.
+Create a troubleshooting page ordered by frequency for developers.
+The intended result is a publish-ready doc.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 115.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-116</code> - write a security disclosure policy page (click to expand)</summary>
+
+```text
+Act as an expert documentation lead.
+Write a security disclosure policy page for students.
+The intended result is a review checklist.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 116.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-117</code> - write a migration guide with rollback steps (click to expand)</summary>
+
+```text
+Act as a principal engineer-writer.
+Write a migration guide with rollback steps for auditors.
+The intended result is a changelog entry.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Use tools where they help; state what evidence you checked before acting.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 117.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-118</code> - document webhook semantics: retries, ordering, dedupe (click to expand)</summary>
+
+```text
+Act as a senior API writer.
+Document webhook semantics: retries, ordering, dedupe for end users.
+The intended result is a FAQ with links.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 118.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-119</code> - document an API endpoint with errors and retries (click to expand)</summary>
+
+```text
+Act as an expert release-notes writer.
+Document an API endpoint with errors and retries for admins.
+The intended result is a runbook with commands.
+Requirements: default to concise paragraphs; lists only when parallel/sequential; plain verbs;
+active voice; no slop words or contrastive phrasing.
+Keep a searchable working note so the task survives context compaction.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 119.
+```
+</details>
+
+<details>
+<summary><code>writing-technical-120</code> - write a changelog users actually read (click to expand)</summary>
+
+```text
+Act as a senior tutorial author.
+Write a changelog users actually read for operators.
+The intended result is a quickstart with verification steps.
+Requirements: include copy-paste commands with expected output; state what to do; avoid saying what
+you won't do.
+Compare against the provided reference and fix the largest gaps first.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 120.
 ```
 </details>

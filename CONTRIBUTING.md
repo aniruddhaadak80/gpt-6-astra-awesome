@@ -18,4 +18,4 @@
 2. Run `py scripts/generate_prompts.py` only if you change the generator; otherwise run `py scripts/verify_prompts.py`.
 3. Open a PR with: what changed, why, evidence link, verify output.
 
-CI fails on duplicates or count < 2520.
+CI fails on duplicates or count < 3360.

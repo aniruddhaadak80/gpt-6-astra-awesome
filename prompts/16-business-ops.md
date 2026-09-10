@@ -1,4 +1,4 @@
-# 🏢 Business Ops, CRM & Support - 90 copyable GPT-6 Astra prompts
+# 🏢 Business Ops, CRM & Support - 120 copyable GPT-6 Astra prompts
 
 > Inbox triage, CRM hygiene, SOPs with stop-before-send guardrails.
 
@@ -1631,5 +1631,557 @@ conflicting file if you must pause.
 Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
 assumptions and what you did not verify.
 Variant focus 90.
+```
+</details>
+
+<details>
+<summary><code>business-ops-091</code> - triage today's inbox into urgent/reply/file with drafts unsent (click to expand)</summary>
+
+```text
+Act as a senior operations manager.
+Triage today's inbox into urgent/reply/file with drafts unsent for a 10-person startup.
+The intended result is a triage table with drafts.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 91.
+```
+</details>
+
+<details>
+<summary><code>business-ops-092</code> - write a launch checklist with owners (click to expand)</summary>
+
+```text
+Act as an expert RevOps lead.
+Write a launch checklist with owners for a nonprofit.
+The intended result is an exceptions list.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 92.
+```
+</details>
+
+<details>
+<summary><code>business-ops-093</code> - draft a status page update template (click to expand)</summary>
+
+```text
+Act as a senior support lead.
+Draft a status page update template for a school office.
+The intended result is a macro pack.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Use tools where they help; state what evidence you checked before acting.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 93.
+```
+</details>
+
+<details>
+<summary><code>business-ops-094</code> - build a vendor comparison with total cost (click to expand)</summary>
+
+```text
+Act as a CRM administrator.
+Build a vendor comparison with total cost for a clinic front desk.
+The intended result is a review template.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 94.
+```
+</details>
+
+<details>
+<summary><code>business-ops-095</code> - build a knowledge-base article from tickets (click to expand)</summary>
+
+```text
+Act as a senior SOP writer.
+Build a knowledge-base article from tickets for a sales team.
+The intended result is a one-page SOP.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Keep a searchable working note so the task survives context compaction.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 95.
+```
+</details>
+
+<details>
+<summary><code>business-ops-096</code> - create an escalation matrix with SLAs (click to expand)</summary>
+
+```text
+Act as an expert executive assistant.
+Create an escalation matrix with SLAs for a support team.
+The intended result is a cleaned list plus merge log.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Compare against the provided reference and fix the largest gaps first.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 96.
+```
+</details>
+
+<details>
+<summary><code>business-ops-097</code> - write a returns QA checklist (click to expand)</summary>
+
+```text
+Act as a senior operations manager.
+Write a returns QA checklist for a 10-person startup.
+The intended result is a triage table with drafts.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 97.
+```
+</details>
+
+<details>
+<summary><code>business-ops-098</code> - draft support macros that stay human (click to expand)</summary>
+
+```text
+Act as an expert RevOps lead.
+Draft support macros that stay human for a nonprofit.
+The intended result is an exceptions list.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 98.
+```
+</details>
+
+<details>
+<summary><code>business-ops-099</code> - create a meeting-notes-to-tasks pipeline (click to expand)</summary>
+
+```text
+Act as a senior support lead.
+Create a meeting-notes-to-tasks pipeline for a school office.
+The intended result is a macro pack.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Use tools where they help; state what evidence you checked before acting.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 99.
+```
+</details>
+
+<details>
+<summary><code>business-ops-100</code> - build a weekly ops review agenda with metrics (click to expand)</summary>
+
+```text
+Act as a CRM administrator.
+Build a weekly ops review agenda with metrics for a clinic front desk.
+The intended result is a review template.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 100.
+```
+</details>
+
+<details>
+<summary><code>business-ops-101</code> - build a hiring scorecard with structured questions (click to expand)</summary>
+
+```text
+Act as a senior SOP writer.
+Build a hiring scorecard with structured questions for a sales team.
+The intended result is a one-page SOP.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Keep a searchable working note so the task survives context compaction.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 101.
+```
+</details>
+
+<details>
+<summary><code>business-ops-102</code> - write an SOP for refunds with edge cases (click to expand)</summary>
+
+```text
+Act as an expert executive assistant.
+Write an SOP for refunds with edge cases for a support team.
+The intended result is a cleaned list plus merge log.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Compare against the provided reference and fix the largest gaps first.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 102.
+```
+</details>
+
+<details>
+<summary><code>business-ops-103</code> - draft a renewal play with risk flags (click to expand)</summary>
+
+```text
+Act as a senior operations manager.
+Draft a renewal play with risk flags for a 10-person startup.
+The intended result is a triage table with drafts.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 103.
+```
+</details>
+
+<details>
+<summary><code>business-ops-104</code> - dedupe CRM contacts and merge with audit notes (click to expand)</summary>
+
+```text
+Act as an expert RevOps lead.
+Dedupe CRM contacts and merge with audit notes for a nonprofit.
+The intended result is an exceptions list.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 104.
+```
+</details>
+
+<details>
+<summary><code>business-ops-105</code> - create a customer health review template (click to expand)</summary>
+
+```text
+Act as a senior support lead.
+Create a customer health review template for a school office.
+The intended result is a macro pack.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Use tools where they help; state what evidence you checked before acting.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 105.
+```
+</details>
+
+<details>
+<summary><code>business-ops-106</code> - triage today's inbox into urgent/reply/file with drafts unsent (click to expand)</summary>
+
+```text
+Act as a CRM administrator.
+Triage today's inbox into urgent/reply/file with drafts unsent for a clinic front desk.
+The intended result is a review template.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 106.
+```
+</details>
+
+<details>
+<summary><code>business-ops-107</code> - write a launch checklist with owners (click to expand)</summary>
+
+```text
+Act as a senior SOP writer.
+Write a launch checklist with owners for a sales team.
+The intended result is a one-page SOP.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Keep a searchable working note so the task survives context compaction.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 107.
+```
+</details>
+
+<details>
+<summary><code>business-ops-108</code> - draft a status page update template (click to expand)</summary>
+
+```text
+Act as an expert executive assistant.
+Draft a status page update template for a support team.
+The intended result is a cleaned list plus merge log.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Compare against the provided reference and fix the largest gaps first.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 108.
+```
+</details>
+
+<details>
+<summary><code>business-ops-109</code> - build a vendor comparison with total cost (click to expand)</summary>
+
+```text
+Act as a senior operations manager.
+Build a vendor comparison with total cost for a 10-person startup.
+The intended result is a triage table with drafts.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 109.
+```
+</details>
+
+<details>
+<summary><code>business-ops-110</code> - build a knowledge-base article from tickets (click to expand)</summary>
+
+```text
+Act as an expert RevOps lead.
+Build a knowledge-base article from tickets for a nonprofit.
+The intended result is an exceptions list.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 110.
+```
+</details>
+
+<details>
+<summary><code>business-ops-111</code> - create an escalation matrix with SLAs (click to expand)</summary>
+
+```text
+Act as a senior support lead.
+Create an escalation matrix with SLAs for a school office.
+The intended result is a macro pack.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Use tools where they help; state what evidence you checked before acting.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 111.
+```
+</details>
+
+<details>
+<summary><code>business-ops-112</code> - write a returns QA checklist (click to expand)</summary>
+
+```text
+Act as a CRM administrator.
+Write a returns QA checklist for a clinic front desk.
+The intended result is a review template.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 112.
+```
+</details>
+
+<details>
+<summary><code>business-ops-113</code> - draft support macros that stay human (click to expand)</summary>
+
+```text
+Act as a senior SOP writer.
+Draft support macros that stay human for a sales team.
+The intended result is a one-page SOP.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Keep a searchable working note so the task survives context compaction.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 113.
+```
+</details>
+
+<details>
+<summary><code>business-ops-114</code> - create a meeting-notes-to-tasks pipeline (click to expand)</summary>
+
+```text
+Act as an expert executive assistant.
+Create a meeting-notes-to-tasks pipeline for a support team.
+The intended result is a cleaned list plus merge log.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Compare against the provided reference and fix the largest gaps first.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 114.
+```
+</details>
+
+<details>
+<summary><code>business-ops-115</code> - build a weekly ops review agenda with metrics (click to expand)</summary>
+
+```text
+Act as a senior operations manager.
+Build a weekly ops review agenda with metrics for a 10-person startup.
+The intended result is a triage table with drafts.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Be concrete and end-to-end: produce the artifact, not a plan to produce it.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 115.
+```
+</details>
+
+<details>
+<summary><code>business-ops-116</code> - build a hiring scorecard with structured questions (click to expand)</summary>
+
+```text
+Act as an expert RevOps lead.
+Build a hiring scorecard with structured questions for a nonprofit.
+The intended result is an exceptions list.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Optimize for fewer tokens and fewer retries: do the smallest complete thing that satisfies the
+brief.
+If a minor detail is unspecified, make the best professional decision and continue; ask only when
+the answer would materially change the outcome.
+Verification: test every important interaction, list what passed/failed/unverified, fix high-impact
+issues, then re-test.
+Variant focus 116.
+```
+</details>
+
+<details>
+<summary><code>business-ops-117</code> - write an SOP for refunds with edge cases (click to expand)</summary>
+
+```text
+Act as a senior support lead.
+Write an SOP for refunds with edge cases for a school office.
+The intended result is a macro pack.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Use tools where they help; state what evidence you checked before acting.
+Bias toward action: treat 'can you / help me / I want to' as instructions to act.
+Prepare a concrete reviewable result before asking for approval.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 117.
+```
+</details>
+
+<details>
+<summary><code>business-ops-118</code> - draft a renewal play with risk flags (click to expand)</summary>
+
+```text
+Act as a CRM administrator.
+Draft a renewal play with risk flags for a clinic front desk.
+The intended result is a review template.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Parallelize with subagents where independent work exists; merge with a single coherent voice.
+Work persistently until the goal is complete.
+Use read-only exploration freely; stop before any destructive, irreversible, sending, purchasing,
+deleting, or permission-changing step.
+Verification: keep checks proportional to risk.
+For small reversible changes, run only targeted checks; for risky changes, run the full relevant
+suite.
+Variant focus 118.
+```
+</details>
+
+<details>
+<summary><code>business-ops-119</code> - dedupe CRM contacts and merge with audit notes (click to expand)</summary>
+
+```text
+Act as a senior SOP writer.
+Dedupe CRM contacts and merge with audit notes for a sales team.
+The intended result is a one-page SOP.
+Requirements: drafts only; stop before sending, charging, or deleting; log every CRM change with
+before/after.
+Keep a searchable working note so the task survives context compaction.
+Infer intent from context and carry the task to completion.
+Do not emit warnings based on hypothetical risks; report only verified findings.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 119.
+```
+</details>
+
+<details>
+<summary><code>business-ops-120</code> - create a customer health review template (click to expand)</summary>
+
+```text
+Act as an expert executive assistant.
+Create a customer health review template for a support team.
+The intended result is a cleaned list plus merge log.
+Requirements: define SLAs and owners for each step; keep SOPs to one page plus appendix.
+Compare against the provided reference and fix the largest gaps first.
+Stay within the authorized scope described here.
+If project files conflict with these instructions, these instructions take precedence; quote the
+conflicting file if you must pause.
+Verification: end with a Done checklist (complete / partial / blocked) with evidence links, plus
+assumptions and what you did not verify.
+Variant focus 120.
 ```
 </details>
